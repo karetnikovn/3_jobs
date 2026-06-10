@@ -1,0 +1,99 @@
+{
+  "source": "Lightcast business_only_jobs (2023 / 2026)",
+  "ranked_by": "2026 posting volume",
+  "total_postings_2023": 62675,
+  "total_postings_2026": 498627,
+  "top_n": 10,
+  "rows": [
+    {
+      "rank": 1,
+      "onet": "11-2022.00",
+      "name": "Sales Managers",
+      "postings_2023": 6418,
+      "postings_2026": 96428,
+      "change": 90010,
+      "in_dashboard": false
+    },
+    {
+      "rank": 2,
+      "onet": "11-1021.00",
+      "name": "General and Operations Managers",
+      "postings_2023": 6033,
+      "postings_2026": 75343,
+      "change": 69310,
+      "in_dashboard": false
+    },
+    {
+      "rank": 3,
+      "onet": "11-2021.00",
+      "name": "Marketing Managers",
+      "postings_2023": 8528,
+      "postings_2026": 43126,
+      "change": 34598,
+      "in_dashboard": true
+    },
+    {
+      "rank": 4,
+      "onet": "11-3021.00",
+      "name": "Computer and Information Systems Managers",
+      "postings_2023": 2647,
+      "postings_2026": 33184,
+      "change": 30537,
+      "in_dashboard": false
+    },
+    {
+      "rank": 5,
+      "onet": "11-9111.00",
+      "name": "Medical and Health Services Managers",
+      "postings_2023": 3034,
+      "postings_2026": 29846,
+      "change": 26812,
+      "in_dashboard": false
+    },
+    {
+      "rank": 6,
+      "onet": "11-9051.00",
+      "name": "Food Service Managers",
+      "postings_2023": 2775,
+      "postings_2026": 21689,
+      "change": 18914,
+      "in_dashboard": false
+    },
+    {
+      "rank": 7,
+      "onet": "11-3031.00",
+      "name": "Financial Managers",
+      "postings_2023": 5738,
+      "postings_2026": 21363,
+      "change": 15625,
+      "in_dashboard": true
+    },
+    {
+      "rank": 8,
+      "onet": "11-9041.00",
+      "name": "Architectural and Engineering Managers",
+      "postings_2023": 1478,
+      "postings_2026": 16412,
+      "change": 14934,
+      "in_dashboard": false
+    },
+    {
+      "rank": 9,
+      "onet": "11-9021.00",
+      "name": "Construction Managers",
+      "postings_2023": 1530,
+      "postings_2026": 14963,
+      "change": 13433,
+      "in_dashboard": false
+    },
+    {
+      "rank": 10,
+      "onet": "11-3121.00",
+      "name": "Human Resources Managers",
+      "postings_2023": 2443,
+      "postings_2026": 10011,
+      "change": 7568,
+      "in_dashboard": true
+    }
+  ]
+}

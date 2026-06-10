@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Matrix Dashboard — 2023 vs 2026</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f1117;color:#e0e0e0;padding:1.5rem 2.5rem}
+h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
+.subtitle{color:#888;font-size:0.82rem;margin-bottom:1.2rem}
+
+/* ── Tabs ─────────────────────────────────────────────── */
+.tabs{display:flex;gap:0;margin-bottom:1.2rem;border-bottom:2px solid #222;flex-wrap:wrap}
+.tab-btn{padding:0.45rem 1.1rem;border:none;background:none;color:#666;cursor:pointer;font-size:0.82rem;font-weight:600;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s}
+.tab-btn:hover{color:#aaa}
+.tab-btn.active{color:#fff;border-bottom-color:#2563eb}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+
+/* ── Occ buttons ──────────────────────────────────────── */
+.controls{display:flex;gap:0.4rem;margin-bottom:1rem;flex-wrap:wrap}
+.controls button{padding:0.35rem 0.85rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#ccc;cursor:pointer;font-size:0.78rem;transition:all .15s}
+.controls button:hover{border-color:#555}
+.controls button.active{background:#2563eb;border-color:#2563eb;color:#fff}
+.job-counts{font-size:0.75rem;color:#666;margin-bottom:0.8rem}
+
+/* ── Legend ────────────────────────────────────────────── */
+.legend{display:flex;gap:1rem;margin-bottom:1.2rem;font-size:0.75rem;color:#888;flex-wrap:wrap}
+.legend span{display:flex;align-items:center;gap:0.25rem}
+.swatch{width:11px;height:11px;border-radius:2px;display:inline-block}
+
+/* ── Two-col layout ───────────────────────────────────── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem;border-bottom:1px solid #1e2028;padding-bottom:0.4rem;margin-bottom:0.25rem}
+.col-side{padding:0 0.4rem}
+.side-label{font-size:0.6rem;color:#555;text-transform:uppercase;letter-spacing:.04em;padding:0.15rem 0}
+
+/* ── Matrix rows ──────────────────────────────────────── */
+.group-parent-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.25rem 0}
+.child-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.15rem 0 0.15rem 1rem;border-bottom:1px solid #16181f;font-size:0.78rem}
+.child-row:hover,.group-parent-row:hover{background:#1a1d27}
+.num{text-align:right;font-variant-numeric:tabular-nums;font-size:0.78rem}
+.change{font-weight:600}
+.change.up{color:#4ade80}
+.change.down{color:#f87171}
+.change.stable{color:#555}
+
+/* ── Bars ─────────────────────────────────────────────── */
+.bar-wrap{position:relative;height:14px;background:#16181f;border-radius:3px;overflow:hidden}
+.bar{position:absolute;top:0;height:100%;border-radius:3px}
+.bar-2023{background:#475569;z-index:1}
+.bar-2026{opacity:.8;z-index:2}
+
+/* ── Rankings ─────────────────────────────────────────── */
+.rank-col-title{font-size:0.82rem;font-weight:700;padding:0.4rem 0 0.3rem;border-bottom:1px solid #333}
+.rank-col-title.hard{color:#60a5fa}
+.rank-col-title.soft{color:#f9a8d4}
+.rank-header{display:grid;grid-template-columns:30px 1fr 55px 55px 60px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.rank-row{display:grid;grid-template-columns:30px 1fr 55px 55px 60px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.rank-row:hover{background:#1a1d27}
+.rank-num{color:#555;font-size:0.72rem;text-align:right}
+.rank-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank-fold{text-align:right;font-weight:600;font-size:0.78rem}
+.rank-fold.up{color:#4ade80}
+.rank-fold.down{color:#f87171}
+.rank-fold.stable{color:#555}
+.rank-fold.new{color:#a78bfa}
+.sortable{cursor:pointer;user-select:none}
+.sortable:hover{color:#ccc}
+.sortable.active{color:#fff}
+.sort-arrow{font-size:0.65rem}
+
+/* ── Bump chart ───────────────────────────────────────── */
+.bump-wrap{display:flex;gap:0;align-items:flex-start;overflow-x:auto;margin:0.5rem 0}
+.bump-side{flex:0 0 320px;display:flex;flex-direction:column}
+.bump-svg-col{flex:0 0 200px;display:flex;align-items:flex-start}
+.bump-svg{display:block}
+.bump-year-hdr{font-size:0.7rem;color:#888;text-transform:uppercase;letter-spacing:.06em;padding:0 0.4rem;height:18px;line-height:18px}
+.bump-row{display:grid;grid-template-columns:30px 1fr 50px;align-items:center;gap:0.2rem;padding:0 0.4rem;font-size:0.76rem;transition:background .1s}
+.bump-row.right{grid-template-columns:40px 30px 1fr 50px}
+.bump-row.highlight{background:#1e2028;border-radius:3px}
+.bump-rank{color:#888;font-size:0.72rem;text-align:right}
+.bump-rank.top3{color:#facc15;font-weight:700}
+.bump-skill{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bump-pct{color:#888;text-align:right;font-size:0.72rem}
+.bump-delta{font-size:0.68rem;font-weight:600;text-align:right}
+.bump-delta.up{color:#4ade80}
+.bump-delta.down{color:#f87171}
+.bump-delta.stable{color:#555}
+.bump-delta.new{color:#a78bfa}
+.bump-line{fill:none;stroke:#555;stroke-width:1.5;opacity:.4;transition:all .15s}
+.bump-line.up{stroke:#4ade80}
+.bump-line.down{stroke:#f87171}
+.bump-line.new{stroke:#a78bfa;stroke-dasharray:4 2}
+.bump-line.active{stroke-width:3;opacity:1}
+.bump-line.muted{opacity:.1}
+.bump-meta{font-size:0.72rem;color:#666;margin-bottom:0.3rem}
+
+/* ── Top skills ───────────────────────────────────────── */
+.top-skills-block{margin-bottom:1.5rem}
+.top-skills-occ-title{font-size:0.85rem;font-weight:700;color:#fff;margin-bottom:0.3rem}
+.top-skills-header{display:grid;grid-template-columns:30px 1fr 70px 50px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.top-skills-row{display:grid;grid-template-columns:30px 1fr 70px 50px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.top-skills-row:hover{background:#1a1d27}
+.top-skills-name{color:#ccc}
+.top-skills-node{display:inline-block;font-size:0.68rem;color:#a78bfa;background:#1e1540;padding:0 0.35rem;border-radius:3px;margin-left:0.4rem}
+.top-skills-unmapped{display:inline-block;font-size:0.68rem;color:#555;font-style:italic;margin-left:0.4rem}
+
+/* ── Dictionary ───────────────────────────────────────── */
+.dict-search{width:100%;max-width:500px;padding:0.45rem 0.7rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#e0e0e0;font-size:0.82rem;margin-bottom:0.8rem;outline:none}
+.dict-search:focus{border-color:#2563eb}
+.dict-search::placeholder{color:#555}
+.dict-stats{font-size:0.75rem;color:#666;margin-bottom:0.8rem}
+.dict-group{padding-bottom:0.6rem;margin-bottom:0.4rem}
+.dict-group.section-end{border-bottom:2px solid #333;margin-bottom:1rem;padding-bottom:1rem}
+.dict-col-header{font-size:0.65rem;text-transform:uppercase;letter-spacing:.05em;padding:0.2rem 0;font-weight:700}
+.dict-col-header.hard{color:#60a5fa}
+.dict-col-header.soft{color:#f9a8d4}
+.dict-category{font-weight:700;color:#fff;padding:0.2rem 0;font-size:0.85rem}
+.dict-category-skills{margin-bottom:0.4rem}
+.dict-node-block{padding:0.15rem 0 0.3rem 0.8rem;border-left:2px solid #222}
+.dict-node-name{font-size:0.82rem;color:#ccc;padding:0.15rem 0}
+.dict-node-meta{font-size:0.68rem;color:#555;margin-left:0.5rem;font-weight:400}
+.dict-node-skills{margin-bottom:0.2rem}
+.dict-skills{line-height:1.6}
+.skill-tag{display:inline-block;background:#1a1d27;border:1px solid #282b36;border-radius:4px;padding:0.05rem 0.4rem;margin:0.1rem 0.15rem 0.1rem 0;font-size:0.74rem;color:#bbb}
+.dict-empty{color:#444;font-style:italic;font-size:0.76rem}
+.dict-no-results{color:#555;font-style:italic;padding:2rem 0}
+
+/* ── Titles ───────────────────────────────────────────── */
+.titles-onet{font-size:0.82rem;margin-bottom:0.3rem}
+.titles-onet code{background:#1a1d27;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.78rem;color:#a78bfa}
+.titles-stats{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
+.titles-search{width:100%;max-width:400px;padding:0.4rem 0.7rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#e0e0e0;font-size:0.82rem;margin-bottom:0.8rem;outline:none}
+.titles-search:focus{border-color:#2563eb}
+.titles-search::placeholder{color:#555}
+.titles-show-all-wrap{display:inline-flex;align-items:center;gap:0.3rem;font-size:0.78rem;color:#888;margin-left:1rem}
+.titles-header{display:grid;grid-template-columns:35px 1fr 65px 65px 65px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.titles-row{display:grid;grid-template-columns:35px 1fr 65px 65px 65px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.titles-row:hover{background:#1a1d27}
+.titles-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.titles-footnote{font-size:0.72rem;color:#555;margin-top:0.3rem}
+
+/* ── O*NET data ───────────────────────────────────────── */
+.onet-meta{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
+.onet-header{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.onet-row{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.25rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.onet-row:hover{background:#1a1d27}
+.onet-row.focus{background:#111525}
+.onet-code{color:#888;font-family:monospace;font-size:0.75rem}
+.onet-name{color:#ccc}
+.onet-flag{display:inline-block;font-size:0.62rem;color:#2563eb;background:#111525;padding:0 0.3rem;border-radius:3px;margin-left:0.4rem;border:1px solid #2563eb}
+
+/* ── Coverage ─────────────────────────────────────────── */
+.coverage-meta{font-size:0.75rem;color:#666;margin-bottom:0.5rem}
+.coverage-stats{display:flex;gap:0.8rem;margin-bottom:0.8rem}
+.coverage-stat{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.35rem 0.7rem;font-size:0.78rem}
+.coverage-stat .val{font-size:1rem;font-weight:700;color:#fff}
+.coverage-stat .lbl{font-size:0.68rem;color:#888}
+.coverage-stat.mapped .val{color:#4ade80}
+.coverage-stat.unmapped .val{color:#f87171}
+.coverage-filter{display:flex;gap:0.8rem;margin-bottom:0.8rem;font-size:0.78rem;color:#888}
+.coverage-filter label{display:flex;align-items:center;gap:0.25rem;cursor:pointer}
+.coverage-header{display:grid;grid-template-columns:30px 1fr 65px 50px 1fr;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.coverage-row{display:grid;grid-template-columns:30px 1fr 65px 50px 1fr;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.coverage-row:hover{background:#1a1d27}
+.coverage-row.unmapped{opacity:.6}
+.coverage-skill{color:#ccc}
+.coverage-node{font-size:0.74rem;color:#a78bfa}
+.coverage-node.none{color:#555;font-style:italic}
+.coverage-nodes-wrap{margin-top:1rem}
+.coverage-nodes-title{font-size:0.78rem;color:#888;margin-bottom:0.3rem}
+.coverage-node-row{display:grid;grid-template-columns:1fr 40px 55px;gap:0.2rem;padding:0.15rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.coverage-node-name{color:#ccc}
+.coverage-node-count{text-align:right;color:#888}
+.coverage-node-pct{text-align:right;color:#888}
+
+/* ── Methodology ──────────────────────────────────────── */
+.method{max-width:900px;line-height:1.7}
+.method h2{font-size:1.1rem;color:#fff;margin:1.5rem 0 0.5rem;border-bottom:1px solid #222;padding-bottom:0.25rem}
+.method h2:first-child{margin-top:0}
+.method p{color:#bbb;margin-bottom:0.6rem;font-size:0.85rem}
+.method ol,.method ul{color:#bbb;margin:0.3rem 0 0.7rem 1.3rem;font-size:0.85rem}
+.method li{margin-bottom:0.25rem}
+.method code{background:#1a1d27;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.78rem;color:#a78bfa}
+.method .stat-box{display:inline-block;background:#1a1d27;border:1px solid #333;border-radius:6px;padding:0.4rem 0.8rem;margin:0.2rem 0.4rem 0.2rem 0;font-size:0.78rem}
+.method .stat-box .val{font-size:1rem;font-weight:700;color:#fff}
+.method .stat-box .lbl{color:#888;font-size:0.7rem;display:block}
+</style>
+</head>
+<body>
+
+<h1>Skill Matrix Dashboard: 2023 vs 2026</h1>
+<p class="subtitle">Node penetration in job postings (% of jobs with at least one mapped skill). Green = increased, Red = decreased.</p>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('dashboard')">Dashboard</button>
+  <button class="tab-btn" onclick="switchTab('rankings')">Rankings</button>
+  <button class="tab-btn" onclick="switchTab('topskills')">Top Skills</button>
+  <button class="tab-btn" onclick="switchTab('dictionary')">Skill Dictionary</button>
+  <button class="tab-btn" onclick="switchTab('titles')">Job Titles</button>
+  <button class="tab-btn" onclick="switchTab('onetdata')">O*NET Data</button>
+  <button class="tab-btn" onclick="switchTab('coverage')">Coverage</button>
+  <button class="tab-btn" onclick="switchTab('methodology')">Methodology</button>
+</div>
+
+<!-- ═══ Dashboard ═══ -->
+<div id="tab-dashboard" class="tab-panel active">
+  <div class="controls" id="controls"></div>
+  <div class="job-counts" id="job-counts"></div>
+  <div class="legend">
+    <span><span class="swatch" style="background:#475569"></span> 2023</span>
+    <span><span class="swatch" style="background:#4ade80"></span> 2026 (increased)</span>
+    <span><span class="swatch" style="background:#f87171"></span> 2026 (decreased)</span>
+  </div>
+  <div id="content"></div>
+</div>
+
+<!-- ═══ Rankings ═══ -->
+<div id="tab-rankings" class="tab-panel">
+  <div class="controls" id="rank-controls"></div>
+  <div class="job-counts" id="rank-job-counts"></div>
+  <div class="bump-meta" id="rank-bump-meta"></div>
+  <div class="bump-wrap" id="rank-bump-chart"></div>
+  <div id="rank-content"></div>
+</div>
+
+<!-- ═══ Top Skills ═══ -->
+<div id="tab-topskills" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="bump-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="topskills-year" style="margin-bottom:0"></div>
+  </div>
+  <div class="bump-meta" id="bump-meta"></div>
+  <div class="bump-wrap" id="bump-chart"></div>
+  <div id="topskills-content"></div>
+</div>
+
+<!-- ═══ Skill Dictionary ═══ -->
+<div id="tab-dictionary" class="tab-panel">
+  <input type="text" class="dict-search" id="dict-search" placeholder="Search nodes or skills...">
+  <div class="dict-stats" id="dict-stats"></div>
+  <div id="dict-content"></div>
+</div>
+
+<!-- ═══ Job Titles ═══ -->
+<div id="tab-titles" class="tab-panel">
+  <div class="controls" id="titles-controls"></div>
+  <div class="titles-onet" id="titles-onet"></div>
+  <div style="display:flex;align-items:center;margin-bottom:0.5rem;flex-wrap:wrap">
+    <input type="text" class="titles-search" id="titles-search" placeholder="Search titles...">
+    <label class="titles-show-all-wrap"><input type="checkbox" id="titles-show-all"> Show all</label>
+  </div>
+  <div class="titles-stats" id="titles-stats"></div>
+  <div id="titles-content"></div>
+  <div class="titles-footnote" id="titles-footnote"></div>
+</div>
+
+<!-- ═══ O*NET Data ═══ -->
+<div id="tab-onetdata" class="tab-panel">
+  <div class="onet-meta" id="onet-meta"></div>
+  <div id="onet-table"></div>
+</div>
+
+<!-- ═══ Coverage ═══ -->
+<div id="tab-coverage" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="coverage-occ-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="coverage-year-controls" style="margin-bottom:0"></div>
+  </div>
+  <div class="coverage-filter">
+    <label><input type="radio" name="coverage-filter" value="all" checked> All</label>
+    <label><input type="radio" name="coverage-filter" value="mapped"> Mapped only</label>
+    <label><input type="radio" name="coverage-filter" value="unmapped"> Unmapped only</label>
+  </div>
+  <div class="coverage-meta" id="coverage-meta"></div>
+  <div class="coverage-stats" id="coverage-stats"></div>
+  <div id="coverage-table"></div>
+  <div class="coverage-nodes-wrap">
+    <div class="coverage-nodes-title">Nodes reached by top skills:</div>
+    <div id="coverage-nodes"></div>
+  </div>
+</div>
+
+<!-- ═══ Methodology ═══ -->
+<div id="tab-methodology" class="tab-panel">
+  <div class="method">
+    <h2>Overview</h2>
+    <p>This dashboard measures how the prevalence of skills associated with each node in the AI Skill Matrix changes between 2023 and 2026 job postings. The mapping from raw job posting skills to matrix nodes is performed using a semantic similarity approach.</p>
+
+    <h2>Data Sources</h2>
+    <ul>
+      <li><strong>Job postings:</strong> Lightcast job posting data with pre-extracted standardized skills, filtered by O*NET occupation codes.</li>
+      <li><strong>Skill Matrix:</strong> 55 nodes organized into 3 categories (Declining, Enduring, Emerging), each classified as hard or soft skill. The matrix defines a parent-child hierarchy used in the dashboard layout.</li>
+    </ul>
+    <div>
+      <span class="stat-box"><span class="val">55</span><span class="lbl">Matrix nodes</span></span>
+      <span class="stat-box"><span class="val">9,201</span><span class="lbl">Unique standardized skills</span></span>
+      <span class="stat-box"><span class="val">3</span><span class="lbl">Occupations</span></span>
+    </div>
+
+    <h2>Step 1: Building the Skill-to-Node Dictionary</h2>
+    <p>Each of the 55 matrix node names and all 9,201 unique standardized skills (pooled from both 2023 and 2026 data) are encoded into dense vector embeddings using the <code>all-MiniLM-L6-v2</code> sentence-transformer model.</p>
+    <p>For each standardized skill, cosine similarity is computed against all 55 node embeddings. The skill is assigned to its highest-scoring node, provided the similarity exceeds a threshold of <code>0.45</code>. Skills below the threshold are left unmapped.</p>
+    <div>
+      <span class="stat-box"><span class="val">all-MiniLM-L6-v2</span><span class="lbl">Embedding model</span></span>
+      <span class="stat-box"><span class="val">0.45</span><span class="lbl">Cosine similarity threshold</span></span>
+      <span class="stat-box"><span class="val">830</span><span class="lbl">Skills mapped (9.0%)</span></span>
+    </div>
+
+    <h2>Step 2: Computing Node Penetration</h2>
+    <p>For each combination of (occupation, year, node), we calculate the <strong>penetration rate</strong>: the percentage of job postings that contain at least one standardized skill mapped to that node.</p>
+    <ol>
+      <li>Each job posting's comma-separated standardized skills are looked up in the dictionary.</li>
+      <li>A job is counted as "containing" a node if any of its skills map to that node.</li>
+      <li>Penetration = (number of jobs containing the node / total jobs in that occupation-year group) &times; 100.</li>
+    </ol>
+
+    <h2>Step 3: Comparing 2023 vs 2026</h2>
+    <p>The change in penetration (in percentage points) is computed for each node per occupation. The dashboard displays both years side by side, with the 2026 bar colored <span style="color:#4ade80;font-weight:600">green</span> if penetration increased and <span style="color:#f87171;font-weight:600">red</span> if it decreased.</p>
+
+    <h2>Occupations Analyzed</h2>
+    <ul>
+      <li><strong>Marketing Managers</strong> (O*NET 11-2021.00) &mdash; 8,528 jobs (2023) &rarr; 43,126 jobs (2026)</li>
+      <li><strong>Human Resources Managers</strong> (O*NET 11-3121.00) &mdash; 2,443 jobs (2023) &rarr; 10,011 jobs (2026)</li>
+      <li><strong>Financial Managers</strong> (O*NET 11-3031.00) &mdash; 5,738 jobs (2023) &rarr; 21,363 jobs (2026)</li>
+    </ul>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>Only 9.0% of unique standardized skills exceed the similarity threshold and are mapped to nodes. The remaining skills are not represented in the penetration metric.</li>
+      <li>Each skill maps to exactly one node (the best match). Some skills could reasonably map to multiple nodes.</li>
+      <li>The embedding model captures semantic similarity, not expert-validated skill taxonomies. Some mappings may be imprecise.</li>
+      <li>Job volume grew significantly between 2023 and 2026 across all three occupations, which may reflect market trends or data collection changes rather than skill shifts alone.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+const HIERARCHY = [
+  { hard: { parent: "Declarative and retrieval-based knowledge", children: ["Locate and retrieve information", "Digital information analysis and synthesis", "business knowledge as stored facts"] },
+    soft: { parent: "Individual knowledge", children: ["language-specific knowledge"] } },
+  { hard: { parent: "Standardized routine execution", children: ["Routine tasks"] },
+    soft: null },
+  { hard: { parent: "Foundations", children: ["Business and management foundations", "Quantitative, data, and analytical foundations"] },
+    soft: { parent: "Creativity", children: ["Entrepreneurial and Innovation-Oriented Thinking", "Creative Thinking and Curiosity"] } },
+  { hard: { parent: "A structured approach to work", children: ["Analytical and Structured Problem-Solving", "Data- and Evidence-Based Decision-Making", "Methodical Process and Technology Management"] },
+    soft: { parent: "Criticism", children: ["Analytical and critical thinking", "Critical thinking", "Ethical decision-making"] } },
+  { hard: { parent: "Communications", children: ["Business & Professional communication", "Data communication and storytelling"] },
+    soft: { parent: "Collaboration", children: ["Teamwork and cooperation", "Leadership and social influence", "Emotional and interpersonal intelligence"] } },
+  { hard: null,
+    soft: { parent: "Learning", children: ["Learning orientation", "Self-reflection"] } },
+  { hard: { parent: "AI Interaction (How do humans use, communicate with, and evaluate AI?)", children: ["Digital and AI literacy", "Prompting skills", "AI Use-Case Identification and Professional Application", "AI monitoring; output evaluation and verification", "AI-ideation"] },
+    soft: { parent: "Adaptability (capacity to respond constructively to technological and organizational change)", children: ["Adaptive Mindset and Resilience", "AI-Driven Change and Opportunity Management", "AI self-efficacy"] } },
+  { hard: { parent: "AI System Design (How are AI-supported tools, workflows, and processes designed?)", children: ["AI Development and Implementation", "AI Data and Process Management", "AI infrastructure and Deployment Readiness"] },
+    soft: { parent: "Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context)", children: ["Human-AI collaboration", "Socio-Technical Systems Thinking", "AI transformation and organizational redesign"] } },
+  { hard: { parent: "AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)", children: ["Governance and Accountability Structures", "Responsible and Ethical AI Evaluation", "AI Risk, Privacy, and Security Management", "Societal and Environmental AI Impact"] },
+    soft: null },
+];
+
+const DATA = %DATA%;
+const DICT = %DICT%;
+const TOP_SKILLS = %TOP_SKILLS%;
+const ONET_JOB_COUNTS = %ONET_JOB_COUNTS%;
+const OCC_TITLES = %OCC_TITLES%;
+</script>
+<script src="dashboard_app.js"></script>
+</body>
+</html>

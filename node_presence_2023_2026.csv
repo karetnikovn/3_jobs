@@ -1,0 +1,441 @@
+occupation,year,node,category,type,n_jobs,total_jobs,pct
+Marketing Managers,2023,Declarative and retrieval-based knowledge,Declining,hard,761,8528,8.9
+Marketing Managers,2023,Individual knowledge,Declining,soft,60,8528,0.7
+Marketing Managers,2023,Locate and retrieve information,Declining,hard,129,8528,1.5
+Marketing Managers,2023,language-specific knowledge,Declining,soft,60,8528,0.7
+Marketing Managers,2023,Digital information analysis and synthesis,Declining,hard,334,8528,3.9
+Marketing Managers,2023,business knowledge as stored facts,Declining,hard,324,8528,3.8
+Marketing Managers,2023,Standardized routine execution,Declining,hard,285,8528,3.3
+Marketing Managers,2023,Routine tasks,Declining,hard,285,8528,3.3
+Marketing Managers,2023,Foundations,Enduring,hard,1262,8528,14.8
+Marketing Managers,2023,Creativity,Enduring,soft,1842,8528,21.6
+Marketing Managers,2023,Business and management foundations,Enduring,hard,1194,8528,14.0
+Marketing Managers,2023,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,1200,8528,14.1
+Marketing Managers,2023,"Quantitative, data, and analytical foundations",Enduring,hard,84,8528,1.0
+Marketing Managers,2023,Creative Thinking and Curiosity,Enduring,soft,825,8528,9.7
+Marketing Managers,2023,A structured approach to work,Enduring,hard,2099,8528,24.6
+Marketing Managers,2023,Criticism,Enduring,soft,950,8528,11.1
+Marketing Managers,2023,Analytical and Structured Problem-Solving,Enduring,hard,686,8528,8.0
+Marketing Managers,2023,Analytical and critical thinking,Enduring,soft,475,8528,5.6
+Marketing Managers,2023,Data- and Evidence-Based Decision-Making,Enduring,hard,192,8528,2.3
+Marketing Managers,2023,Critical thinking,Enduring,soft,134,8528,1.6
+Marketing Managers,2023,Methodical Process and Technology Management,Enduring,hard,1440,8528,16.9
+Marketing Managers,2023,Ethical decision-making,Enduring,soft,419,8528,4.9
+Marketing Managers,2023,Communications,Enduring,hard,1798,8528,21.1
+Marketing Managers,2023,Collaboration,Enduring,soft,1513,8528,17.7
+Marketing Managers,2023,Business & Professional communication,Enduring,hard,1747,8528,20.5
+Marketing Managers,2023,Teamwork and cooperation,Enduring,soft,920,8528,10.8
+Marketing Managers,2023,Data communication and storytelling,Enduring,hard,78,8528,0.9
+Marketing Managers,2023,Leadership and social influence,Enduring,soft,588,8528,6.9
+Marketing Managers,2023,Emotional and interpersonal intelligence,Enduring,soft,112,8528,1.3
+Marketing Managers,2023,Learning,Enduring,soft,51,8528,0.6
+Marketing Managers,2023,Learning orientation,Enduring,soft,46,8528,0.5
+Marketing Managers,2023,Self-reflection,Enduring,soft,5,8528,0.1
+Marketing Managers,2023,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,1035,8528,12.1
+Marketing Managers,2023,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,82,8528,1.0
+Marketing Managers,2023,Digital and AI literacy,Emerging,hard,108,8528,1.3
+Marketing Managers,2023,Adaptive Mindset and Resilience,Emerging,soft,15,8528,0.2
+Marketing Managers,2023,Prompting skills,Emerging,hard,162,8528,1.9
+Marketing Managers,2023,AI-Driven Change and Opportunity Management,Emerging,soft,67,8528,0.8
+Marketing Managers,2023,AI Use-Case Identification and Professional Application,Emerging,hard,610,8528,7.2
+Marketing Managers,2023,AI self-efficacy,Emerging,soft,0,8528,0.0
+Marketing Managers,2023,AI monitoring; output evaluation and verification,Emerging,hard,11,8528,0.1
+Marketing Managers,2023,AI-ideation,Emerging,hard,175,8528,2.1
+Marketing Managers,2023,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,812,8528,9.5
+Marketing Managers,2023,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,511,8528,6.0
+Marketing Managers,2023,AI Development and Implementation,Emerging,hard,163,8528,1.9
+Marketing Managers,2023,Human-AI collaboration,Emerging,soft,10,8528,0.1
+Marketing Managers,2023,AI Data and Process Management,Emerging,hard,641,8528,7.5
+Marketing Managers,2023,Socio-Technical Systems Thinking,Emerging,soft,505,8528,5.9
+Marketing Managers,2023,AI infrastructure and Deployment Readiness,Emerging,hard,29,8528,0.3
+Marketing Managers,2023,AI transformation and organizational redesign,Emerging,soft,1,8528,0.0
+Marketing Managers,2023,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,656,8528,7.7
+Marketing Managers,2023,Governance and Accountability Structures,Emerging,hard,180,8528,2.1
+Marketing Managers,2023,Responsible and Ethical AI Evaluation,Emerging,hard,0,8528,0.0
+Marketing Managers,2023,"AI Risk, Privacy, and Security Management",Emerging,hard,338,8528,4.0
+Marketing Managers,2023,Societal and Environmental AI Impact,Emerging,hard,194,8528,2.3
+Marketing Managers,2026,Declarative and retrieval-based knowledge,Declining,hard,4284,43126,9.9
+Marketing Managers,2026,Individual knowledge,Declining,soft,315,43126,0.7
+Marketing Managers,2026,Locate and retrieve information,Declining,hard,671,43126,1.6
+Marketing Managers,2026,language-specific knowledge,Declining,soft,315,43126,0.7
+Marketing Managers,2026,Digital information analysis and synthesis,Declining,hard,2284,43126,5.3
+Marketing Managers,2026,business knowledge as stored facts,Declining,hard,1524,43126,3.5
+Marketing Managers,2026,Standardized routine execution,Declining,hard,2002,43126,4.6
+Marketing Managers,2026,Routine tasks,Declining,hard,2002,43126,4.6
+Marketing Managers,2026,Foundations,Enduring,hard,5791,43126,13.4
+Marketing Managers,2026,Creativity,Enduring,soft,10181,43126,23.6
+Marketing Managers,2026,Business and management foundations,Enduring,hard,5454,43126,12.6
+Marketing Managers,2026,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,6659,43126,15.4
+Marketing Managers,2026,"Quantitative, data, and analytical foundations",Enduring,hard,435,43126,1.0
+Marketing Managers,2026,Creative Thinking and Curiosity,Enduring,soft,4562,43126,10.6
+Marketing Managers,2026,A structured approach to work,Enduring,hard,11171,43126,25.9
+Marketing Managers,2026,Criticism,Enduring,soft,5936,43126,13.8
+Marketing Managers,2026,Analytical and Structured Problem-Solving,Enduring,hard,3082,43126,7.1
+Marketing Managers,2026,Analytical and critical thinking,Enduring,soft,3268,43126,7.6
+Marketing Managers,2026,Data- and Evidence-Based Decision-Making,Enduring,hard,1865,43126,4.3
+Marketing Managers,2026,Critical thinking,Enduring,soft,595,43126,1.4
+Marketing Managers,2026,Methodical Process and Technology Management,Enduring,hard,7624,43126,17.7
+Marketing Managers,2026,Ethical decision-making,Enduring,soft,2482,43126,5.8
+Marketing Managers,2026,Communications,Enduring,hard,10677,43126,24.8
+Marketing Managers,2026,Collaboration,Enduring,soft,8886,43126,20.6
+Marketing Managers,2026,Business & Professional communication,Enduring,hard,10348,43126,24.0
+Marketing Managers,2026,Teamwork and cooperation,Enduring,soft,5184,43126,12.0
+Marketing Managers,2026,Data communication and storytelling,Enduring,hard,489,43126,1.1
+Marketing Managers,2026,Leadership and social influence,Enduring,soft,4242,43126,9.8
+Marketing Managers,2026,Emotional and interpersonal intelligence,Enduring,soft,403,43126,0.9
+Marketing Managers,2026,Learning,Enduring,soft,234,43126,0.5
+Marketing Managers,2026,Learning orientation,Enduring,soft,207,43126,0.5
+Marketing Managers,2026,Self-reflection,Enduring,soft,27,43126,0.1
+Marketing Managers,2026,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,4325,43126,10.0
+Marketing Managers,2026,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,594,43126,1.4
+Marketing Managers,2026,Digital and AI literacy,Emerging,hard,651,43126,1.5
+Marketing Managers,2026,Adaptive Mindset and Resilience,Emerging,soft,216,43126,0.5
+Marketing Managers,2026,Prompting skills,Emerging,hard,850,43126,2.0
+Marketing Managers,2026,AI-Driven Change and Opportunity Management,Emerging,soft,381,43126,0.9
+Marketing Managers,2026,AI Use-Case Identification and Professional Application,Emerging,hard,2031,43126,4.7
+Marketing Managers,2026,AI self-efficacy,Emerging,soft,0,43126,0.0
+Marketing Managers,2026,AI monitoring; output evaluation and verification,Emerging,hard,31,43126,0.1
+Marketing Managers,2026,AI-ideation,Emerging,hard,1128,43126,2.6
+Marketing Managers,2026,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,5105,43126,11.8
+Marketing Managers,2026,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,2158,43126,5.0
+Marketing Managers,2026,AI Development and Implementation,Emerging,hard,1399,43126,3.2
+Marketing Managers,2026,Human-AI collaboration,Emerging,soft,39,43126,0.1
+Marketing Managers,2026,AI Data and Process Management,Emerging,hard,3730,43126,8.6
+Marketing Managers,2026,Socio-Technical Systems Thinking,Emerging,soft,2083,43126,4.8
+Marketing Managers,2026,AI infrastructure and Deployment Readiness,Emerging,hard,354,43126,0.8
+Marketing Managers,2026,AI transformation and organizational redesign,Emerging,soft,46,43126,0.1
+Marketing Managers,2026,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,4267,43126,9.9
+Marketing Managers,2026,Governance and Accountability Structures,Emerging,hard,1597,43126,3.7
+Marketing Managers,2026,Responsible and Ethical AI Evaluation,Emerging,hard,0,43126,0.0
+Marketing Managers,2026,"AI Risk, Privacy, and Security Management",Emerging,hard,2768,43126,6.4
+Marketing Managers,2026,Societal and Environmental AI Impact,Emerging,hard,291,43126,0.7
+Human Resources Managers,2023,Declarative and retrieval-based knowledge,Declining,hard,102,2443,4.2
+Human Resources Managers,2023,Individual knowledge,Declining,soft,30,2443,1.2
+Human Resources Managers,2023,Locate and retrieve information,Declining,hard,57,2443,2.3
+Human Resources Managers,2023,language-specific knowledge,Declining,soft,30,2443,1.2
+Human Resources Managers,2023,Digital information analysis and synthesis,Declining,hard,6,2443,0.2
+Human Resources Managers,2023,business knowledge as stored facts,Declining,hard,39,2443,1.6
+Human Resources Managers,2023,Standardized routine execution,Declining,hard,151,2443,6.2
+Human Resources Managers,2023,Routine tasks,Declining,hard,151,2443,6.2
+Human Resources Managers,2023,Foundations,Enduring,hard,252,2443,10.3
+Human Resources Managers,2023,Creativity,Enduring,soft,426,2443,17.4
+Human Resources Managers,2023,Business and management foundations,Enduring,hard,240,2443,9.8
+Human Resources Managers,2023,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,303,2443,12.4
+Human Resources Managers,2023,"Quantitative, data, and analytical foundations",Enduring,hard,13,2443,0.5
+Human Resources Managers,2023,Creative Thinking and Curiosity,Enduring,soft,145,2443,5.9
+Human Resources Managers,2023,A structured approach to work,Enduring,hard,730,2443,29.9
+Human Resources Managers,2023,Criticism,Enduring,soft,275,2443,11.3
+Human Resources Managers,2023,Analytical and Structured Problem-Solving,Enduring,hard,232,2443,9.5
+Human Resources Managers,2023,Analytical and critical thinking,Enduring,soft,102,2443,4.2
+Human Resources Managers,2023,Data- and Evidence-Based Decision-Making,Enduring,hard,76,2443,3.1
+Human Resources Managers,2023,Critical thinking,Enduring,soft,53,2443,2.2
+Human Resources Managers,2023,Methodical Process and Technology Management,Enduring,hard,540,2443,22.1
+Human Resources Managers,2023,Ethical decision-making,Enduring,soft,140,2443,5.7
+Human Resources Managers,2023,Communications,Enduring,hard,416,2443,17.0
+Human Resources Managers,2023,Collaboration,Enduring,soft,627,2443,25.7
+Human Resources Managers,2023,Business & Professional communication,Enduring,hard,412,2443,16.9
+Human Resources Managers,2023,Teamwork and cooperation,Enduring,soft,392,2443,16.0
+Human Resources Managers,2023,Data communication and storytelling,Enduring,hard,22,2443,0.9
+Human Resources Managers,2023,Leadership and social influence,Enduring,soft,271,2443,11.1
+Human Resources Managers,2023,Emotional and interpersonal intelligence,Enduring,soft,55,2443,2.3
+Human Resources Managers,2023,Learning,Enduring,soft,5,2443,0.2
+Human Resources Managers,2023,Learning orientation,Enduring,soft,4,2443,0.2
+Human Resources Managers,2023,Self-reflection,Enduring,soft,1,2443,0.0
+Human Resources Managers,2023,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,177,2443,7.2
+Human Resources Managers,2023,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,269,2443,11.0
+Human Resources Managers,2023,Digital and AI literacy,Emerging,hard,13,2443,0.5
+Human Resources Managers,2023,Adaptive Mindset and Resilience,Emerging,soft,2,2443,0.1
+Human Resources Managers,2023,Prompting skills,Emerging,hard,102,2443,4.2
+Human Resources Managers,2023,AI-Driven Change and Opportunity Management,Emerging,soft,268,2443,11.0
+Human Resources Managers,2023,AI Use-Case Identification and Professional Application,Emerging,hard,16,2443,0.7
+Human Resources Managers,2023,AI self-efficacy,Emerging,soft,0,2443,0.0
+Human Resources Managers,2023,AI monitoring; output evaluation and verification,Emerging,hard,0,2443,0.0
+Human Resources Managers,2023,AI-ideation,Emerging,hard,49,2443,2.0
+Human Resources Managers,2023,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,228,2443,9.3
+Human Resources Managers,2023,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,76,2443,3.1
+Human Resources Managers,2023,AI Development and Implementation,Emerging,hard,15,2443,0.6
+Human Resources Managers,2023,Human-AI collaboration,Emerging,soft,0,2443,0.0
+Human Resources Managers,2023,AI Data and Process Management,Emerging,hard,211,2443,8.6
+Human Resources Managers,2023,Socio-Technical Systems Thinking,Emerging,soft,72,2443,2.9
+Human Resources Managers,2023,AI infrastructure and Deployment Readiness,Emerging,hard,6,2443,0.2
+Human Resources Managers,2023,AI transformation and organizational redesign,Emerging,soft,6,2443,0.2
+Human Resources Managers,2023,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,295,2443,12.1
+Human Resources Managers,2023,Governance and Accountability Structures,Emerging,hard,100,2443,4.1
+Human Resources Managers,2023,Responsible and Ethical AI Evaluation,Emerging,hard,0,2443,0.0
+Human Resources Managers,2023,"AI Risk, Privacy, and Security Management",Emerging,hard,150,2443,6.1
+Human Resources Managers,2023,Societal and Environmental AI Impact,Emerging,hard,69,2443,2.8
+Human Resources Managers,2026,Declarative and retrieval-based knowledge,Declining,hard,423,10011,4.2
+Human Resources Managers,2026,Individual knowledge,Declining,soft,42,10011,0.4
+Human Resources Managers,2026,Locate and retrieve information,Declining,hard,78,10011,0.8
+Human Resources Managers,2026,language-specific knowledge,Declining,soft,42,10011,0.4
+Human Resources Managers,2026,Digital information analysis and synthesis,Declining,hard,50,10011,0.5
+Human Resources Managers,2026,business knowledge as stored facts,Declining,hard,301,10011,3.0
+Human Resources Managers,2026,Standardized routine execution,Declining,hard,581,10011,5.8
+Human Resources Managers,2026,Routine tasks,Declining,hard,581,10011,5.8
+Human Resources Managers,2026,Foundations,Enduring,hard,1153,10011,11.5
+Human Resources Managers,2026,Creativity,Enduring,soft,1829,10011,18.3
+Human Resources Managers,2026,Business and management foundations,Enduring,hard,1111,10011,11.1
+Human Resources Managers,2026,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,1239,10011,12.4
+Human Resources Managers,2026,"Quantitative, data, and analytical foundations",Enduring,hard,50,10011,0.5
+Human Resources Managers,2026,Creative Thinking and Curiosity,Enduring,soft,740,10011,7.4
+Human Resources Managers,2026,A structured approach to work,Enduring,hard,3305,10011,33.0
+Human Resources Managers,2026,Criticism,Enduring,soft,1405,10011,14.0
+Human Resources Managers,2026,Analytical and Structured Problem-Solving,Enduring,hard,766,10011,7.7
+Human Resources Managers,2026,Analytical and critical thinking,Enduring,soft,549,10011,5.5
+Human Resources Managers,2026,Data- and Evidence-Based Decision-Making,Enduring,hard,374,10011,3.7
+Human Resources Managers,2026,Critical thinking,Enduring,soft,131,10011,1.3
+Human Resources Managers,2026,Methodical Process and Technology Management,Enduring,hard,2577,10011,25.7
+Human Resources Managers,2026,Ethical decision-making,Enduring,soft,798,10011,8.0
+Human Resources Managers,2026,Communications,Enduring,hard,2790,10011,27.9
+Human Resources Managers,2026,Collaboration,Enduring,soft,3387,10011,33.8
+Human Resources Managers,2026,Business & Professional communication,Enduring,hard,2703,10011,27.0
+Human Resources Managers,2026,Teamwork and cooperation,Enduring,soft,2007,10011,20.0
+Human Resources Managers,2026,Data communication and storytelling,Enduring,hard,108,10011,1.1
+Human Resources Managers,2026,Leadership and social influence,Enduring,soft,1716,10011,17.1
+Human Resources Managers,2026,Emotional and interpersonal intelligence,Enduring,soft,125,10011,1.2
+Human Resources Managers,2026,Learning,Enduring,soft,77,10011,0.8
+Human Resources Managers,2026,Learning orientation,Enduring,soft,70,10011,0.7
+Human Resources Managers,2026,Self-reflection,Enduring,soft,7,10011,0.1
+Human Resources Managers,2026,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,767,10011,7.7
+Human Resources Managers,2026,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,1025,10011,10.2
+Human Resources Managers,2026,Digital and AI literacy,Emerging,hard,78,10011,0.8
+Human Resources Managers,2026,Adaptive Mindset and Resilience,Emerging,soft,60,10011,0.6
+Human Resources Managers,2026,Prompting skills,Emerging,hard,306,10011,3.1
+Human Resources Managers,2026,AI-Driven Change and Opportunity Management,Emerging,soft,975,10011,9.7
+Human Resources Managers,2026,AI Use-Case Identification and Professional Application,Emerging,hard,188,10011,1.9
+Human Resources Managers,2026,AI self-efficacy,Emerging,soft,0,10011,0.0
+Human Resources Managers,2026,AI monitoring; output evaluation and verification,Emerging,hard,9,10011,0.1
+Human Resources Managers,2026,AI-ideation,Emerging,hard,210,10011,2.1
+Human Resources Managers,2026,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,1386,10011,13.8
+Human Resources Managers,2026,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,401,10011,4.0
+Human Resources Managers,2026,AI Development and Implementation,Emerging,hard,397,10011,4.0
+Human Resources Managers,2026,Human-AI collaboration,Emerging,soft,5,10011,0.0
+Human Resources Managers,2026,AI Data and Process Management,Emerging,hard,1069,10011,10.7
+Human Resources Managers,2026,Socio-Technical Systems Thinking,Emerging,soft,381,10011,3.8
+Human Resources Managers,2026,AI infrastructure and Deployment Readiness,Emerging,hard,74,10011,0.7
+Human Resources Managers,2026,AI transformation and organizational redesign,Emerging,soft,16,10011,0.2
+Human Resources Managers,2026,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,1662,10011,16.6
+Human Resources Managers,2026,Governance and Accountability Structures,Emerging,hard,709,10011,7.1
+Human Resources Managers,2026,Responsible and Ethical AI Evaluation,Emerging,hard,1,10011,0.0
+Human Resources Managers,2026,"AI Risk, Privacy, and Security Management",Emerging,hard,1008,10011,10.1
+Human Resources Managers,2026,Societal and Environmental AI Impact,Emerging,hard,118,10011,1.2
+Financial Managers,2023,Declarative and retrieval-based knowledge,Declining,hard,325,5738,5.7
+Financial Managers,2023,Individual knowledge,Declining,soft,35,5738,0.6
+Financial Managers,2023,Locate and retrieve information,Declining,hard,75,5738,1.3
+Financial Managers,2023,language-specific knowledge,Declining,soft,35,5738,0.6
+Financial Managers,2023,Digital information analysis and synthesis,Declining,hard,15,5738,0.3
+Financial Managers,2023,business knowledge as stored facts,Declining,hard,240,5738,4.2
+Financial Managers,2023,Standardized routine execution,Declining,hard,284,5738,4.9
+Financial Managers,2023,Routine tasks,Declining,hard,284,5738,4.9
+Financial Managers,2023,Foundations,Enduring,hard,826,5738,14.4
+Financial Managers,2023,Creativity,Enduring,soft,564,5738,9.8
+Financial Managers,2023,Business and management foundations,Enduring,hard,781,5738,13.6
+Financial Managers,2023,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,371,5738,6.5
+Financial Managers,2023,"Quantitative, data, and analytical foundations",Enduring,hard,54,5738,0.9
+Financial Managers,2023,Creative Thinking and Curiosity,Enduring,soft,233,5738,4.1
+Financial Managers,2023,A structured approach to work,Enduring,hard,1507,5738,26.3
+Financial Managers,2023,Criticism,Enduring,soft,414,5738,7.2
+Financial Managers,2023,Analytical and Structured Problem-Solving,Enduring,hard,430,5738,7.5
+Financial Managers,2023,Analytical and critical thinking,Enduring,soft,121,5738,2.1
+Financial Managers,2023,Data- and Evidence-Based Decision-Making,Enduring,hard,238,5738,4.1
+Financial Managers,2023,Critical thinking,Enduring,soft,72,5738,1.3
+Financial Managers,2023,Methodical Process and Technology Management,Enduring,hard,1124,5738,19.6
+Financial Managers,2023,Ethical decision-making,Enduring,soft,237,5738,4.1
+Financial Managers,2023,Communications,Enduring,hard,1686,5738,29.4
+Financial Managers,2023,Collaboration,Enduring,soft,1168,5738,20.4
+Financial Managers,2023,Business & Professional communication,Enduring,hard,1664,5738,29.0
+Financial Managers,2023,Teamwork and cooperation,Enduring,soft,861,5738,15.0
+Financial Managers,2023,Data communication and storytelling,Enduring,hard,23,5738,0.4
+Financial Managers,2023,Leadership and social influence,Enduring,soft,439,5738,7.7
+Financial Managers,2023,Emotional and interpersonal intelligence,Enduring,soft,15,5738,0.3
+Financial Managers,2023,Learning,Enduring,soft,53,5738,0.9
+Financial Managers,2023,Learning orientation,Enduring,soft,51,5738,0.9
+Financial Managers,2023,Self-reflection,Enduring,soft,2,5738,0.0
+Financial Managers,2023,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,460,5738,8.0
+Financial Managers,2023,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,69,5738,1.2
+Financial Managers,2023,Digital and AI literacy,Emerging,hard,23,5738,0.4
+Financial Managers,2023,Adaptive Mindset and Resilience,Emerging,soft,13,5738,0.2
+Financial Managers,2023,Prompting skills,Emerging,hard,140,5738,2.4
+Financial Managers,2023,AI-Driven Change and Opportunity Management,Emerging,soft,56,5738,1.0
+Financial Managers,2023,AI Use-Case Identification and Professional Application,Emerging,hard,203,5738,3.5
+Financial Managers,2023,AI self-efficacy,Emerging,soft,0,5738,0.0
+Financial Managers,2023,AI monitoring; output evaluation and verification,Emerging,hard,7,5738,0.1
+Financial Managers,2023,AI-ideation,Emerging,hard,164,5738,2.9
+Financial Managers,2023,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,356,5738,6.2
+Financial Managers,2023,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,166,5738,2.9
+Financial Managers,2023,AI Development and Implementation,Emerging,hard,67,5738,1.2
+Financial Managers,2023,Human-AI collaboration,Emerging,soft,0,5738,0.0
+Financial Managers,2023,AI Data and Process Management,Emerging,hard,289,5738,5.0
+Financial Managers,2023,Socio-Technical Systems Thinking,Emerging,soft,163,5738,2.8
+Financial Managers,2023,AI infrastructure and Deployment Readiness,Emerging,hard,3,5738,0.1
+Financial Managers,2023,AI transformation and organizational redesign,Emerging,soft,3,5738,0.1
+Financial Managers,2023,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,1469,5738,25.6
+Financial Managers,2023,Governance and Accountability Structures,Emerging,hard,627,5738,10.9
+Financial Managers,2023,Responsible and Ethical AI Evaluation,Emerging,hard,0,5738,0.0
+Financial Managers,2023,"AI Risk, Privacy, and Security Management",Emerging,hard,1120,5738,19.5
+Financial Managers,2023,Societal and Environmental AI Impact,Emerging,hard,57,5738,1.0
+Financial Managers,2026,Declarative and retrieval-based knowledge,Declining,hard,1036,21363,4.8
+Financial Managers,2026,Individual knowledge,Declining,soft,151,21363,0.7
+Financial Managers,2026,Locate and retrieve information,Declining,hard,246,21363,1.2
+Financial Managers,2026,language-specific knowledge,Declining,soft,151,21363,0.7
+Financial Managers,2026,Digital information analysis and synthesis,Declining,hard,95,21363,0.4
+Financial Managers,2026,business knowledge as stored facts,Declining,hard,735,21363,3.4
+Financial Managers,2026,Standardized routine execution,Declining,hard,1169,21363,5.5
+Financial Managers,2026,Routine tasks,Declining,hard,1169,21363,5.5
+Financial Managers,2026,Foundations,Enduring,hard,3549,21363,16.6
+Financial Managers,2026,Creativity,Enduring,soft,3650,21363,17.1
+Financial Managers,2026,Business and management foundations,Enduring,hard,3401,21363,15.9
+Financial Managers,2026,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,2402,21363,11.2
+Financial Managers,2026,"Quantitative, data, and analytical foundations",Enduring,hard,202,21363,0.9
+Financial Managers,2026,Creative Thinking and Curiosity,Enduring,soft,1497,21363,7.0
+Financial Managers,2026,A structured approach to work,Enduring,hard,6794,21363,31.8
+Financial Managers,2026,Criticism,Enduring,soft,3047,21363,14.3
+Financial Managers,2026,Analytical and Structured Problem-Solving,Enduring,hard,2252,21363,10.5
+Financial Managers,2026,Analytical and critical thinking,Enduring,soft,956,21363,4.5
+Financial Managers,2026,Data- and Evidence-Based Decision-Making,Enduring,hard,593,21363,2.8
+Financial Managers,2026,Critical thinking,Enduring,soft,326,21363,1.5
+Financial Managers,2026,Methodical Process and Technology Management,Enduring,hard,4862,21363,22.8
+Financial Managers,2026,Ethical decision-making,Enduring,soft,1937,21363,9.1
+Financial Managers,2026,Communications,Enduring,hard,6539,21363,30.6
+Financial Managers,2026,Collaboration,Enduring,soft,5170,21363,24.2
+Financial Managers,2026,Business & Professional communication,Enduring,hard,6108,21363,28.6
+Financial Managers,2026,Teamwork and cooperation,Enduring,soft,3241,21363,15.2
+Financial Managers,2026,Data communication and storytelling,Enduring,hard,652,21363,3.1
+Financial Managers,2026,Leadership and social influence,Enduring,soft,2432,21363,11.4
+Financial Managers,2026,Emotional and interpersonal intelligence,Enduring,soft,101,21363,0.5
+Financial Managers,2026,Learning,Enduring,soft,199,21363,0.9
+Financial Managers,2026,Learning orientation,Enduring,soft,186,21363,0.9
+Financial Managers,2026,Self-reflection,Enduring,soft,13,21363,0.1
+Financial Managers,2026,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,1929,21363,9.0
+Financial Managers,2026,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,610,21363,2.9
+Financial Managers,2026,Digital and AI literacy,Emerging,hard,180,21363,0.8
+Financial Managers,2026,Adaptive Mindset and Resilience,Emerging,soft,172,21363,0.8
+Financial Managers,2026,Prompting skills,Emerging,hard,550,21363,2.6
+Financial Managers,2026,AI-Driven Change and Opportunity Management,Emerging,soft,441,21363,2.1
+Financial Managers,2026,AI Use-Case Identification and Professional Application,Emerging,hard,721,21363,3.4
+Financial Managers,2026,AI self-efficacy,Emerging,soft,0,21363,0.0
+Financial Managers,2026,AI monitoring; output evaluation and verification,Emerging,hard,64,21363,0.3
+Financial Managers,2026,AI-ideation,Emerging,hard,564,21363,2.6
+Financial Managers,2026,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,2134,21363,10.0
+Financial Managers,2026,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,1024,21363,4.8
+Financial Managers,2026,AI Development and Implementation,Emerging,hard,631,21363,3.0
+Financial Managers,2026,Human-AI collaboration,Emerging,soft,3,21363,0.0
+Financial Managers,2026,AI Data and Process Management,Emerging,hard,1529,21363,7.2
+Financial Managers,2026,Socio-Technical Systems Thinking,Emerging,soft,1009,21363,4.7
+Financial Managers,2026,AI infrastructure and Deployment Readiness,Emerging,hard,119,21363,0.6
+Financial Managers,2026,AI transformation and organizational redesign,Emerging,soft,14,21363,0.1
+Financial Managers,2026,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,3855,21363,18.0
+Financial Managers,2026,Governance and Accountability Structures,Emerging,hard,1328,21363,6.2
+Financial Managers,2026,Responsible and Ethical AI Evaluation,Emerging,hard,0,21363,0.0
+Financial Managers,2026,"AI Risk, Privacy, and Security Management",Emerging,hard,2960,21363,13.9
+Financial Managers,2026,Societal and Environmental AI Impact,Emerging,hard,150,21363,0.7
+All,2023,Declarative and retrieval-based knowledge,Declining,hard,1188,16709,7.1
+All,2023,Individual knowledge,Declining,soft,125,16709,0.7
+All,2023,Locate and retrieve information,Declining,hard,261,16709,1.6
+All,2023,language-specific knowledge,Declining,soft,125,16709,0.7
+All,2023,Digital information analysis and synthesis,Declining,hard,355,16709,2.1
+All,2023,business knowledge as stored facts,Declining,hard,603,16709,3.6
+All,2023,Standardized routine execution,Declining,hard,720,16709,4.3
+All,2023,Routine tasks,Declining,hard,720,16709,4.3
+All,2023,Foundations,Enduring,hard,2340,16709,14.0
+All,2023,Creativity,Enduring,soft,2832,16709,16.9
+All,2023,Business and management foundations,Enduring,hard,2215,16709,13.3
+All,2023,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,1874,16709,11.2
+All,2023,"Quantitative, data, and analytical foundations",Enduring,hard,151,16709,0.9
+All,2023,Creative Thinking and Curiosity,Enduring,soft,1203,16709,7.2
+All,2023,A structured approach to work,Enduring,hard,4336,16709,26.0
+All,2023,Criticism,Enduring,soft,1639,16709,9.8
+All,2023,Analytical and Structured Problem-Solving,Enduring,hard,1348,16709,8.1
+All,2023,Analytical and critical thinking,Enduring,soft,698,16709,4.2
+All,2023,Data- and Evidence-Based Decision-Making,Enduring,hard,506,16709,3.0
+All,2023,Critical thinking,Enduring,soft,259,16709,1.6
+All,2023,Methodical Process and Technology Management,Enduring,hard,3104,16709,18.6
+All,2023,Ethical decision-making,Enduring,soft,796,16709,4.8
+All,2023,Communications,Enduring,hard,3900,16709,23.3
+All,2023,Collaboration,Enduring,soft,3308,16709,19.8
+All,2023,Business & Professional communication,Enduring,hard,3823,16709,22.9
+All,2023,Teamwork and cooperation,Enduring,soft,2173,16709,13.0
+All,2023,Data communication and storytelling,Enduring,hard,123,16709,0.7
+All,2023,Leadership and social influence,Enduring,soft,1298,16709,7.8
+All,2023,Emotional and interpersonal intelligence,Enduring,soft,182,16709,1.1
+All,2023,Learning,Enduring,soft,109,16709,0.7
+All,2023,Learning orientation,Enduring,soft,101,16709,0.6
+All,2023,Self-reflection,Enduring,soft,8,16709,0.0
+All,2023,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,1672,16709,10.0
+All,2023,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,420,16709,2.5
+All,2023,Digital and AI literacy,Emerging,hard,144,16709,0.9
+All,2023,Adaptive Mindset and Resilience,Emerging,soft,30,16709,0.2
+All,2023,Prompting skills,Emerging,hard,404,16709,2.4
+All,2023,AI-Driven Change and Opportunity Management,Emerging,soft,391,16709,2.3
+All,2023,AI Use-Case Identification and Professional Application,Emerging,hard,829,16709,5.0
+All,2023,AI self-efficacy,Emerging,soft,0,16709,0.0
+All,2023,AI monitoring; output evaluation and verification,Emerging,hard,18,16709,0.1
+All,2023,AI-ideation,Emerging,hard,388,16709,2.3
+All,2023,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,1396,16709,8.4
+All,2023,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,753,16709,4.5
+All,2023,AI Development and Implementation,Emerging,hard,245,16709,1.5
+All,2023,Human-AI collaboration,Emerging,soft,10,16709,0.1
+All,2023,AI Data and Process Management,Emerging,hard,1141,16709,6.8
+All,2023,Socio-Technical Systems Thinking,Emerging,soft,740,16709,4.4
+All,2023,AI infrastructure and Deployment Readiness,Emerging,hard,38,16709,0.2
+All,2023,AI transformation and organizational redesign,Emerging,soft,10,16709,0.1
+All,2023,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,2420,16709,14.5
+All,2023,Governance and Accountability Structures,Emerging,hard,907,16709,5.4
+All,2023,Responsible and Ethical AI Evaluation,Emerging,hard,0,16709,0.0
+All,2023,"AI Risk, Privacy, and Security Management",Emerging,hard,1608,16709,9.6
+All,2023,Societal and Environmental AI Impact,Emerging,hard,320,16709,1.9
+All,2026,Declarative and retrieval-based knowledge,Declining,hard,5743,74500,7.7
+All,2026,Individual knowledge,Declining,soft,508,74500,0.7
+All,2026,Locate and retrieve information,Declining,hard,995,74500,1.3
+All,2026,language-specific knowledge,Declining,soft,508,74500,0.7
+All,2026,Digital information analysis and synthesis,Declining,hard,2429,74500,3.3
+All,2026,business knowledge as stored facts,Declining,hard,2560,74500,3.4
+All,2026,Standardized routine execution,Declining,hard,3752,74500,5.0
+All,2026,Routine tasks,Declining,hard,3752,74500,5.0
+All,2026,Foundations,Enduring,hard,10493,74500,14.1
+All,2026,Creativity,Enduring,soft,15660,74500,21.0
+All,2026,Business and management foundations,Enduring,hard,9966,74500,13.4
+All,2026,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,10300,74500,13.8
+All,2026,"Quantitative, data, and analytical foundations",Enduring,hard,687,74500,0.9
+All,2026,Creative Thinking and Curiosity,Enduring,soft,6799,74500,9.1
+All,2026,A structured approach to work,Enduring,hard,21270,74500,28.6
+All,2026,Criticism,Enduring,soft,10388,74500,13.9
+All,2026,Analytical and Structured Problem-Solving,Enduring,hard,6100,74500,8.2
+All,2026,Analytical and critical thinking,Enduring,soft,4773,74500,6.4
+All,2026,Data- and Evidence-Based Decision-Making,Enduring,hard,2832,74500,3.8
+All,2026,Critical thinking,Enduring,soft,1052,74500,1.4
+All,2026,Methodical Process and Technology Management,Enduring,hard,15063,74500,20.2
+All,2026,Ethical decision-making,Enduring,soft,5217,74500,7.0
+All,2026,Communications,Enduring,hard,20006,74500,26.9
+All,2026,Collaboration,Enduring,soft,17443,74500,23.4
+All,2026,Business & Professional communication,Enduring,hard,19159,74500,25.7
+All,2026,Teamwork and cooperation,Enduring,soft,10432,74500,14.0
+All,2026,Data communication and storytelling,Enduring,hard,1249,74500,1.7
+All,2026,Leadership and social influence,Enduring,soft,8390,74500,11.3
+All,2026,Emotional and interpersonal intelligence,Enduring,soft,629,74500,0.8
+All,2026,Learning,Enduring,soft,510,74500,0.7
+All,2026,Learning orientation,Enduring,soft,463,74500,0.6
+All,2026,Self-reflection,Enduring,soft,47,74500,0.1
+All,2026,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,7021,74500,9.4
+All,2026,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,2229,74500,3.0
+All,2026,Digital and AI literacy,Emerging,hard,909,74500,1.2
+All,2026,Adaptive Mindset and Resilience,Emerging,soft,448,74500,0.6
+All,2026,Prompting skills,Emerging,hard,1706,74500,2.3
+All,2026,AI-Driven Change and Opportunity Management,Emerging,soft,1797,74500,2.4
+All,2026,AI Use-Case Identification and Professional Application,Emerging,hard,2940,74500,3.9
+All,2026,AI self-efficacy,Emerging,soft,0,74500,0.0
+All,2026,AI monitoring; output evaluation and verification,Emerging,hard,104,74500,0.1
+All,2026,AI-ideation,Emerging,hard,1902,74500,2.6
+All,2026,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,8625,74500,11.6
+All,2026,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,3583,74500,4.8
+All,2026,AI Development and Implementation,Emerging,hard,2427,74500,3.3
+All,2026,Human-AI collaboration,Emerging,soft,47,74500,0.1
+All,2026,AI Data and Process Management,Emerging,hard,6328,74500,8.5
+All,2026,Socio-Technical Systems Thinking,Emerging,soft,3473,74500,4.7
+All,2026,AI infrastructure and Deployment Readiness,Emerging,hard,547,74500,0.7
+All,2026,AI transformation and organizational redesign,Emerging,soft,76,74500,0.1
+All,2026,"AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",Emerging,hard,9784,74500,13.1
+All,2026,Governance and Accountability Structures,Emerging,hard,3634,74500,4.9
+All,2026,Responsible and Ethical AI Evaluation,Emerging,hard,1,74500,0.0
+All,2026,"AI Risk, Privacy, and Security Management",Emerging,hard,6736,74500,9.0
+All,2026,Societal and Environmental AI Impact,Emerging,hard,559,74500,0.8

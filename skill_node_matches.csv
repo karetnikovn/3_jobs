@@ -1,0 +1,709 @@
+standardized_skill,matched_node,node_category,node_type,similarity
+knowledge base,Declarative and retrieval-based knowledge,Declining,hard,0.604
+semantics,Declarative and retrieval-based knowledge,Declining,hard,0.513
+combine multiple fields of knowledge,Declarative and retrieval-based knowledge,Declining,hard,0.5
+information categorisation,Declarative and retrieval-based knowledge,Declining,hard,0.464
+information and digital content,Digital information analysis and synthesis,Declining,hard,0.607
+digital systems,Digital information analysis and synthesis,Declining,hard,0.6
+digital data processing,Digital information analysis and synthesis,Declining,hard,0.586
+synthesise information,Digital information analysis and synthesis,Declining,hard,0.583
+develop digital content,Digital information analysis and synthesis,Declining,hard,0.577
+information structure,Digital information analysis and synthesis,Declining,hard,0.557
+information architecture,Digital information analysis and synthesis,Declining,hard,0.555
+analyse information processes,Digital information analysis and synthesis,Declining,hard,0.544
+lay out digital written content,Digital information analysis and synthesis,Declining,hard,0.544
+digital content creation,Digital information analysis and synthesis,Declining,hard,0.539
+digital media,Digital information analysis and synthesis,Declining,hard,0.521
+synthesise financial information,Digital information analysis and synthesis,Declining,hard,0.521
+integrate and re-elaborate digital content,Digital information analysis and synthesis,Declining,hard,0.52
+create digital content,Digital information analysis and synthesis,Declining,hard,0.514
+intellectual property regime of digital content,Digital information analysis and synthesis,Declining,hard,0.474
+operate digital hardware,Digital information analysis and synthesis,Declining,hard,0.471
+store digital data and systems,Digital information analysis and synthesis,Declining,hard,0.465
+verify formal ICT specifications,Digital information analysis and synthesis,Declining,hard,0.46
+apply digital security measures,Digital information analysis and synthesis,Declining,hard,0.459
+reverse engineering,Digital information analysis and synthesis,Declining,hard,0.455
+knowledge management,Individual knowledge,Declining,soft,0.57
+promote the transfer of knowledge,Individual knowledge,Declining,soft,0.562
+inspect data,Locate and retrieve information,Declining,hard,0.528
+information extraction,Locate and retrieve information,Declining,hard,0.527
+search databases,Locate and retrieve information,Declining,hard,0.521
+search and filter data,Locate and retrieve information,Declining,hard,0.512
+gather data for forensic purposes,Locate and retrieve information,Declining,hard,0.501
+data extraction,Locate and retrieve information,Declining,hard,0.482
+gather data,Locate and retrieve information,Declining,hard,0.478
+manage findable accessible interoperable and reusable data,Locate and retrieve information,Declining,hard,0.478
+unstructured data,Locate and retrieve information,Declining,hard,0.466
+collect real-time geolocation information,Locate and retrieve information,Declining,hard,0.456
+computer history,Locate and retrieve information,Declining,hard,0.454
+manage schedule of tasks,Routine tasks,Declining,hard,0.672
+handle tasks independently,Routine tasks,Declining,hard,0.649
+perform technically demanding tasks,Routine tasks,Declining,hard,0.641
+perform office routine activities,Routine tasks,Declining,hard,0.635
+perform multiple tasks at the same time,Routine tasks,Declining,hard,0.614
+work efficiently,Routine tasks,Declining,hard,0.582
+write routine reports,Routine tasks,Declining,hard,0.559
+schedule artistic activities,Routine tasks,Declining,hard,0.545
+plan maintenance activities,Routine tasks,Declining,hard,0.54
+task algorithmisation,Routine tasks,Declining,hard,0.534
+keep task records,Routine tasks,Declining,hard,0.527
+perform manual work autonomously,Routine tasks,Declining,hard,0.503
+perform dunning activities,Routine tasks,Declining,hard,0.497
+comply with schedule,Routine tasks,Declining,hard,0.49
+supervise daily information operations,Routine tasks,Declining,hard,0.49
+use of special equipment for daily activities,Routine tasks,Declining,hard,0.489
+work ergonomically,Routine tasks,Declining,hard,0.488
+prescribe exercises,Routine tasks,Declining,hard,0.482
+monitor daily work,Routine tasks,Declining,hard,0.479
+manage challenging work conditions during food processing operations,Routine tasks,Declining,hard,0.478
+manage fitness goals,Routine tasks,Declining,hard,0.474
+adjust to physical demands,Routine tasks,Declining,hard,0.466
+manage cleaning activities,Routine tasks,Declining,hard,0.464
+coordinate operational activities,Routine tasks,Declining,hard,0.462
+administrative tasks in a medical environment,Routine tasks,Declining,hard,0.458
+manage time,Routine tasks,Declining,hard,0.455
+adhere to Standard Operating Procedures,Standardized routine execution,Declining,hard,0.615
+follow strict level crossing operating procedures,Standardized routine execution,Declining,hard,0.479
+defence standard procedures,Standardized routine execution,Declining,hard,0.474
+execute necessary procedures prior to take off,Standardized routine execution,Declining,hard,0.471
+develop standard operating procedures in the food chain,Standardized routine execution,Declining,hard,0.456
+evaluate implementation of safety procedures,Standardized routine execution,Declining,hard,0.452
+business knowledge,business knowledge as stored facts,Declining,hard,0.762
+manage business knowledge,business knowledge as stored facts,Declining,hard,0.734
+interpret business information,business knowledge as stored facts,Declining,hard,0.608
+keep up to date on product knowledge,business knowledge as stored facts,Declining,hard,0.553
+business intelligence,business knowledge as stored facts,Declining,hard,0.542
+maintain updated professional knowledge,business knowledge as stored facts,Declining,hard,0.504
+manage information sources,business knowledge as stored facts,Declining,hard,0.488
+maintain contractual information,business knowledge as stored facts,Declining,hard,0.477
+maintain records of mining operations,business knowledge as stored facts,Declining,hard,0.476
+provide financial product information,business knowledge as stored facts,Declining,hard,0.472
+maintain customer records,business knowledge as stored facts,Declining,hard,0.467
+business analytics,business knowledge as stored facts,Declining,hard,0.463
+manage data for legal matters,business knowledge as stored facts,Declining,hard,0.452
+assess ICT knowledge,business knowledge as stored facts,Declining,hard,0.451
+maintain logistics databases,business knowledge as stored facts,Declining,hard,0.451
+translate language concepts,language-specific knowledge,Declining,soft,0.57
+speak different languages,language-specific knowledge,Declining,soft,0.549
+update language skills,language-specific knowledge,Declining,soft,0.548
+study acquisition of language,language-specific knowledge,Declining,soft,0.535
+language teaching methods,language-specific knowledge,Declining,soft,0.534
+interpret languages in conferences,language-specific knowledge,Declining,soft,0.526
+computational linguistics,language-specific knowledge,Declining,soft,0.488
+communicate using non-verbal language,language-specific knowledge,Declining,soft,0.483
+theoretical lexicography,language-specific knowledge,Declining,soft,0.483
+communicate commercial and technical issues in foreign languages,language-specific knowledge,Declining,soft,0.459
+process data,AI Data and Process Management,Emerging,hard,0.69
+establish data processes,AI Data and Process Management,Emerging,hard,0.636
+operate automated process control,AI Data and Process Management,Emerging,hard,0.612
+manage processes,AI Data and Process Management,Emerging,hard,0.594
+develop data processing applications,AI Data and Process Management,Emerging,hard,0.556
+process applications,AI Data and Process Management,Emerging,hard,0.549
+statistical process control,AI Data and Process Management,Emerging,hard,0.546
+manage data,AI Data and Process Management,Emerging,hard,0.544
+product data management,AI Data and Process Management,Emerging,hard,0.539
+supervise data entry,AI Data and Process Management,Emerging,hard,0.531
+process qualitative information,AI Data and Process Management,Emerging,hard,0.522
+process data from railway control rooms,AI Data and Process Management,Emerging,hard,0.517
+implement data quality processes,AI Data and Process Management,Emerging,hard,0.516
+implement data warehousing techniques,AI Data and Process Management,Emerging,hard,0.504
+manage ICT data architecture,AI Data and Process Management,Emerging,hard,0.5
+analyse business processes,AI Data and Process Management,Emerging,hard,0.499
+manage quantitative data,AI Data and Process Management,Emerging,hard,0.498
+perform data mining,AI Data and Process Management,Emerging,hard,0.498
+program management,AI Data and Process Management,Emerging,hard,0.498
+use data processing techniques,AI Data and Process Management,Emerging,hard,0.495
+data engineering,AI Data and Process Management,Emerging,hard,0.482
+create business process models,AI Data and Process Management,Emerging,hard,0.472
+perform warehousing operations,AI Data and Process Management,Emerging,hard,0.47
+data warehouse,AI Data and Process Management,Emerging,hard,0.469
+results-based management,AI Data and Process Management,Emerging,hard,0.467
+data analytics,AI Data and Process Management,Emerging,hard,0.462
+process collected survey data,AI Data and Process Management,Emerging,hard,0.462
+develop software prototype,AI Development and Implementation,Emerging,hard,0.519
+develop program ideas,AI Development and Implementation,Emerging,hard,0.503
+automation technology,AI Development and Implementation,Emerging,hard,0.501
+incremental development,AI Development and Implementation,Emerging,hard,0.496
+assess the feasibility of implementing developments,AI Development and Implementation,Emerging,hard,0.488
+iterative development,AI Development and Implementation,Emerging,hard,0.484
+interfacing techniques,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,0.467
+interact verbally in Chinese,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,0.459
+interact verbally in German,"AI Interaction (How do humans use, communicate with, and evaluate AI?)",Emerging,hard,0.45
+security threats,"AI Risk, Privacy, and Security Management",Emerging,hard,0.544
+ensure information privacy,"AI Risk, Privacy, and Security Management",Emerging,hard,0.532
+advice on security risk management,"AI Risk, Privacy, and Security Management",Emerging,hard,0.523
+cyber security,"AI Risk, Privacy, and Security Management",Emerging,hard,0.516
+protect personal data and privacy,"AI Risk, Privacy, and Security Management",Emerging,hard,0.514
+maintain privacy,"AI Risk, Privacy, and Security Management",Emerging,hard,0.512
+risk management,"AI Risk, Privacy, and Security Management",Emerging,hard,0.505
+assessment of risks and threats,"AI Risk, Privacy, and Security Management",Emerging,hard,0.495
+identify ICT security risks,"AI Risk, Privacy, and Security Management",Emerging,hard,0.493
+information security strategy,"AI Risk, Privacy, and Security Management",Emerging,hard,0.491
+conduct threat intelligence,"AI Risk, Privacy, and Security Management",Emerging,hard,0.487
+implement ICT risk management,"AI Risk, Privacy, and Security Management",Emerging,hard,0.478
+identify security threats,"AI Risk, Privacy, and Security Management",Emerging,hard,0.465
+information confidentiality,"AI Risk, Privacy, and Security Management",Emerging,hard,0.462
+ICT network security risks,"AI Risk, Privacy, and Security Management",Emerging,hard,0.461
+internal risk management policy,"AI Risk, Privacy, and Security Management",Emerging,hard,0.459
+security regulations,"AI Risk, Privacy, and Security Management",Emerging,hard,0.459
+analyse potential threats against national security,"AI Risk, Privacy, and Security Management",Emerging,hard,0.456
+data security principles,"AI Risk, Privacy, and Security Management",Emerging,hard,0.455
+risk identification,"AI Risk, Privacy, and Security Management",Emerging,hard,0.452
+define security policies,"AI Risk, Privacy, and Security Management",Emerging,hard,0.451
+industrial software,"AI System Design (How are AI-supported tools, workflows, and processes designed?)",Emerging,hard,0.496
+develop business case,AI Use-Case Identification and Professional Application,Emerging,hard,0.461
+apply case management,AI Use-Case Identification and Professional Application,Emerging,hard,0.456
+solution deployment,AI infrastructure and Deployment Readiness,Emerging,hard,0.54
+monitor processing conditions,AI monitoring; output evaluation and verification,Emerging,hard,0.51
+monitor machine operations,AI monitoring; output evaluation and verification,Emerging,hard,0.5
+conduct training on monitoring and evaluation frameworks,AI monitoring; output evaluation and verification,Emerging,hard,0.494
+state estimation,AI monitoring; output evaluation and verification,Emerging,hard,0.451
+translate strategy into operation,AI transformation and organizational redesign,Emerging,soft,0.468
+apply change management,AI-Driven Change and Opportunity Management,Emerging,soft,0.496
+identify new business opportunities,AI-Driven Change and Opportunity Management,Emerging,soft,0.453
+principles of artificial intelligence,AI-ideation,Emerging,hard,0.634
+perform ideation activities,AI-ideation,Emerging,hard,0.593
+ML (computer programming),AI-ideation,Emerging,hard,0.469
+think abstractly,AI-ideation,Emerging,hard,0.467
+use automatic programming,AI-ideation,Emerging,hard,0.455
+show initiative,AI-ideation,Emerging,hard,0.453
+adapt to changing situations,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.579
+adapt to changes in technological development plans,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.57
+adapt to change in marketing,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.552
+identify technological needs,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.514
+innovate in ICT,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.508
+adapt to change,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.484
+adapt production levels,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.478
+adapt existing designs to changed circumstances,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.474
+give feedback on changing circumstances,Adaptability (capacity to respond constructively to technological and organizational change),Emerging,soft,0.457
+organisational resilience,Adaptive Mindset and Resilience,Emerging,soft,0.597
+teach digital literacy,Digital and AI literacy,Emerging,hard,0.701
+have computer literacy,Digital and AI literacy,Emerging,hard,0.569
+media and information literacy,Digital and AI literacy,Emerging,hard,0.557
+digital arts,Digital and AI literacy,Emerging,hard,0.546
+identify digital competence gaps,Digital and AI literacy,Emerging,hard,0.522
+develop digital educational materials,Digital and AI literacy,Emerging,hard,0.503
+interact through digital technologies,Digital and AI literacy,Emerging,hard,0.496
+create concept of digital game,Digital and AI literacy,Emerging,hard,0.49
+digital game genres,Digital and AI literacy,Emerging,hard,0.451
+good governance,Governance and Accountability Structures,Emerging,hard,0.706
+accept own accountability,Governance and Accountability Structures,Emerging,hard,0.654
+implement corporate governance,Governance and Accountability Structures,Emerging,hard,0.613
+internet governance,Governance and Accountability Structures,Emerging,hard,0.546
+public administration,Governance and Accountability Structures,Emerging,hard,0.506
+liaise with government officials,Governance and Accountability Structures,Emerging,hard,0.495
+information governance compliance,Governance and Accountability Structures,Emerging,hard,0.492
+delegate responsibilities,Governance and Accountability Structures,Emerging,hard,0.49
+ensure quality of legislation,Governance and Accountability Structures,Emerging,hard,0.47
+government representation,Governance and Accountability Structures,Emerging,hard,0.462
+corporate social responsibility,Governance and Accountability Structures,Emerging,hard,0.458
+liaise with politicians,Governance and Accountability Structures,Emerging,hard,0.452
+human-robot collaboration,Human-AI collaboration,Emerging,soft,0.827
+human-computer interaction,Human-AI collaboration,Emerging,soft,0.573
+communicate verbal instructions,Prompting skills,Emerging,hard,0.582
+demonstrate willingness to learn,Prompting skills,Emerging,hard,0.58
+assist children in developing personal skills,Prompting skills,Emerging,hard,0.578
+develop personal skills,Prompting skills,Emerging,hard,0.535
+instruct others,Prompting skills,Emerging,hard,0.532
+training subject expertise,Prompting skills,Emerging,hard,0.531
+guide learners in using assistive technologies,Prompting skills,Emerging,hard,0.53
+assist students in their learning,Prompting skills,Emerging,hard,0.488
+use questioning techniques for assessment,Prompting skills,Emerging,hard,0.486
+provide lesson materials,Prompting skills,Emerging,hard,0.478
+use questioning techniques,Prompting skills,Emerging,hard,0.478
+manage prompt book,Prompting skills,Emerging,hard,0.457
+demonstrate disciplinary expertise,Prompting skills,Emerging,hard,0.455
+manage environmental impact,Societal and Environmental AI Impact,Emerging,hard,0.576
+assess environmental impact,Societal and Environmental AI Impact,Emerging,hard,0.568
+environmental economics,Societal and Environmental AI Impact,Emerging,hard,0.552
+coordinate environmental efforts,Societal and Environmental AI Impact,Emerging,hard,0.541
+increase the impact of science on policy and society,Societal and Environmental AI Impact,Emerging,hard,0.534
+develop environmental policy,Societal and Environmental AI Impact,Emerging,hard,0.524
+environmental policy,Societal and Environmental AI Impact,Emerging,hard,0.524
+people and the environment,Societal and Environmental AI Impact,Emerging,hard,0.512
+communicate on the environmental impact of mining,Societal and Environmental AI Impact,Emerging,hard,0.502
+promote environmental awareness,Societal and Environmental AI Impact,Emerging,hard,0.5
+protect the environment from the impact of the digital technologies,Societal and Environmental AI Impact,Emerging,hard,0.493
+evaluate environmental impact of personal behaviour,Societal and Environmental AI Impact,Emerging,hard,0.483
+climate change impact,Societal and Environmental AI Impact,Emerging,hard,0.475
+environmental threats,Societal and Environmental AI Impact,Emerging,hard,0.474
+environmental legislation,Societal and Environmental AI Impact,Emerging,hard,0.464
+environmental design,Societal and Environmental AI Impact,Emerging,hard,0.463
+environmental engineering,Societal and Environmental AI Impact,Emerging,hard,0.463
+manage environmental impact of operations,Societal and Environmental AI Impact,Emerging,hard,0.46
+adopt ways to reduce pollution,Societal and Environmental AI Impact,Emerging,hard,0.452
+develop environmental remediation strategies,Societal and Environmental AI Impact,Emerging,hard,0.452
+implement environmental action plans,Societal and Environmental AI Impact,Emerging,hard,0.452
+report on environmental issues,Societal and Environmental AI Impact,Emerging,hard,0.45
+systems thinking,Socio-Technical Systems Thinking,Emerging,soft,0.736
+solve technical problems,Socio-Technical Systems Thinking,Emerging,soft,0.586
+apply ICT systems theory,Socio-Technical Systems Thinking,Emerging,soft,0.569
+apply systemic design thinking,Socio-Technical Systems Thinking,Emerging,soft,0.568
+provide technical expertise,Socio-Technical Systems Thinking,Emerging,soft,0.561
+solve ICT system problems,Socio-Technical Systems Thinking,Emerging,soft,0.544
+create technical plans,Socio-Technical Systems Thinking,Emerging,soft,0.53
+gather technical information,Socio-Technical Systems Thinking,Emerging,soft,0.526
+business ICT systems,Socio-Technical Systems Thinking,Emerging,soft,0.523
+technology education,Socio-Technical Systems Thinking,Emerging,soft,0.516
+manage technical security systems,Socio-Technical Systems Thinking,Emerging,soft,0.505
+attend to ICT systems quality,Socio-Technical Systems Thinking,Emerging,soft,0.485
+systems theory,Socio-Technical Systems Thinking,Emerging,soft,0.484
+systems development life-cycle,Socio-Technical Systems Thinking,Emerging,soft,0.479
+analyse the need for technical resources,Socio-Technical Systems Thinking,Emerging,soft,0.475
+interpret technical texts,Socio-Technical Systems Thinking,Emerging,soft,0.468
+write technical reports,Socio-Technical Systems Thinking,Emerging,soft,0.465
+ICT system integration,Socio-Technical Systems Thinking,Emerging,soft,0.458
+support ICT system users,Socio-Technical Systems Thinking,Emerging,soft,0.456
+maintain ICT system,Socio-Technical Systems Thinking,Emerging,soft,0.453
+propose ICT solutions to business problems,Socio-Technical Systems Thinking,Emerging,soft,0.453
+implement relevant technical skills to perform at the highest level in sport,Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context),Emerging,soft,0.465
+organisational structure,A structured approach to work,Enduring,hard,0.574
+deal with challenging work conditions,A structured approach to work,Enduring,hard,0.535
+determine context to present the work,A structured approach to work,Enduring,hard,0.508
+supervise work,A structured approach to work,Enduring,hard,0.499
+youth work principles,A structured approach to work,Enduring,hard,0.496
+supervise work on design planning,A structured approach to work,Enduring,hard,0.474
+work within communities,A structured approach to work,Enduring,hard,0.467
+project management principles,A structured approach to work,Enduring,hard,0.46
+construction methods,A structured approach to work,Enduring,hard,0.455
+create a work atmosphere of continuous improvement,A structured approach to work,Enduring,hard,0.452
+problem-solving with digital tools,Analytical and Structured Problem-Solving,Enduring,hard,0.631
+solve problems,Analytical and Structured Problem-Solving,Enduring,hard,0.619
+develop strategy to solve problems,Analytical and Structured Problem-Solving,Enduring,hard,0.556
+create solutions to problems,Analytical and Structured Problem-Solving,Enduring,hard,0.536
+online analytical processing,Analytical and Structured Problem-Solving,Enduring,hard,0.503
+execute analytical mathematical calculations,Analytical and Structured Problem-Solving,Enduring,hard,0.491
+solve problems in healthcare,Analytical and Structured Problem-Solving,Enduring,hard,0.453
+think analytically,Analytical and critical thinking,Enduring,soft,0.711
+communicate analytical insights,Analytical and critical thinking,Enduring,soft,0.587
+apply strategic thinking,Analytical and critical thinking,Enduring,soft,0.553
+business communication,Business & Professional communication,Enduring,hard,0.842
+inter-professional communication in the psychosocial field,Business & Professional communication,Enduring,hard,0.697
+communicate professionally with colleagues in other fields,Business & Professional communication,Enduring,hard,0.603
+promote organisational communication,Business & Professional communication,Enduring,hard,0.586
+interact professionally in research and professional environments,Business & Professional communication,Enduring,hard,0.57
+develop professional network,Business & Professional communication,Enduring,hard,0.569
+consult with business clients,Business & Professional communication,Enduring,hard,0.536
+report accounts of the professional activity,Business & Professional communication,Enduring,hard,0.535
+show professional responsibility,Business & Professional communication,Enduring,hard,0.521
+communicate with stakeholders,Business & Professional communication,Enduring,hard,0.519
+perform business research,Business & Professional communication,Enduring,hard,0.517
+perform public relations,Business & Professional communication,Enduring,hard,0.505
+communicate in specialised nursing care,Business & Professional communication,Enduring,hard,0.498
+manage personal professional development,Business & Professional communication,Enduring,hard,0.498
+develop professional network with researchers and scientists,Business & Professional communication,Enduring,hard,0.494
+perform business analysis,Business & Professional communication,Enduring,hard,0.491
+electronic business,Business & Professional communication,Enduring,hard,0.489
+liaise with industry experts,Business & Professional communication,Enduring,hard,0.489
+draw up professional texts,Business & Professional communication,Enduring,hard,0.488
+management consulting,Business & Professional communication,Enduring,hard,0.488
+liaise with industrial professionals,Business & Professional communication,Enduring,hard,0.487
+communicate with banking professionals,Business & Professional communication,Enduring,hard,0.481
+build business relationships,Business & Professional communication,Enduring,hard,0.479
+demonstrate professional attitude to clients,Business & Professional communication,Enduring,hard,0.479
+advise on public relations,Business & Professional communication,Enduring,hard,0.474
+business law,Business & Professional communication,Enduring,hard,0.474
+plan presence at professional events,Business & Professional communication,Enduring,hard,0.474
+entertainment industry,Business & Professional communication,Enduring,hard,0.472
+maintain professional administration,Business & Professional communication,Enduring,hard,0.47
+maintain professional boundaries in social work,Business & Professional communication,Enduring,hard,0.464
+cooperate with education professionals,Business & Professional communication,Enduring,hard,0.457
+communicate production plan,Business & Professional communication,Enduring,hard,0.456
+develop public relations strategies,Business & Professional communication,Enduring,hard,0.453
+speak about your work in public,Business & Professional communication,Enduring,hard,0.453
+network within the writing industry,Business & Professional communication,Enduring,hard,0.451
+undertake continuous professional development in social work,Business & Professional communication,Enduring,hard,0.45
+business management principles,Business and management foundations,Enduring,hard,0.688
+teach business principles,Business and management foundations,Enduring,hard,0.576
+business strategy concepts,Business and management foundations,Enduring,hard,0.558
+management systems standards,Business and management foundations,Enduring,hard,0.557
+imprint visionary aspirations into the business management,Business and management foundations,Enduring,hard,0.556
+implement a management system,Business and management foundations,Enduring,hard,0.527
+develop management plans,Business and management foundations,Enduring,hard,0.511
+business analysis,Business and management foundations,Enduring,hard,0.503
+organisational policies,Business and management foundations,Enduring,hard,0.499
+analyse the context of an organisation,Business and management foundations,Enduring,hard,0.498
+implement strategic management,Business and management foundations,Enduring,hard,0.486
+financial management,Business and management foundations,Enduring,hard,0.481
+develop organisational policies,Business and management foundations,Enduring,hard,0.48
+align efforts towards business development,Business and management foundations,Enduring,hard,0.475
+manage a small-to-medium business,Business and management foundations,Enduring,hard,0.471
+supply chain principles,Business and management foundations,Enduring,hard,0.464
+identify with the company's goals,Business and management foundations,Enduring,hard,0.46
+agricultural business management,Business and management foundations,Enduring,hard,0.457
+assume responsibility for the management of a business,Business and management foundations,Enduring,hard,0.457
+report on overall management of a business,Business and management foundations,Enduring,hard,0.456
+develop business plans,Business and management foundations,Enduring,hard,0.455
+marketing principles,Business and management foundations,Enduring,hard,0.454
+make strategic business decisions,Business and management foundations,Enduring,hard,0.453
+adhere to organisational guidelines,Business and management foundations,Enduring,hard,0.451
+supplier management,Business and management foundations,Enduring,hard,0.45
+develop interregional collaboration strategies,Collaboration,Enduring,soft,0.679
+collaborate with designers,Collaboration,Enduring,soft,0.676
+use communication and collaboration software,Collaboration,Enduring,soft,0.66
+social alliances,Collaboration,Enduring,soft,0.633
+collaborate with engineers,Collaboration,Enduring,soft,0.632
+use online tools to collaborate,Collaboration,Enduring,soft,0.615
+create social alliances,Collaboration,Enduring,soft,0.612
+collaborate with stakeholders in leading community arts,Collaboration,Enduring,soft,0.609
+evaluate performance of organisational collaborators,Collaboration,Enduring,soft,0.606
+impart business plans to collaborators,Collaboration,Enduring,soft,0.603
+provide input to collaborators to guide their work,Collaboration,Enduring,soft,0.601
+cooperate with professionals,Collaboration,Enduring,soft,0.593
+collaborate with animal related professionals,Collaboration,Enduring,soft,0.584
+collaborate in company's daily operations,Collaboration,Enduring,soft,0.571
+collaborate with a technical staff in artistic productions,Collaboration,Enduring,soft,0.571
+collaborate with technical experts on artworks,Collaboration,Enduring,soft,0.537
+joint ventures,Collaboration,Enduring,soft,0.522
+develop a collaborative therapeutic relationship,Collaboration,Enduring,soft,0.518
+conflict management,Collaboration,Enduring,soft,0.505
+develop design ideas cooperatively,Collaboration,Enduring,soft,0.498
+liaise with colleagues,Collaboration,Enduring,soft,0.498
+plan workshop activity,Collaboration,Enduring,soft,0.488
+collaborate on international energy projects,Collaboration,Enduring,soft,0.486
+confer with library colleagues,Collaboration,Enduring,soft,0.485
+organise information,Collaboration,Enduring,soft,0.485
+conduct participatory research,Collaboration,Enduring,soft,0.483
+organise project meetings,Collaboration,Enduring,soft,0.481
+liaise with cultural partners,Collaboration,Enduring,soft,0.473
+build community relations,Collaboration,Enduring,soft,0.469
+resolve conflicts,Collaboration,Enduring,soft,0.456
+collaborate in the development of marketing strategies,Collaboration,Enduring,soft,0.454
+communication,Communications,Enduring,hard,0.874
+electronic communication,Communications,Enduring,hard,0.804
+develop communications strategies,Communications,Enduring,hard,0.779
+communication sciences,Communications,Enduring,hard,0.773
+communication studies,Communications,Enduring,hard,0.741
+communication principles,Communications,Enduring,hard,0.731
+use communication techniques,Communications,Enduring,hard,0.724
+use communication equipment,Communications,Enduring,hard,0.701
+communicate with media,Communications,Enduring,hard,0.7
+communications sector policies,Communications,Enduring,hard,0.696
+concepts of telecommunications,Communications,Enduring,hard,0.679
+analyse transmitted communications,Communications,Enduring,hard,0.649
+disseminate internal communications,Communications,Enduring,hard,0.649
+use different communication channels,Communications,Enduring,hard,0.649
+communicate by telephone,Communications,Enduring,hard,0.635
+conduct inter-shift communication,Communications,Enduring,hard,0.635
+ICT communications protocols,Communications,Enduring,hard,0.631
+telecommunications engineering,Communications,Enduring,hard,0.63
+relay messages through radio and telephone systems,Communications,Enduring,hard,0.629
+maintain operational communications,Communications,Enduring,hard,0.621
+advise on communication strategies,Communications,Enduring,hard,0.61
+communicate with construction crews,Communications,Enduring,hard,0.608
+manage online communications,Communications,Enduring,hard,0.606
+teach communication methods,Communications,Enduring,hard,0.605
+communication disorders,Communications,Enduring,hard,0.604
+telecommunication industry,Communications,Enduring,hard,0.597
+discern written communication,Communications,Enduring,hard,0.584
+communicate in air traffic services,Communications,Enduring,hard,0.582
+communicate in an outdoor setting,Communications,Enduring,hard,0.58
+promote communication between parties,Communications,Enduring,hard,0.577
+channel marketing,Communications,Enduring,hard,0.575
+broadcast equipment,Communications,Enduring,hard,0.574
+public relations,Communications,Enduring,hard,0.565
+teach communication to clients,Communications,Enduring,hard,0.562
+maintain internal communication systems,Communications,Enduring,hard,0.559
+communicate in healthcare,Communications,Enduring,hard,0.556
+apply technical communication skills,Communications,Enduring,hard,0.551
+monitor communication channels' performance,Communications,Enduring,hard,0.55
+communicate clearly with passengers,Communications,Enduring,hard,0.543
+manage visual communications,Communications,Enduring,hard,0.539
+communication related to hearing impairment,Communications,Enduring,hard,0.537
+develop communication networks with shipping sites,Communications,Enduring,hard,0.536
+simplify communication in maritime management,Communications,Enduring,hard,0.533
+transmission technology,Communications,Enduring,hard,0.531
+broadcast using Internet Protocol,Communications,Enduring,hard,0.529
+adapt communication style according to recipient,Communications,Enduring,hard,0.527
+network marketing,Communications,Enduring,hard,0.527
+communicate with customers,Communications,Enduring,hard,0.523
+disseminate messages to people,Communications,Enduring,hard,0.521
+interfere with enemy communications,Communications,Enduring,hard,0.52
+develop inclusive communication material,Communications,Enduring,hard,0.517
+communicate technicalities with clients,Communications,Enduring,hard,0.511
+counsel on communication disorders,Communications,Enduring,hard,0.511
+sell telecommunication products,Communications,Enduring,hard,0.51
+communicate during show,Communications,Enduring,hard,0.504
+electronic and telecommunication equipment,Communications,Enduring,hard,0.501
+operate broadcast equipment,Communications,Enduring,hard,0.501
+communicate regulations,Communications,Enduring,hard,0.488
+manage communications with food industry governmental bodies,Communications,Enduring,hard,0.488
+establish communication with foreign cultures,Communications,Enduring,hard,0.487
+communicate mathematical information,Communications,Enduring,hard,0.483
+operate an emergency communication system,Communications,Enduring,hard,0.483
+prepare broadcasts,Communications,Enduring,hard,0.479
+establish relationship with the media,Communications,Enduring,hard,0.47
+telecom regulations,Communications,Enduring,hard,0.468
+network standards,Communications,Enduring,hard,0.463
+ICT infrastructure,Communications,Enduring,hard,0.462
+body language,Communications,Enduring,hard,0.46
+present during live broadcasts,Communications,Enduring,hard,0.456
+journalism,Communications,Enduring,hard,0.455
+assess telecommunication infrastructure issues,Communications,Enduring,hard,0.454
+electronic signals intelligence,Communications,Enduring,hard,0.454
+think creatively,Creative Thinking and Curiosity,Enduring,soft,0.723
+demonstrate curiosity,Creative Thinking and Curiosity,Enduring,soft,0.689
+design thinking,Creative Thinking and Curiosity,Enduring,soft,0.612
+think creatively about food and beverages,Creative Thinking and Curiosity,Enduring,soft,0.597
+think innovatively,Creative Thinking and Curiosity,Enduring,soft,0.595
+think creatively about jewellery,Creative Thinking and Curiosity,Enduring,soft,0.538
+brainstorm ideas,Creative Thinking and Curiosity,Enduring,soft,0.526
+cognitive psychology,Creative Thinking and Curiosity,Enduring,soft,0.505
+stimulate creative processes,Creativity,Enduring,soft,0.775
+develop creative ideas,Creativity,Enduring,soft,0.743
+stimulate creativity in the team,Creativity,Enduring,soft,0.674
+use pedagogic strategies for creativity,Creativity,Enduring,soft,0.662
+express yourself creatively,Creativity,Enduring,soft,0.659
+assess each stage of the creative process,Creativity,Enduring,soft,0.657
+adapt to artists' creative demands,Creativity,Enduring,soft,0.637
+participate as a performer in the creative process,Creativity,Enduring,soft,0.635
+organise creative performance,Creativity,Enduring,soft,0.634
+aesthetics,Creativity,Enduring,soft,0.591
+creatively use digital technologies,Creativity,Enduring,soft,0.574
+contribute to an artistic approach,Creativity,Enduring,soft,0.567
+represent artistic production,Creativity,Enduring,soft,0.553
+stimulate performers' imagination,Creativity,Enduring,soft,0.548
+concretise artistic concept,Creativity,Enduring,soft,0.542
+draw up artistic production,Creativity,Enduring,soft,0.53
+interpret artistic intentions,Creativity,Enduring,soft,0.53
+work with an artistic team,Creativity,Enduring,soft,0.53
+consult team on creative project,Creativity,Enduring,soft,0.525
+develop artistic educational activities,Creativity,Enduring,soft,0.515
+direct an artistic team,Creativity,Enduring,soft,0.514
+bring out performers’ artistic potential,Creativity,Enduring,soft,0.512
+take artistic vision into account,Creativity,Enduring,soft,0.507
+propose projects to artist,Creativity,Enduring,soft,0.504
+define artistic vision,Creativity,Enduring,soft,0.49
+engage artistic staff,Creativity,Enduring,soft,0.486
+manage creative department,Creativity,Enduring,soft,0.485
+develop original melodies,Creativity,Enduring,soft,0.484
+entertain people,Creativity,Enduring,soft,0.479
+create sketches,Creativity,Enduring,soft,0.478
+make artistic food creations,Creativity,Enduring,soft,0.476
+participate in artistic mediation activities,Creativity,Enduring,soft,0.476
+appreciate diverse cultural and artistic expression,Creativity,Enduring,soft,0.475
+articulate artistic proposal,Creativity,Enduring,soft,0.472
+Solidity,Creativity,Enduring,soft,0.47
+identify artistic niche,Creativity,Enduring,soft,0.47
+improvise,Creativity,Enduring,soft,0.469
+draw up artistic programming policy,Creativity,Enduring,soft,0.468
+manage artistic career,Creativity,Enduring,soft,0.467
+plan choreographic improvisation,Creativity,Enduring,soft,0.465
+cultural projects,Creativity,Enduring,soft,0.464
+crafting,Creativity,Enduring,soft,0.463
+develop artistic coaching programme,Creativity,Enduring,soft,0.462
+present artistic design proposals,Creativity,Enduring,soft,0.459
+satisfy aesthetic requirements,Creativity,Enduring,soft,0.455
+identify talent,Creativity,Enduring,soft,0.454
+promote ideas,Creativity,Enduring,soft,0.453
+think critically,Critical thinking,Enduring,soft,0.745
+make time-critical decisions,Critical thinking,Enduring,soft,0.528
+think proactively,Critical thinking,Enduring,soft,0.517
+think quickly,Critical thinking,Enduring,soft,0.475
+critique other writers,Criticism,Enduring,soft,0.622
+accept criticism and guidance,Criticism,Enduring,soft,0.593
+book reviews,Criticism,Enduring,soft,0.493
+give constructive feedback,Criticism,Enduring,soft,0.458
+rhetoric,Criticism,Enduring,soft,0.45
+compose digital game story,Data communication and storytelling,Enduring,hard,0.567
+deliver visual presentation of data,Data communication and storytelling,Enduring,hard,0.507
+digital journalism,Data communication and storytelling,Enduring,hard,0.499
+write storylines,Data communication and storytelling,Enduring,hard,0.461
+summarise stories,Data communication and storytelling,Enduring,hard,0.458
+make data-driven decisions,Data- and Evidence-Based Decision-Making,Enduring,hard,0.709
+evidence-based approach in general practice,Data- and Evidence-Based Decision-Making,Enduring,hard,0.607
+decision support systems,Data- and Evidence-Based Decision-Making,Enduring,hard,0.513
+clinical decision-making at advanced practice,Data- and Evidence-Based Decision-Making,Enduring,hard,0.503
+evidence-based nursing care,Data- and Evidence-Based Decision-Making,Enduring,hard,0.503
+perform data analysis,Data- and Evidence-Based Decision-Making,Enduring,hard,0.488
+analyse legal evidence,Data- and Evidence-Based Decision-Making,Enduring,hard,0.484
+present evidence,Data- and Evidence-Based Decision-Making,Enduring,hard,0.48
+document evidence,Data- and Evidence-Based Decision-Making,Enduring,hard,0.474
+formulate findings,Data- and Evidence-Based Decision-Making,Enduring,hard,0.453
+assess reliability of data,Data- and Evidence-Based Decision-Making,Enduring,hard,0.452
+have emotional intelligence,Emotional and interpersonal intelligence,Enduring,soft,0.819
+relate empathetically,Emotional and interpersonal intelligence,Enduring,soft,0.514
+assess others feelings,Emotional and interpersonal intelligence,Enduring,soft,0.494
+psychosociology,Emotional and interpersonal intelligence,Enduring,soft,0.477
+entrepreneurship,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,0.606
+show entrepreneurial spirit,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,0.572
+innovation processes,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,0.547
+seek innovation in current practices,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,0.489
+social entrepreneurship,Entrepreneurial and Innovation-Oriented Thinking,Enduring,soft,0.476
+ethics,Ethical decision-making,Enduring,soft,0.722
+make decisions,Ethical decision-making,Enduring,soft,0.69
+abide by business ethical code of conducts,Ethical decision-making,Enduring,soft,0.585
+adhere to organisational code of ethics,Ethical decision-making,Enduring,soft,0.569
+follow code of ethics for biomedical practices,Ethical decision-making,Enduring,soft,0.566
+manage ethics issues in the food industry,Ethical decision-making,Enduring,soft,0.566
+participatory decision-making,Ethical decision-making,Enduring,soft,0.562
+data ethics,Ethical decision-making,Enduring,soft,0.555
+manage ethical issues within social services,Ethical decision-making,Enduring,soft,0.553
+follow ethical code of conduct in assessment situations,Ethical decision-making,Enduring,soft,0.551
+implement scientific decision making in healthcare,Ethical decision-making,Enduring,soft,0.537
+manage ethical dilemmas in genetic testing,Ethical decision-making,Enduring,soft,0.532
+make clinical decisions,Ethical decision-making,Enduring,soft,0.531
+advise on legal decisions,Ethical decision-making,Enduring,soft,0.527
+consider economic criteria in decision making,Ethical decision-making,Enduring,soft,0.524
+ethical code of conduct of journalists,Ethical decision-making,Enduring,soft,0.516
+apply research ethics and scientific integrity principles in research activities,Ethical decision-making,Enduring,soft,0.514
+treat animals ethically,Ethical decision-making,Enduring,soft,0.511
+sports ethics,Ethical decision-making,Enduring,soft,0.509
+food ethics,Ethical decision-making,Enduring,soft,0.493
+bioethics,Ethical decision-making,Enduring,soft,0.488
+morality,Ethical decision-making,Enduring,soft,0.488
+promote ethical eating,Ethical decision-making,Enduring,soft,0.481
+build scaffolding,Foundations,Enduring,hard,0.491
+plan scaffolding,Foundations,Enduring,hard,0.49
+building construction principles,Foundations,Enduring,hard,0.489
+leadership principles,Leadership and social influence,Enduring,soft,0.638
+demonstrate leadership in social service cases,Leadership and social influence,Enduring,soft,0.625
+lead others,Leadership and social influence,Enduring,soft,0.591
+adapt leadership styles in healthcare,Leadership and social influence,Enduring,soft,0.546
+leadership in nursing,Leadership and social influence,Enduring,soft,0.531
+social mediation,Leadership and social influence,Enduring,soft,0.521
+influence public policies,Leadership and social influence,Enduring,soft,0.499
+lead managers of company departments,Leadership and social influence,Enduring,soft,0.49
+social innovation,Leadership and social influence,Enduring,soft,0.486
+self-promote,Leadership and social influence,Enduring,soft,0.484
+mentor individuals,Leadership and social influence,Enduring,soft,0.474
+promote social change,Leadership and social influence,Enduring,soft,0.473
+empower individuals,Leadership and social influence,Enduring,soft,0.466
+social entreprise,Leadership and social influence,Enduring,soft,0.463
+social development,Leadership and social influence,Enduring,soft,0.455
+use learning strategies,Learning,Enduring,soft,0.657
+learning technologies,Learning,Enduring,soft,0.655
+machine learning,Learning,Enduring,soft,0.631
+e-learning,Learning,Enduring,soft,0.612
+learning difficulties,Learning,Enduring,soft,0.612
+assess prior learning,Learning,Enduring,soft,0.61
+deep learning,Learning,Enduring,soft,0.602
+provide learning support,Learning,Enduring,soft,0.593
+advise on learning methods,Learning,Enduring,soft,0.59
+organisational learning,Learning,Enduring,soft,0.59
+integrate principles of training,Learning,Enduring,soft,0.568
+instructional strategies,Learning,Enduring,soft,0.543
+utilise machine learning,Learning,Enduring,soft,0.536
+develop learning curriculum,Learning,Enduring,soft,0.535
+evaluate training,Learning,Enduring,soft,0.533
+Computer Assisted Language Learning,Learning,Enduring,soft,0.531
+prepare the assessment of prior learning,Learning,Enduring,soft,0.529
+deliberate prior learning assessment results,Learning,Enduring,soft,0.499
+construct individual learning plans,Learning,Enduring,soft,0.498
+personal development,Learning,Enduring,soft,0.49
+read books,Learning,Enduring,soft,0.489
+computer science,Learning,Enduring,soft,0.486
+image recognition,Learning,Enduring,soft,0.485
+learning management systems,Learning,Enduring,soft,0.485
+provide training on e-learning,Learning,Enduring,soft,0.483
+organise training,Learning,Enduring,soft,0.476
+mathematics,Learning,Enduring,soft,0.471
+provide learning support in healthcare,Learning,Enduring,soft,0.466
+develop training programmes,Learning,Enduring,soft,0.463
+provide technical training,Learning,Enduring,soft,0.46
+data mining,Learning,Enduring,soft,0.459
+ensure client orientation,Learning orientation,Enduring,soft,0.464
+Process-based management,Methodical Process and Technology Management,Enduring,hard,0.672
+manufacturing processes,Methodical Process and Technology Management,Enduring,hard,0.616
+engineering processes,Methodical Process and Technology Management,Enduring,hard,0.593
+management department processes,Methodical Process and Technology Management,Enduring,hard,0.593
+business processes,Methodical Process and Technology Management,Enduring,hard,0.571
+design process,Methodical Process and Technology Management,Enduring,hard,0.568
+plan manufacturing processes,Methodical Process and Technology Management,Enduring,hard,0.56
+manage production systems,Methodical Process and Technology Management,Enduring,hard,0.553
+ICT problem management techniques,Methodical Process and Technology Management,Enduring,hard,0.551
+ICT project management methodologies,Methodical Process and Technology Management,Enduring,hard,0.547
+manage all process engineering activities,Methodical Process and Technology Management,Enduring,hard,0.547
+production processes,Methodical Process and Technology Management,Enduring,hard,0.545
+software design methodologies,Methodical Process and Technology Management,Enduring,hard,0.542
+design management,Methodical Process and Technology Management,Enduring,hard,0.541
+computer technology,Methodical Process and Technology Management,Enduring,hard,0.539
+define technology strategy,Methodical Process and Technology Management,Enduring,hard,0.539
+keep up with digital transformation of industrial processes,Methodical Process and Technology Management,Enduring,hard,0.534
+ICT process quality models,Methodical Process and Technology Management,Enduring,hard,0.528
+application process,Methodical Process and Technology Management,Enduring,hard,0.528
+manage manufacturing facilities,Methodical Process and Technology Management,Enduring,hard,0.526
+participate in technical aspects of the production,Methodical Process and Technology Management,Enduring,hard,0.524
+operations management,Methodical Process and Technology Management,Enduring,hard,0.523
+manage ICT project,Methodical Process and Technology Management,Enduring,hard,0.521
+perform process control in the wearing apparel industry,Methodical Process and Technology Management,Enduring,hard,0.517
+lead technology development of an organisation,Methodical Process and Technology Management,Enduring,hard,0.508
+operations department processes,Methodical Process and Technology Management,Enduring,hard,0.508
+develop waste management processes,Methodical Process and Technology Management,Enduring,hard,0.503
+technology and engineering,Methodical Process and Technology Management,Enduring,hard,0.503
+perform procurement processes,Methodical Process and Technology Management,Enduring,hard,0.499
+ICT project management,Methodical Process and Technology Management,Enduring,hard,0.498
+business process modelling,Methodical Process and Technology Management,Enduring,hard,0.498
+production engineering,Methodical Process and Technology Management,Enduring,hard,0.494
+satisfy technical requirements,Methodical Process and Technology Management,Enduring,hard,0.494
+ICT sales methodologies,Methodical Process and Technology Management,Enduring,hard,0.492
+apply organisational techniques,Methodical Process and Technology Management,Enduring,hard,0.492
+improve business processes,Methodical Process and Technology Management,Enduring,hard,0.492
+content development processes,Methodical Process and Technology Management,Enduring,hard,0.491
+manage factory operations,Methodical Process and Technology Management,Enduring,hard,0.491
+analyse production processes for improvement,Methodical Process and Technology Management,Enduring,hard,0.485
+apply advanced manufacturing,Methodical Process and Technology Management,Enduring,hard,0.473
+manage claims process,Methodical Process and Technology Management,Enduring,hard,0.47
+manage engineering project,Methodical Process and Technology Management,Enduring,hard,0.47
+personnel management,Methodical Process and Technology Management,Enduring,hard,0.47
+sales department processes,Methodical Process and Technology Management,Enduring,hard,0.47
+perform product planning,Methodical Process and Technology Management,Enduring,hard,0.469
+produce materials for decision making,Methodical Process and Technology Management,Enduring,hard,0.469
+perform project management,Methodical Process and Technology Management,Enduring,hard,0.467
+evaluate pharmaceutical manufacturing process,Methodical Process and Technology Management,Enduring,hard,0.466
+marketing department processes,Methodical Process and Technology Management,Enduring,hard,0.465
+good manufacturing practices,Methodical Process and Technology Management,Enduring,hard,0.464
+provide training on technological business developments,Methodical Process and Technology Management,Enduring,hard,0.464
+control production,Methodical Process and Technology Management,Enduring,hard,0.461
+identify processes for re-engineering,Methodical Process and Technology Management,Enduring,hard,0.459
+manage technical aspects of vineyard production,Methodical Process and Technology Management,Enduring,hard,0.459
+apply risk management processes,Methodical Process and Technology Management,Enduring,hard,0.458
+manage manufacturing documentation,Methodical Process and Technology Management,Enduring,hard,0.458
+administer ICT system,Methodical Process and Technology Management,Enduring,hard,0.457
+manage changes in ICT system,Methodical Process and Technology Management,Enduring,hard,0.457
+control objectives for information and related technology,Methodical Process and Technology Management,Enduring,hard,0.456
+human resources department processes,Methodical Process and Technology Management,Enduring,hard,0.456
+accounting department processes,Methodical Process and Technology Management,Enduring,hard,0.454
+coordinate technological activities,Methodical Process and Technology Management,Enduring,hard,0.453
+industrial design,Methodical Process and Technology Management,Enduring,hard,0.452
+packaging processes,Methodical Process and Technology Management,Enduring,hard,0.452
+use methodologies for user-centered design,Methodical Process and Technology Management,Enduring,hard,0.451
+quantitative analysis,"Quantitative, data, and analytical foundations",Enduring,hard,0.651
+conduct quantitative research,"Quantitative, data, and analytical foundations",Enduring,hard,0.483
+study the relationships between quantities,"Quantitative, data, and analytical foundations",Enduring,hard,0.463
+exercise self-reflection,Self-reflection,Enduring,soft,0.715
+personal reflection techniques based on feedback,Self-reflection,Enduring,soft,0.643
+contribute to the programmer's reflection process,Self-reflection,Enduring,soft,0.471
+optics,Self-reflection,Enduring,soft,0.451
+manage teamwork,Teamwork and cooperation,Enduring,soft,0.792
+teamwork principles,Teamwork and cooperation,Enduring,soft,0.762
+facilitate teamwork between students,Teamwork and cooperation,Enduring,soft,0.756
+cooperate with colleagues,Teamwork and cooperation,Enduring,soft,0.725
+team building,Teamwork and cooperation,Enduring,soft,0.716
+create cooperation modalities,Teamwork and cooperation,Enduring,soft,0.67
+collaborate with coaching team,Teamwork and cooperation,Enduring,soft,0.65
+encourage teambuilding,Teamwork and cooperation,Enduring,soft,0.648
+work in teams,Teamwork and cooperation,Enduring,soft,0.633
+coordinate communication within a team,Teamwork and cooperation,Enduring,soft,0.63
+manage a team,Teamwork and cooperation,Enduring,soft,0.626
+assemble an artistic team,Teamwork and cooperation,Enduring,soft,0.577
+lead a team,Teamwork and cooperation,Enduring,soft,0.575
+coordinate engineering teams,Teamwork and cooperation,Enduring,soft,0.516
+work in assembly line teams,Teamwork and cooperation,Enduring,soft,0.508
+develop international cooperation strategies,Teamwork and cooperation,Enduring,soft,0.505
+ensure cross-department cooperation,Teamwork and cooperation,Enduring,soft,0.497
+coordinate technical teams in artistic productions,Teamwork and cooperation,Enduring,soft,0.492
+work in multidisciplinary health teams,Teamwork and cooperation,Enduring,soft,0.489
+organise information on availability of the team,Teamwork and cooperation,Enduring,soft,0.481
+lead a team in hospitality service,Teamwork and cooperation,Enduring,soft,0.479
+work in metal manufacture teams,Teamwork and cooperation,Enduring,soft,0.479
+lead a team in water management,Teamwork and cooperation,Enduring,soft,0.476
+build team spirit,Teamwork and cooperation,Enduring,soft,0.473
+work in a construction team,Teamwork and cooperation,Enduring,soft,0.473
+set up effective working relationships with other sports players,Teamwork and cooperation,Enduring,soft,0.47
+work with a dance team,Teamwork and cooperation,Enduring,soft,0.468
+manage a multidisciplinary team involved in patient care,Teamwork and cooperation,Enduring,soft,0.467
+shape organisational teams based on competencies,Teamwork and cooperation,Enduring,soft,0.46
+work in a hospitality team,Teamwork and cooperation,Enduring,soft,0.46
+supervise speech and language team,Teamwork and cooperation,Enduring,soft,0.454
+work in fitness teams,Teamwork and cooperation,Enduring,soft,0.454
