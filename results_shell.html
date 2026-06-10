@@ -190,6 +190,26 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 </head>
 <body>
 
+<div id="auth-gate" style="position:fixed;inset:0;background:#0f1117;z-index:9999;display:flex;align-items:center;justify-content:center">
+  <div style="text-align:center">
+    <h2 style="color:#fff;font-size:1.3rem;margin-bottom:1rem">Skill Matrix Dashboard</h2>
+    <input id="auth-pw" type="password" placeholder="Password" style="padding:0.5rem 1rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#e0e0e0;font-size:0.9rem;outline:none;width:220px">
+    <br>
+    <button onclick="checkAuth()" style="margin-top:0.7rem;padding:0.45rem 1.5rem;border:1px solid #2563eb;border-radius:6px;background:#2563eb;color:#fff;cursor:pointer;font-size:0.85rem">Enter</button>
+    <div id="auth-err" style="color:#f87171;font-size:0.78rem;margin-top:0.5rem;visibility:hidden">Incorrect password</div>
+  </div>
+</div>
+<script>
+function checkAuth(){
+  if(document.getElementById("auth-pw").value==="leonid"){
+    document.getElementById("auth-gate").style.display="none";
+  } else {
+    document.getElementById("auth-err").style.visibility="visible";
+  }
+}
+document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.key==="Enter")checkAuth();});
+</script>
+
 <h1>Skill Matrix Dashboard: 2023 vs 2026</h1>
 <p class="subtitle">Node penetration in job postings (% of jobs with at least one mapped skill). Green = increased, Red = decreased.</p>
 

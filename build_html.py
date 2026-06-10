@@ -39,12 +39,12 @@ def build():
     html = html.replace("%ONET_JOB_COUNTS%", load_json("onet_job_counts.json"))
     html = html.replace("%OCC_TITLES%", load_json("occupation_titles.json"))
 
-    out_path = os.path.join(OUT_DIR, "results.html")
+    out_path = os.path.join(OUT_DIR, "index.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
 
     size_kb = os.path.getsize(out_path) / 1024
-    print(f"Done — results.html ({size_kb:.0f} KB)")
+    print(f"Done — index.html ({size_kb:.0f} KB)")
 
 
 if __name__ == "__main__":
