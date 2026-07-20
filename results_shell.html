@@ -549,6 +549,13 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
       <input type="checkbox" id="mech-skill-floor" checked> &ge;5% either year
     </label>
     <label class="mech-slider-wrap" style="gap:0.4rem">
+      <span>Y-axis</span>
+      <select id="mech-y-metric" class="mech-sort-select" title="Absolute change in percentage points, or relative fold 2026&divide;2023">
+        <option value="pp" selected>&Delta;pp (absolute)</option>
+        <option value="fold">Relative (2026&divide;2023)</option>
+      </select>
+    </label>
+    <label class="mech-slider-wrap" style="gap:0.4rem">
       <span>Sort cards</span>
       <select id="mech-card-sort" class="mech-sort-select">
         <option value="p26" selected>2026 penetration</option>
@@ -563,7 +570,8 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div class="mech-scatter-wrap" id="mech-scatter"></div>
   <div class="mech-cards" id="mech-cards"></div>
   <div class="mech-caption">
-    Bubble size &prop; 2026 penetration. Use &ge;5% either year for skills, matrix nodes, and ESCO aggregates.
+    Bubble size &prop; 2026 penetration. Switch Y-axis between &Delta;pp and relative fold (2026&divide;2023, log scale).
+    Use &ge;5% either year for skills, matrix nodes, and ESCO aggregates.
     Matrix leaves / parents = AI Skill Matrix curriculum nodes (parents = union of children).
     ESCO levels = OR-penetration aggregates with mean member exposure (group/pillar/domain build filters).
     Tune exposure threshold here; it also drives Portfolio / Teaching / What to learn.
@@ -809,6 +817,6 @@ const OCC_TITLES = %OCC_TITLES%;
 <script src="esco_domains.js"></script>
 <script src="salary_proxy_skills.js"></script>
 <script src="skill_deltas.js"></script>
-<script src="dashboard_app.js?v=matrixlevels1"></script>
+<script src="dashboard_app.js?v=mechyfold1"></script>
 </body>
 </html>

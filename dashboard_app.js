@@ -1083,6 +1083,21 @@ let mechExposureThreshold = 0.5;
 let mechShowLabels = true;
 /** Card list sort: "p26" | "abs_change" | "change" | "exposure" | "name" */
 let mechCardSort = "p26";
+/** Y-axis / card trend metric: "pp" (Δpp) or "fold" (2026÷2023 relative). */
+let mechYMetric = "pp";
+
+function mechEntryFold(e) {
+  if (e.fold != null) return e.fold;
+  return escoFold(e.p23, e.p26);
+}
+
+function mechYValue(e) {
+  return mechYMetric === "fold" ? mechEntryFold(e) : e.change;
+}
+
+function fmtMechY(e) {
+  return mechYMetric === "fold" ? fmtFold(mechEntryFold(e)) : fmtChg(e.change);
+}
 
 function sortMechCardList(list, quadrant) {
   return list.slice().sort(function(a, b) {
@@ -1093,16 +1108,26 @@ function sortMechCardList(list, quadrant) {
       return b.exposure - a.exposure || b.p26 - a.p26;
     }
     if (mechCardSort === "abs_change") {
+      if (mechYMetric === "fold") {
+        return Math.abs(Math.log2(mechEntryFold(b))) - Math.abs(Math.log2(mechEntryFold(a))) || b.p26 - a.p26;
+      }
       return Math.abs(b.change) - Math.abs(a.change) || b.p26 - a.p26;
     }
     if (mechCardSort === "change") {
-      // Rising quads: strongest gains first; falling quads: strongest drops first
+      if (mechYMetric === "fold") {
+        if (quadrant === "displace" || quadrant === "shift") {
+          return mechEntryFold(a) - mechEntryFold(b) || b.p26 - a.p26;
+        }
+        return mechEntryFold(b) - mechEntryFold(a) || b.p26 - a.p26;
+      }
       if (quadrant === "displace" || quadrant === "shift") {
         return a.change - b.change || b.p26 - a.p26;
       }
       return b.change - a.change || b.p26 - a.p26;
     }
-    // default: 2026 penetration
+    if (mechYMetric === "fold") {
+      return b.p26 - a.p26 || Math.abs(Math.log2(mechEntryFold(b))) - Math.abs(Math.log2(mechEntryFold(a)));
+    }
     return b.p26 - a.p26 || Math.abs(b.change) - Math.abs(a.change);
   });
 }
@@ -1176,6 +1201,7 @@ function getMechEntries(occ) {
       p23: r.pct_2023,
       p26: r.pct_2026,
       change: r.delta_pp,
+      fold: escoFold(r.pct_2023, r.pct_2026),
       exposure: r.exposure
     };
   });
@@ -1210,7 +1236,8 @@ function getMatrixMechEntries(occ) {
       if (exp == null) return;
       out.push({
         node: e.node, category: e.category, type: t,
-        p23: e.p23, p26: e.p26, change: e.change, exposure: exp
+        p23: e.p23, p26: e.p26, change: e.change,
+        fold: escoFold(e.p23, e.p26), exposure: exp
       });
     });
   });
@@ -1242,6 +1269,7 @@ function getMatrixParentMechEntries(occ) {
       p23: p23,
       p26: p26,
       change: p26 - p23,
+      fold: escoFold(p23, p26),
       exposure: exp
     };
   }).filter(Boolean);
@@ -1252,15 +1280,46 @@ function renderMechScatter(entries) {
   var wrap = document.getElementById("mech-scatter");
   var W = 920, H = 540, m = { l: 66, r: 24, t: 34, b: 58 };
   var pw = W - m.l - m.r, ph = H - m.t - m.b, thr = mechExposureThreshold;
-  var maxAbs = 0.0001;
-  entries.forEach(function(e) { maxAbs = Math.max(maxAbs, Math.abs(e.change)); });
-  var dMax = maxAbs * 1.12, dMin = -maxAbs * 1.12;
+  var useFold = mechYMetric === "fold";
+
   function X(exp) { return m.l + exp * pw; }
-  function Y(c) { return m.t + (dMax - c) / (dMax - dMin) * ph; }
+  var Y, yZero, yTicks, yAxisLabel;
+  if (useFold) {
+    var fMin = 8, fMax = 0.125;
+    entries.forEach(function(e) {
+      var f = mechEntryFold(e);
+      fMin = Math.min(fMin, f);
+      fMax = Math.max(fMax, f);
+    });
+    var logLo = Math.log2(Math.max(0.15, fMin * 0.85));
+    var logHi = Math.log2(Math.min(8, fMax * 1.15));
+    if (logHi - logLo < 1.2) { logLo -= 0.6; logHi += 0.6; }
+    logLo = Math.min(logLo, -0.15);
+    logHi = Math.max(logHi, 0.15);
+    Y = function(fold) {
+      var lg = Math.log2(Math.max(0.125, Math.min(8, fold)));
+      return m.t + (logHi - lg) / (logHi - logLo) * ph;
+    };
+    yZero = Y(1);
+    yTicks = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4, 6, 8].filter(function(f) {
+      var lg = Math.log2(f);
+      return lg >= logLo - 0.01 && lg <= logHi + 0.01;
+    });
+    yAxisLabel = "2026 compared to 2023 (fold \u00d7)";
+  } else {
+    var maxAbs = 0.0001;
+    entries.forEach(function(e) { maxAbs = Math.max(maxAbs, Math.abs(e.change)); });
+    var dMax = maxAbs * 1.12, dMin = -maxAbs * 1.12;
+    Y = function(c) { return m.t + (dMax - c) / (dMax - dMin) * ph; };
+    yZero = Y(0);
+    yTicks = [dMax, dMax / 2, 0, dMin / 2, dMin];
+    yAxisLabel = "Change in penetration 2023\u21922026 (pp)";
+  }
+
   var maxP = 1;
   entries.forEach(function(e) { maxP = Math.max(maxP, e.p26); });
   function R(p) { return 4 + Math.sqrt(p / maxP) * 13; }
-  var xThr = X(thr), yZero = Y(0);
+  var xThr = X(thr);
   var s = "";
   s += "<rect x='" + m.l + "' y='" + m.t + "' width='" + (xThr - m.l) + "' height='" + (yZero - m.t) + "' fill='#4ade80' opacity='0.05'/>";
   s += "<rect x='" + xThr + "' y='" + m.t + "' width='" + (m.l + pw - xThr) + "' height='" + (yZero - m.t) + "' fill='#f59e0b' opacity='0.06'/>";
@@ -1276,21 +1335,28 @@ function renderMechScatter(entries) {
   [0, 0.25, 0.5, 0.75, 1].forEach(function(t) {
     s += "<text class='mech-axis-label' x='" + X(t) + "' y='" + (m.t + ph + 18) + "' text-anchor='middle'>" + t.toFixed(2) + "</text>";
   });
-  [dMax, dMax / 2, 0, dMin / 2, dMin].forEach(function(v) {
-    s += "<text class='mech-axis-label' x='" + (m.l - 8) + "' y='" + (Y(v) + 3) + "' text-anchor='end'>" + (v > 0 ? "+" : "") + v.toFixed(1) + "</text>";
+  yTicks.forEach(function(v) {
+    if (useFold) {
+      var lab = v === 1 ? "1\u00d7" : (v + "\u00d7");
+      s += "<text class='mech-axis-label' x='" + (m.l - 8) + "' y='" + (Y(v) + 3) + "' text-anchor='end'>" + lab + "</text>";
+    } else {
+      s += "<text class='mech-axis-label' x='" + (m.l - 8) + "' y='" + (Y(v) + 3) + "' text-anchor='end'>" + (v > 0 ? "+" : "") + v.toFixed(1) + "</text>";
+    }
   });
   s += "<text class='mech-axis-label' x='" + (m.l + pw / 2) + "' y='" + (H - 6) + "' text-anchor='middle' style='font-size:12px'>AI exposure (automatability) \u2192</text>";
-  s += "<text class='mech-axis-label' transform='translate(16," + (m.t + ph / 2) + ") rotate(-90)' text-anchor='middle' style='font-size:12px'>Change in penetration 2023\u21922026 (pp)</text>";
+  s += "<text class='mech-axis-label' transform='translate(16," + (m.t + ph / 2) + ") rotate(-90)' text-anchor='middle' style='font-size:12px'>" + yAxisLabel + "</text>";
   entries.forEach(function(e, i) {
     var color = MECH_META[mechQuadrant(e.exposure, e.change, thr)].color;
-    s += "<circle class='mech-dot' data-i='" + i + "' cx='" + X(e.exposure) + "' cy='" + Y(e.change) + "' r='" + R(e.p26) + "' fill='" + color + "' opacity='0.72' stroke='" + color + "' stroke-width='1'/>";
+    var cy = Y(mechYValue(e));
+    s += "<circle class='mech-dot' data-i='" + i + "' cx='" + X(e.exposure) + "' cy='" + cy + "' r='" + R(e.p26) + "' fill='" + color + "' opacity='0.72' stroke='" + color + "' stroke-width='1'/>";
   });
   if (mechShowLabels) {
     var labeled = entries.slice().sort(function(a, b) {
+      if (useFold) return Math.abs(Math.log2(mechEntryFold(b))) - Math.abs(Math.log2(mechEntryFold(a)));
       return Math.abs(b.change) - Math.abs(a.change);
     }).slice(0, 18);
     labeled.forEach(function(e) {
-      var cx = X(e.exposure), cy = Y(e.change), r = R(e.p26);
+      var cx = X(e.exposure), cy = Y(mechYValue(e)), r = R(e.p26);
       var name = e.node.length > 26 ? e.node.slice(0, 25) + "\u2026" : e.node;
       var anchor, tx;
       if ((m.l + pw) - cx < 135) { anchor = "end"; tx = cx - r - 4; }
@@ -1311,7 +1377,7 @@ function renderMechScatter(entries) {
         "<div class='tt-row'><span>Mechanism</span><span>" + MECH_META[mechQuadrant(e.exposure, e.change, thr)].title + "</span></div>" +
         "<div class='tt-row'><span>AI exposure</span><span>" + e.exposure.toFixed(2) + "</span></div>" +
         "<div class='tt-row'><span>2023 \u2192 2026</span><span>" + e.p23.toFixed(1) + "% \u2192 " + e.p26.toFixed(1) + "%</span></div>" +
-        "<div class='tt-row'><span>Change</span><span>" + fmtChg(e.change) + "</span></div>";
+        "<div class='tt-row'><span>" + (useFold ? "Relative" : "Change") + "</span><span>" + fmtMechY(e) + (useFold ? " (" + fmtChg(e.change) + ")" : "") + "</span></div>";
     });
     el.addEventListener("mouseleave", function() { tip.style.display = "none"; });
   });
@@ -1331,7 +1397,7 @@ function renderMechCards(entries) {
       return "<div class='mech-node-row'>" +
         "<span class='mech-node-name' title='" + escapeHtml(e.node) + "'>" + escapeHtml(e.node) + "</span>" +
         "<span class='mech-node-exp'>" + e.exposure.toFixed(2) + "</span>" +
-        "<span class='mech-node-chg " + cls + "'>" + fmtChg(e.change) + "</span></div>";
+        "<span class='mech-node-chg " + cls + "'>" + fmtMechY(e) + "</span></div>";
     }).join("") : "<div class='mech-card-empty'>No nodes in this quadrant.</div>";
     var card = document.createElement("div");
     card.className = "mech-card";
@@ -2626,6 +2692,14 @@ if (mechCardSortEl) {
   mechCardSortEl.value = mechCardSort;
   mechCardSortEl.addEventListener("change", function() {
     mechCardSort = this.value || "p26";
+    renderMechanisms();
+  });
+}
+const mechYMetricEl = document.getElementById("mech-y-metric");
+if (mechYMetricEl) {
+  mechYMetricEl.value = mechYMetric;
+  mechYMetricEl.addEventListener("change", function() {
+    mechYMetric = this.value === "fold" ? "fold" : "pp";
     renderMechanisms();
   });
 }
