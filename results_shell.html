@@ -11,10 +11,19 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .subtitle{color:#888;font-size:0.82rem;margin-bottom:1.2rem}
 
 /* ── Tabs ─────────────────────────────────────────────── */
-.tabs{display:flex;gap:0;margin-bottom:1.2rem;border-bottom:2px solid #222;flex-wrap:wrap}
+.tabs{display:flex;gap:0;margin-bottom:0.55rem;border-bottom:2px solid #222;flex-wrap:wrap}
+.global-filters{display:flex;flex-wrap:wrap;gap:0.85rem;align-items:center;margin:0 0 1.1rem;padding:0.45rem 0.15rem 0.15rem;font-size:0.78rem;color:#9aa4b2}
+.global-filters label{display:inline-flex;align-items:center;gap:0.4rem;cursor:pointer;user-select:none}
+.global-filters input[type=checkbox]{accent-color:#2563eb}
+.global-filters strong{color:#dbe4f0;font-weight:600}
+.global-filters .gf-note{color:#666;font-size:0.72rem}
 .tab-btn{padding:0.45rem 1.1rem;border:none;background:none;color:#666;cursor:pointer;font-size:0.82rem;font-weight:600;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s}
 .tab-btn:hover{color:#aaa}
 .tab-btn.active{color:#fff;border-bottom-color:#2563eb}
+.tab-btn-matrix{color:#7c6b9a;background:rgba(124,107,154,.12);border-radius:6px 6px 0 0}
+.tab-btn-matrix:hover{color:#c4b5d8;background:rgba(124,107,154,.2)}
+.tab-btn-matrix.active{color:#e9dff5;border-bottom-color:#a78bfa;background:rgba(124,107,154,.22)}
+.tab-btn-matrix .matrix-badge{font-size:0.58rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#a78bfa;margin-left:0.35rem;opacity:.9}
 .tab-panel{display:none}
 .tab-panel.active{display:block}
 
@@ -55,8 +64,8 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .rank-col-title{font-size:0.82rem;font-weight:700;padding:0.4rem 0 0.3rem;border-bottom:1px solid #333}
 .rank-col-title.hard{color:#60a5fa}
 .rank-col-title.soft{color:#f9a8d4}
-.rank-header{display:grid;grid-template-columns:30px 1fr 55px 55px 60px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
-.rank-row{display:grid;grid-template-columns:30px 1fr 55px 55px 60px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
+.rank-header{display:grid;grid-template-columns:30px 1fr 104px 52px 52px 58px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
+.rank-row{display:grid;grid-template-columns:30px 1fr 104px 52px 52px 58px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
 .rank-row:hover{background:#1a1d27}
 .rank-num{color:#555;font-size:0.72rem;text-align:right}
 .rank-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -124,6 +133,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .dict-node-skills{margin-bottom:0.2rem}
 .dict-skills{line-height:1.6}
 .skill-tag{display:inline-block;background:#1a1d27;border:1px solid #282b36;border-radius:4px;padding:0.05rem 0.4rem;margin:0.1rem 0.15rem 0.1rem 0;font-size:0.74rem;color:#bbb}
+.skill-exp{font-size:0.66rem;font-weight:700;font-variant-numeric:tabular-nums}
 .dict-empty{color:#444;font-style:italic;font-size:0.76rem}
 .dict-no-results{color:#555;font-style:italic;padding:2rem 0}
 
@@ -186,6 +196,198 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .method .stat-box{display:inline-block;background:#1a1d27;border:1px solid #333;border-radius:6px;padding:0.4rem 0.8rem;margin:0.2rem 0.4rem 0.2rem 0;font-size:0.78rem}
 .method .stat-box .val{font-size:1rem;font-weight:700;color:#fff}
 .method .stat-box .lbl{color:#888;font-size:0.7rem;display:block}
+
+/* ── AI Mechanisms ─────────────────────────────────────── */
+.mech-intro{max-width:900px;line-height:1.6;color:#bbb;font-size:0.82rem;margin-bottom:0.8rem}
+.mech-intro strong{color:#e0e0e0}
+.mech-controls-row{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;margin-bottom:0.6rem}
+.mech-slider-wrap{display:flex;align-items:center;gap:0.6rem;font-size:0.78rem;color:#888}
+.mech-slider-wrap input[type=range]{width:160px;accent-color:#2563eb}
+.mech-sort-select{background:#141720;color:#e0e0e0;border:1px solid #333;border-radius:5px;padding:0.25rem 0.45rem;font-size:0.78rem;cursor:pointer}
+.mech-sort-select:focus{outline:1px solid #2563eb;outline-offset:1px}
+.mech-thr-val{color:#fff;font-weight:600;font-variant-numeric:tabular-nums}
+.mech-scatter-wrap{position:relative;margin:0.4rem 0 1.2rem;overflow-x:auto}
+.mech-dot{cursor:pointer;transition:opacity .1s}
+.mech-dot:hover{opacity:1;stroke:#fff;stroke-width:2}
+.mech-axis{stroke:#333;stroke-width:1}
+.mech-axis-label{fill:#888;font-size:11px}
+.mech-quad-label{font-size:12px;font-weight:700;opacity:.55}
+.mech-point-label{fill:#9aa4b2;font-size:9px;pointer-events:none}
+.mech-thr-line{stroke:#555;stroke-width:1;stroke-dasharray:4 3}
+.mech-tooltip{position:fixed;z-index:10000;pointer-events:none;background:#0b0d13;border:1px solid #333;border-radius:6px;padding:0.5rem 0.7rem;font-size:0.75rem;color:#e0e0e0;max-width:280px;box-shadow:0 4px 16px rgba(0,0,0,.5);display:none}
+.mech-tooltip .tt-node{font-weight:700;color:#fff;margin-bottom:0.3rem}
+.mech-tooltip .tt-row{display:flex;justify-content:space-between;gap:1.2rem;color:#aaa;padding:0.05rem 0}
+.mech-tooltip .tt-row span:last-child{color:#e0e0e0}
+.mech-cards{display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-top:0.5rem}
+.mech-card{border:1px solid #282b36;border-radius:8px;background:#141720;overflow:hidden}
+.mech-card-head{padding:0.55rem 0.8rem;border-bottom:1px solid #222}
+.mech-card-title{font-size:0.9rem;font-weight:700;color:#fff;display:flex;align-items:center;gap:0.5rem}
+.mech-card-swatch{width:11px;height:11px;border-radius:3px;display:inline-block}
+.mech-card-sub{font-size:0.68rem;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-top:0.15rem}
+.mech-card-mech{font-size:0.72rem;color:#aaa;margin-top:0.35rem}
+.mech-card-presc{font-size:0.72rem;color:#7dd3fc;margin-top:0.25rem;font-style:italic}
+.mech-card-list{max-height:230px;overflow-y:auto;padding:0.3rem 0.5rem 0.5rem}
+.mech-node-row{display:grid;grid-template-columns:1fr 46px 58px;gap:0.3rem;align-items:center;padding:0.18rem 0.2rem;border-bottom:1px solid #16181f;font-size:0.75rem}
+.mech-node-row:hover{background:#1a1d27}
+.mech-node-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mech-node-exp{text-align:right;color:#888;font-variant-numeric:tabular-nums}
+.mech-node-chg{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+.mech-node-chg.up{color:#4ade80}
+.mech-node-chg.down{color:#f87171}
+.mech-card-empty{color:#555;font-style:italic;font-size:0.74rem;padding:0.6rem 0.2rem}
+.mech-caption{font-size:0.72rem;color:#666;margin-top:1rem;max-width:900px;line-height:1.55}
+.mech-tag{display:inline-flex;align-items:center;gap:0.28rem;font-size:0.66rem;font-weight:600;padding:0.05rem 0.35rem;border:1px solid transparent;border-radius:4px;background:#141720;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.mech-tag-dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+.rank-mech{overflow:hidden;min-width:0;display:flex;align-items:center}
+.mech-legend{display:flex;gap:1.1rem;flex-wrap:wrap;align-items:center;font-size:0.72rem;color:#aaa;margin:0.2rem 0 0.7rem}
+.mech-legend>span{display:flex;align-items:center;gap:0.35rem}
+.mech-legend-sub{color:#666}
+.mech-legend-note{color:#555;font-style:italic}
+
+/* ── Teaching Design ───────────────────────────────────── */
+.teach-modes{display:flex;flex-direction:column;gap:0.9rem;max-width:1040px}
+.teach-card{border:1px solid #282b36;border-left:4px solid #444;border-radius:8px;background:#141720;overflow:hidden}
+.teach-card-head{padding:0.65rem 0.9rem 0.55rem}
+.teach-title{font-size:0.98rem;font-weight:700;color:#fff;display:flex;align-items:center;gap:0.5rem}
+.teach-tagline{font-size:0.68rem;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-top:0.2rem}
+.teach-lines{font-size:0.79rem;color:#bbb;margin-top:0.55rem;line-height:1.55}
+.teach-lines b{color:#e0e0e0}
+.teach-nodes{display:flex;flex-wrap:wrap;gap:0.4rem;padding:0.1rem 0.9rem 0.9rem}
+.teach-chip{display:inline-flex;align-items:center;gap:0.4rem;font-size:0.74rem;background:#1a1d27;border:1px solid #282b36;border-radius:5px;padding:0.15rem 0.5rem;color:#ccc}
+.teach-chip .chg{font-weight:600;font-variant-numeric:tabular-nums}
+.teach-chip .chg.up{color:#4ade80}
+.teach-chip .chg.down{color:#f87171}
+.teach-empty{color:#555;font-style:italic;font-size:0.74rem;padding:0.2rem 0 0.4rem}
+
+/* ── Student Focus / What to learn ─────────────────────── */
+.student-hero{font-size:1.05rem;font-weight:700;color:#fff;margin:0.2rem 0 0.35rem}
+.student-domains{margin:0.6rem 0 1rem;max-width:1040px}
+.student-domains-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:0.4rem}
+.student-domains-row{display:flex;flex-wrap:wrap;gap:0.45rem}
+.student-domain-chip{display:inline-flex;flex-direction:column;gap:0.1rem;background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.35rem 0.65rem;min-width:7.5rem}
+.student-domain-name{font-size:0.78rem;color:#ddd;font-weight:600}
+.student-domain-meta{font-size:0.7rem;color:#888;font-variant-numeric:tabular-nums}
+.student-domain-meta .chg.up{color:#4ade80}
+.student-domain-meta .chg.down{color:#f87171}
+.student-lists{display:flex;flex-direction:column;gap:0.85rem;max-width:1040px}
+.student-section{border:1px solid #282b36;border-left:4px solid #444;border-radius:8px;background:#141720;overflow:hidden}
+.student-section-must{background:linear-gradient(180deg,#152018 0%,#141720 55%);border-color:#2a3d30}
+.student-section-head{padding:0.65rem 0.9rem 0.45rem}
+.student-section-title{font-size:0.98rem;font-weight:700;color:#fff;display:flex;align-items:center;gap:0.5rem}
+.student-count{color:#666;font-weight:400;font-size:0.8rem}
+.student-section-blurb{font-size:0.78rem;color:#999;margin-top:0.25rem;line-height:1.45}
+.student-rows{padding:0.15rem 0.75rem 0.75rem;display:flex;flex-direction:column;gap:0.35rem}
+.student-row{display:flex;justify-content:space-between;gap:0.75rem;align-items:flex-start;padding:0.45rem 0.55rem;border-radius:6px;background:#1a1d27;border:1px solid #22252f}
+.student-section-must .student-row{background:#18231c;border-color:#243528}
+.student-row-main{min-width:0;flex:1}
+.student-row-name{font-size:0.86rem;font-weight:600;color:#eee}
+.student-row-why{font-size:0.74rem;color:#8b919e;margin-top:0.18rem;line-height:1.4}
+.student-row-meta{display:flex;align-items:center;gap:0.45rem;flex:none;flex-wrap:wrap;justify-content:flex-end}
+.student-stat{font-size:0.74rem;font-variant-numeric:tabular-nums;color:#aaa;font-weight:600}
+.student-stat.chg.up{color:#4ade80}
+.student-stat.chg.down{color:#f87171}
+@media (max-width:720px){
+  .student-row{flex-direction:column;align-items:stretch}
+  .student-row-meta{justify-content:flex-start}
+}
+
+/* ── ESCO Groups ───────────────────────────────────────── */
+.esco-header{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.68rem;color:#888;text-transform:uppercase}
+.esco-row{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
+.esco-row:hover{background:#1a1d27}
+.esco-plot-svg{min-height:640px}
+.esco-label{fill:#f3f6fb;font-size:13px;font-weight:650;paint-order:stroke fill;stroke:#0b0d12;stroke-width:4px;pointer-events:none}
+.esco-leader{stroke-opacity:.55;stroke-width:1;pointer-events:none}
+.esco-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.esco-mech{overflow:hidden;min-width:0;display:flex;align-items:center}
+.escotop-header{display:grid;grid-template-columns:34px 1fr 118px 46px 70px 56px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.68rem;color:#888;text-transform:uppercase}
+.escotop-row{display:grid;grid-template-columns:34px 1fr 118px 46px 70px 56px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
+.escotop-row:hover{background:#1a1d27}
+
+/* ── High-Pay Proxy ────────────────────────────────────── */
+.pay-bls{display:flex;gap:0.7rem;flex-wrap:wrap;margin:0.5rem 0 0.8rem}
+.pay-bls-box{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.4rem 0.75rem;font-size:0.75rem;color:#aaa}
+.pay-bls-box .val{display:block;font-size:1.05rem;font-weight:700;color:#fff}
+.pay-bls-box .lbl{font-size:0.65rem;color:#777;text-transform:uppercase;letter-spacing:.04em}
+.pay-examples{font-size:0.74rem;color:#888;margin-bottom:0.9rem;line-height:1.5}
+.pay-examples strong{color:#ccc}
+.pay-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem}
+.pay-col-title{font-size:0.85rem;font-weight:700;color:#fff;margin-bottom:0.25rem}
+.pay-col-sub{font-size:0.68rem;color:#777;margin-bottom:0.4rem}
+.pay-header{display:grid;grid-template-columns:28px 1fr 48px 42px;gap:0.2rem;padding:0.25rem 0;border-bottom:1px solid #222;font-size:0.65rem;color:#888;text-transform:uppercase}
+.pay-row{display:grid;grid-template-columns:28px 1fr 48px 42px;gap:0.2rem;padding:0.18rem 0;border-bottom:1px solid #16181f;font-size:0.76rem;align-items:center}
+.pay-row:hover{background:#1a1d27}
+.pay-row.new .pay-name{color:#a78bfa}
+.pay-delta{text-align:right;font-weight:600;font-size:0.72rem}
+.pay-delta.up{color:#4ade80}
+.pay-delta.down{color:#f87171}
+.pay-delta.stable{color:#555}
+.pay-delta.new{color:#a78bfa}
+@media (max-width:980px){.pay-cols{grid-template-columns:1fr}}
+
+/* ── Skill Deltas ──────────────────────────────────────── */
+.delta-cols{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.delta-col-title{font-size:0.9rem;font-weight:700;margin-bottom:0.35rem}
+.delta-col-title.up{color:#4ade80}
+.delta-col-title.down{color:#f87171}
+.delta-header{display:grid;grid-template-columns:28px 1fr 48px 48px 56px 90px;gap:0.2rem;padding:0.25rem 0;border-bottom:1px solid #222;font-size:0.65rem;color:#888;text-transform:uppercase}
+.delta-row{display:grid;grid-template-columns:28px 1fr 48px 48px 56px 90px;gap:0.2rem;padding:0.18rem 0;border-bottom:1px solid #16181f;font-size:0.76rem;align-items:center}
+.delta-header.rankmode,.delta-row.rankmode{grid-template-columns:28px 1fr 42px 42px 56px 48px 48px 70px}
+.delta-row:hover{background:#1a1d27}
+.delta-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.delta-node{display:block;font-size:0.62rem;color:#666;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.delta-bar-wrap{position:relative;height:12px;background:#16181f;border-radius:3px;overflow:hidden}
+.delta-bar{position:absolute;top:0;height:100%;border-radius:3px}
+.delta-bar.up{background:#4ade80;left:0}
+.delta-bar.down{background:#f87171;right:0}
+@media (max-width:980px){.delta-cols{grid-template-columns:1fr}}
+
+/* ── Skill Portfolio (WEF-style report) ─────────────────── */
+.port-report{background:#f7f5f2;color:#1a1a1a;border-radius:12px;padding:1.25rem 1.4rem 1.5rem;margin:0 -0.5rem;max-width:1120px;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+.port-report .coverage-meta{color:#666}
+.port-report-title{font-size:1.35rem;font-weight:700;color:#111;letter-spacing:-0.02em;margin:0 0 0.25rem}
+.port-report-sub{font-size:0.84rem;color:#555;line-height:1.55;max-width:720px;margin-bottom:0.9rem}
+.port-report-sub strong{color:#111}
+.port-controls-bar{display:flex;gap:0.8rem;align-items:center;flex-wrap:wrap;margin-bottom:0.9rem}
+.port-report .controls button{background:#fff;border:1px solid #d5d0c8;color:#333}
+.port-report .controls button:hover{border-color:#999;color:#111}
+.port-report .controls button.active{background:#111;border-color:#111;color:#fff}
+.port-report .mech-slider-wrap{color:#555}
+.port-scatter-frame{background:#fff;border:1px solid #e5e1da;border-radius:10px;padding:0.6rem 0.6rem 0.2rem;margin-bottom:1rem}
+.port-legend-row{display:flex;flex-wrap:wrap;gap:0.9rem;align-items:center;font-size:0.72rem;color:#555;margin:0.35rem 0 0.2rem;padding:0 0.3rem}
+.port-legend-row .swatch{width:9px;height:9px;border-radius:50%;display:inline-block}
+.port-matrix{display:grid;grid-template-columns:1fr 1fr;gap:0.7rem;max-width:1100px}
+.port-cell-card{border:1px solid #ddd6cb;border-radius:10px;overflow:hidden;min-height:200px;display:flex;flex-direction:column;background:#fff}
+.port-cell-card.hero{border:2.5px solid #1a7f4b;box-shadow:0 0 0 3px rgba(26,127,75,.12)}
+.port-cell-head{padding:0.65rem 0.8rem 0.45rem;border-bottom:1px solid #eee}
+.port-cell-title{font-size:0.95rem;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:0.5rem;color:#111}
+.port-cell-card.hero .port-cell-title{color:#1a7f4b}
+.port-cell-count{font-size:0.72rem;font-weight:600;color:#666;background:#f3f0eb;border-radius:999px;padding:0.1rem 0.45rem}
+.port-cell-sub{font-size:0.68rem;color:#777;margin-top:0.15rem;line-height:1.4}
+.port-cell-why{font-size:0.74rem;color:#444;margin-top:0.35rem;line-height:1.45}
+.port-cell-mix{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.4rem;font-size:0.66rem;font-weight:600}
+.port-cell-list{padding:0.3rem 0.65rem 0.65rem;overflow-y:auto;max-height:190px}
+.port-item{display:grid;grid-template-columns:1fr 100px 40px 48px;gap:0.25rem;align-items:center;padding:0.2rem 0;border-bottom:1px solid #f0ebe4;font-size:0.73rem}
+.port-item-name{color:#222;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.port-item-mech{overflow:hidden;min-width:0}
+.port-item-mech .mech-tag{font-size:0.58rem;max-width:100%;background:#f7f5f2}
+.port-item-pct{text-align:right;color:#888;font-variant-numeric:tabular-nums}
+.port-item .chg{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+.port-item .chg.up{color:#1a7f37}
+.port-item .chg.down{color:#c0392b}
+.port-caption{font-size:0.72rem;color:#777;margin-top:0.85rem;line-height:1.5;max-width:900px}
+.port-report .teach-empty{color:#999}
+.port-report .mech-axis{stroke:#d5d0c8}
+.port-report .mech-thr-line{stroke:#b8b0a4;stroke-dasharray:5 4}
+.port-report .mech-axis-label{fill:#666}
+.port-report .mech-quad-label{opacity:.75;font-size:13px}
+.port-report .mech-point-label{fill:#222;font-size:10px;font-weight:600}
+.port-report .mech-dot:hover{stroke:#111;stroke-width:2}
+.port-report .mech-legend{background:transparent;border:none;color:#555;padding:0}
+.port-report .mech-legend-sub,.port-report .mech-legend-note{color:#888}
+.port-report .mech-tag{background:#f7f5f2;border-color:#ddd6cb}
+.port-hero-arrow{fill:none;stroke:#1a7f4b;stroke-width:2.5}
+@media (max-width:900px){.port-matrix{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -214,14 +416,28 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
 <p class="subtitle">Node penetration in job postings (% of jobs with at least one mapped skill). Green = increased, Red = decreased.</p>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('dashboard')">Dashboard</button>
-  <button class="tab-btn" onclick="switchTab('rankings')">Rankings</button>
+  <button class="tab-btn tab-btn-matrix active" onclick="switchTab('dashboard')" title="AI Skill Matrix view (curriculum subset)">Dashboard<span class="matrix-badge">Matrix</span></button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('rankings')" title="AI Skill Matrix view (curriculum subset)">Rankings<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('topskills')">Top Skills</button>
-  <button class="tab-btn" onclick="switchTab('dictionary')">Skill Dictionary</button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('dictionary')" title="AI Skill Matrix view (curriculum subset)">Skill Dictionary<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('titles')">Job Titles</button>
   <button class="tab-btn" onclick="switchTab('onetdata')">O*NET Data</button>
-  <button class="tab-btn" onclick="switchTab('coverage')">Coverage</button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('coverage')" title="AI Skill Matrix view (curriculum subset)">Coverage<span class="matrix-badge">Matrix</span></button>
+  <button class="tab-btn" onclick="switchTab('mechanisms')">AI Mechanisms</button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('teaching')" title="AI Skill Matrix view (curriculum subset)">Teaching Design<span class="matrix-badge">Matrix</span></button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('student')" title="AI Skill Matrix view (curriculum subset)">What to learn<span class="matrix-badge">Matrix</span></button>
+  <button class="tab-btn" onclick="switchTab('esco')">ESCO Domains</button>
+  <button class="tab-btn" onclick="switchTab('escotop')">Top ESCO Groups</button>
+  <button class="tab-btn" onclick="switchTab('payproxy')">High-Pay Proxy</button>
+  <button class="tab-btn" onclick="switchTab('deltas')">Skill Deltas</button>
+  <button class="tab-btn" onclick="switchTab('portfolio')">Skill Portfolio</button>
   <button class="tab-btn" onclick="switchTab('methodology')">Methodology</button>
+</div>
+<div class="global-filters">
+  <label title="Applies to Mechanisms, Teaching, What to learn, ESCO, Deltas, Portfolio, Rankings, and related plots">
+    <input type="checkbox" id="min-pen-filter"> Hide items under <strong>5%</strong> 2026 penetration
+  </label>
+  <span class="gf-note">Shared filter across plots (uses 2026 posting share)</span>
 </div>
 
 <!-- ═══ Dashboard ═══ -->
@@ -301,6 +517,209 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
     <div id="coverage-nodes"></div>
   </div>
 </div>
+
+<!-- ═══ AI Mechanisms ═══ -->
+<div id="tab-mechanisms" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="mech-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="mech-level" style="margin-bottom:0">
+      <button type="button" data-level="skills" class="active">Lightcast skills</button>
+      <button type="button" data-level="matrix_leaf">Matrix leaves</button>
+      <button type="button" data-level="matrix_parent">Matrix parents</button>
+      <button type="button" data-level="esco">ESCO groups</button>
+      <button type="button" data-level="pillar">ESCO pillars</button>
+      <button type="button" data-level="domain">ESCO domains</button>
+    </div>
+  </div>
+  <div class="mech-intro">
+    <strong>Why does demand move?</strong> Default points are <strong>Lightcast standardized skills</strong>
+    (optional &ge;5% in 2023 or 2026). Use <strong>Matrix leaves / parents</strong> for the AI Skill Matrix
+    hierarchy, or <strong>ESCO groups / pillars / domains</strong> for taxonomy aggregates.
+    Crossing <strong>AI-exposure</strong> with <strong>2023&rarr;2026 demand</strong>
+    separates human-premium, AI-transformed, displacement, and non-AI shift.
+  </div>
+  <div class="mech-controls-row">
+    <div class="mech-slider-wrap">
+      <span>AI-exposure threshold</span>
+      <input type="range" id="mech-thr" min="0.2" max="0.8" step="0.05" value="0.5">
+      <span class="mech-thr-val" id="mech-thr-val">0.50</span>
+    </div>
+    <label class="mech-slider-wrap" style="cursor:pointer"><input type="checkbox" id="mech-labels" checked> Show labels</label>
+    <label class="mech-slider-wrap" id="mech-skill-floor-wrap" style="cursor:pointer" title="Keep items with &ge;5% penetration in 2023 or 2026. Applies to Lightcast skills, Matrix leaves/parents, and ESCO groups / pillars / domains. Uncheck to include thinner items.">
+      <input type="checkbox" id="mech-skill-floor" checked> &ge;5% either year
+    </label>
+    <label class="mech-slider-wrap" style="gap:0.4rem">
+      <span>Sort cards</span>
+      <select id="mech-card-sort" class="mech-sort-select">
+        <option value="p26" selected>2026 penetration</option>
+        <option value="abs_change">|Demand &Delta;|</option>
+        <option value="change">Demand &Delta; (strongest)</option>
+        <option value="exposure">AI exposure</option>
+        <option value="name">Name A&ndash;Z</option>
+      </select>
+    </label>
+    <div class="job-counts" id="mech-job-counts" style="margin-bottom:0"></div>
+  </div>
+  <div class="mech-scatter-wrap" id="mech-scatter"></div>
+  <div class="mech-cards" id="mech-cards"></div>
+  <div class="mech-caption">
+    Bubble size &prop; 2026 penetration. Use &ge;5% either year for skills, matrix nodes, and ESCO aggregates.
+    Matrix leaves / parents = AI Skill Matrix curriculum nodes (parents = union of children).
+    ESCO levels = OR-penetration aggregates with mean member exposure (group/pillar/domain build filters).
+    Tune exposure threshold here; it also drives Portfolio / Teaching / What to learn.
+  </div>
+</div>
+<div class="mech-tooltip" id="mech-tooltip"></div>
+
+<!-- ═══ Teaching Design ═══ -->
+<div id="tab-teaching" class="tab-panel">
+  <div class="controls" id="teach-controls"></div>
+  <div class="mech-intro">
+    <strong>From market signal to curriculum.</strong> Each rising or falling skill implies a different teaching decision,
+    depending on how automatable it is. Pick an occupation and the skills below are sorted into the pedagogy that fits their
+    <strong>demand trend &times; AI-exposure</strong> &mdash; growing human-only skills to teach as craft, growing AI-adjacent
+    skills to teach <em>with</em> the tools, and declining automatable skills to retire.
+  </div>
+  <div class="job-counts" id="teach-job-counts" style="margin-bottom:0.9rem"></div>
+  <div class="teach-modes" id="teach-modes"></div>
+  <div class="mech-caption">
+    Groups use the same classification as the AI Mechanisms tab and follow the shared AI-exposure threshold (change it there to re-sort these).
+    Each chip shows the 2023&rarr;2026 change in posting penetration; hover for the node's exposure score. Correlational (two time points),
+    management occupations only &mdash; read as decision support, not proof.
+  </div>
+</div>
+
+<!-- ═══ What to learn (Student Focus) ═══ -->
+<div id="tab-student" class="tab-panel">
+  <div class="controls" id="student-controls"></div>
+  <div class="student-hero">If you want this role, focus here first.</div>
+  <div class="mech-intro">
+    A short shortlist of matrix skills to prioritize for hiring into Marketing, HR, or Finance management roles
+    &mdash; ranked from 2026 demand, growth, and AI mechanism. Broad ESCO domains sit above as context, not the study list.
+  </div>
+  <div class="job-counts" id="student-job-counts" style="margin-bottom:0.55rem"></div>
+  <div class="student-domains" id="student-domains"></div>
+  <div class="student-lists" id="student-lists"></div>
+  <div class="mech-caption">
+    Uses the same nodes and AI-exposure threshold as Mechanisms / Teaching Design. Respects the shared &ge;5% 2026 penetration filter when enabled.
+    Caps: Must master 8, Recommended 8, Maintain 6, Skip 6. Correlational decision support for management occupations only.
+  </div>
+</div>
+
+<!-- ═══ ESCO Pillars ═══ -->
+<div id="tab-esco" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="esco-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="esco-level" style="margin-bottom:0"></div>
+  </div>
+  <div class="mech-intro">
+    <strong>ESCO domains by default</strong> (one level above pillars / two above groups). Plot is
+    <strong>AI exposure</strong> &times; <strong>2026 compared to 2023</strong> (fold &times;, log scale).
+    Toggle pillars or groups for finer grain.
+  </div>
+  <div class="coverage-meta" id="esco-meta"></div>
+  <div class="mech-scatter-wrap" id="esco-scatter"></div>
+  <div class="mech-legend" id="esco-legend-placeholder" style="display:none"></div>
+  <div id="esco-table"></div>
+  <div class="mech-caption">
+    Bubble size &prop; 2026 penetration. Y = fold (2026% / 2023%), log-scaled; 1&times; = unchanged.
+    Domains from <code>esco_fetch_domains.py</code> + <code>build_domain_analysis.py</code>.
+  </div>
+</div>
+<div class="mech-tooltip" id="esco-tooltip"></div>
+
+<!-- ═══ Top ESCO Groups ═══ -->
+<div id="tab-escotop" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="esco-top-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="esco-top-year" style="margin-bottom:0"></div>
+  </div>
+  <div class="bump-meta" id="esco-top-meta"></div>
+  <div class="bump-wrap" id="esco-top-bump"></div>
+  <div id="esco-top-content"></div>
+  <div class="mech-caption">
+    Most-demanded ESCO hierarchy groups by posting penetration, with 2023&rarr;2026 rank movement. The list uses the selected
+    year; the bump chart compares both. Mechanism pill and AI-exposure carry over from the ESCO Groups analysis.
+  </div>
+</div>
+
+<!-- ═══ High-Pay Proxy ═══ -->
+<div id="tab-payproxy" class="tab-panel">
+  <div class="controls" id="pay-controls"></div>
+  <div class="mech-intro">
+    <strong>Approximation, not observed wages.</strong> Postings have no salary field, so the &ldquo;top 5%&rdquo; group is the top 5% of 2026
+    titles by a <em>seniority score</em> (VP / Director / Senior / Head of / &hellip;) within each occupation &mdash; a proxy for the
+    upper pay tail, cross-checked against public BLS OES wages. Compared to <strong>all</strong> postings and a
+    <strong>random 100</strong> sample.
+  </div>
+  <div class="coverage-meta" id="pay-meta"></div>
+  <div class="pay-bls" id="pay-bls"></div>
+  <div class="pay-examples" id="pay-examples"></div>
+  <div class="pay-cols" id="pay-cols"></div>
+  <div class="mech-caption">
+    Rebuild with <code>build_salary_proxy_skills.py</code>. Same noise-skill filter as Top Skills. Rank &Delta; vs the &ldquo;All&rdquo; column:
+    positive = higher in the high-pay (or sample) list than in all postings. Treat as directional evidence until posting-level
+    salary can be joined from Lightcast.
+  </div>
+</div>
+
+<!-- ═══ Skill Deltas ═══ -->
+<div id="tab-deltas" class="tab-panel">
+  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
+    <div class="controls" id="delta-controls" style="margin-bottom:0"></div>
+    <div class="controls" id="delta-level" style="margin-bottom:0"></div>
+    <div class="controls" id="delta-metric" style="margin-bottom:0"></div>
+  </div>
+  <div class="mech-intro">
+    <strong>Contributions to the 2023&rarr;2026 shift.</strong> Toggle <strong>Lightcast skills</strong>, parent
+    <strong>ESCO groups</strong>, or higher <strong>ESCO pillars</strong>, and choose how to rank movers:
+    <strong>&Delta;pp</strong> = change in posting share (percentage points), or
+    <strong>&Delta;rank</strong> = change in rank vs 2023 (how many places the skill/group/pillar rose or fell by prevalence).
+  </div>
+  <div class="coverage-meta" id="delta-meta"></div>
+  <div class="delta-cols" id="delta-cols"></div>
+  <div class="mech-caption">
+    <strong>Skills:</strong> below 5% in both years omitted; noise filter as Top Skills; matrix node shown when mapped
+    (<code>build_skill_deltas.py</code>).
+    <strong>ESCO groups:</strong> parent hierarchy concepts from the ESCO API; penetration = share of postings with
+    &ge;1 skill in the group (<code>esco_fetch.py</code> + <code>build_group_analysis.py</code>).
+    <strong>ESCO pillars:</strong> one level above groups (<code>broaderConcept</code>).
+    <strong>ESCO domains:</strong> one level above pillars (e.g. liaising &rarr; communication, collaboration and creativity)
+    (<code>esco_fetch_domains.py</code> + <code>build_domain_analysis.py</code>).
+    <strong>&Delta;rank:</strong> ranks are within the kept set for that occupation (by penetration); +&Delta;rank = rose vs 2023.
+  </div>
+</div>
+
+<!-- ═══ Skill Portfolio ═══ -->
+<div id="tab-portfolio" class="tab-panel">
+  <div class="port-report">
+    <h2 class="port-report-title">Skill mechanism portfolio</h2>
+    <p class="port-report-sub">
+      Same logic as the paper draft: <strong>AI exposure</strong> &times; <strong>demand change</strong> (vs 2023).
+      Default view = <strong>Lightcast skills</strong> (&ge;5% either year). Rising + low exposure = <strong>Human premium</strong>;
+      rising + high exposure = <strong>AI-transformed</strong>; falling + high = <strong>Displacement</strong>;
+      falling + low = <strong>Non-AI shift</strong>. Toggle ESCO groups/pillars/domains for taxonomy aggregates.
+    </p>
+    <div class="port-controls-bar">
+      <div class="controls" id="port-controls" style="margin-bottom:0"></div>
+      <div class="controls" id="port-level" style="margin-bottom:0"></div>
+      <div class="controls" id="port-metric" style="margin-bottom:0"></div>
+      <label class="mech-slider-wrap" style="cursor:pointer;margin-bottom:0"><input type="checkbox" id="port-labels" checked> Labels</label>
+    </div>
+    <div class="coverage-meta" id="port-meta"></div>
+    <div id="port-mech-legend"></div>
+    <div class="port-scatter-frame">
+      <div id="port-scatter"></div>
+    </div>
+    <div class="port-matrix" id="port-cards"></div>
+    <p class="port-caption">
+      Vertical cut = AI-exposure threshold (shared with AI Mechanisms). Horizontal cut = zero change (rising vs falling).
+      Growth metric = &Delta;pp or &Delta;rank vs 2023. Items without an exposure score are omitted.
+      Meta line reports the share of rising demand mass in the premium channel.
+    </p>
+  </div>
+</div>
+<div class="mech-tooltip" id="port-tooltip"></div>
 
 <!-- ═══ Methodology ═══ -->
 <div id="tab-methodology" class="tab-panel">
@@ -384,6 +803,12 @@ const TOP_SKILLS = %TOP_SKILLS%;
 const ONET_JOB_COUNTS = %ONET_JOB_COUNTS%;
 const OCC_TITLES = %OCC_TITLES%;
 </script>
-<script src="dashboard_app.js"></script>
+<script src="skill_exposure.js?v=nomatrix1"></script>
+<script src="esco_groups.js"></script>
+<script src="esco_pillars.js"></script>
+<script src="esco_domains.js"></script>
+<script src="salary_proxy_skills.js"></script>
+<script src="skill_deltas.js"></script>
+<script src="dashboard_app.js?v=matrixlevels1"></script>
 </body>
 </html>

@@ -1,0 +1,10592 @@
+{
+ "Adobe Photoshop": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Agile development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Cisco": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Computer Assisted Language Learning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "comput"
+  ],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "German": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT communications protocols": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT environmental policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT infrastructure": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT network security risks": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "ICT problem management techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT process quality models": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "model"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT project management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT project management methodologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT sales methodologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT system integration": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ICT system programming": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "ML (computer programming)": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "comput",
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "Microsoft Visio": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Oracle Relational Database": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "database"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "Process-based management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Prototyping development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Python (computer programming)": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "comput",
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "SAP Data Services": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "SAS language": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "SQL": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Solidity": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "Spanish": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "abide by business ethical code of conducts": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "abide by regulations on banned materials": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "accept criticism and guidance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "accept own accountability": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "accounting": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "accounting department processes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "accounting techniques": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "achieve sales targets": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adapt communication style according to recipient": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt existing designs to changed circumstances": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt leadership styles in healthcare": {
+  "exposure": 0.15,
+  "base": 0.5,
+  "adj": -0.35,
+  "high": [],
+  "low": [
+   "adapt",
+   "care",
+   "lead",
+   "leadership"
+  ],
+  "source": "keyword"
+ },
+ "adapt production levels": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt to artists' creative demands": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "adapt",
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "adapt to change": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt to change in marketing": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt to changes in technological development plans": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "adapt to changing situations": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "adapt"
+  ],
+  "source": "keyword"
+ },
+ "address identified risks": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adhere to Standard Operating Procedures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adhere to organisational code of ethics": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "adhere to organisational guidelines": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adjust ICT system capacity": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adjust the work during the creative process": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "adjust to physical demands": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "physical"
+  ],
+  "source": "keyword"
+ },
+ "administer ICT system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "administrative tasks in a medical environment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "adobe creative suite": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "adopt ways to reduce pollution": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "advertising techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "advice on security risk management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "advise customers on financing options for vehicles": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "advis",
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "advise on communication strategies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "advis"
+  ],
+  "source": "keyword"
+ },
+ "advise on learning methods": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "advis",
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "advise on legal decisions": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "advis"
+  ],
+  "source": "keyword"
+ },
+ "advise on public relations": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "advis"
+  ],
+  "source": "keyword"
+ },
+ "advise others": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "advis"
+  ],
+  "source": "keyword"
+ },
+ "aerospace engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "aesthetics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "agricultural business management": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cultural"
+  ],
+  "source": "keyword"
+ },
+ "align efforts towards business development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse ICT technical proposals": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse business processes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse data for policy decisions in trade": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "analyse",
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse external factors of companies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse information processes": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "analyse",
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse information systems": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "analyse",
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse legal evidence": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse market financial trends": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse potential threats against national security": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse production processes for improvement": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse route possibilities in pipeline projects": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse supply chain strategies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse the context of an organisation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse the credit history of potential customers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "analyse"
+  ],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "analyse the need for technical resources": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "analyse transmitted communications": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analyse"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "application process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply ICT systems theory": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply advanced manufacturing": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply case management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply change management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply credit risk policy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply customer engagement strategy": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "apply digital mapping": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply digital security measures": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "digital",
+   "measur"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply knowledge of human behaviour": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply knowledge of philosophy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply organisational techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply research ethics and scientific integrity principles in research activities": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [
+   "search"
+  ],
+  "low": [
+   "ethic",
+   "integrity"
+  ],
+  "source": "keyword"
+ },
+ "apply risk management processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply strategic thinking": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "apply systemic design thinking": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "design thinking"
+  ],
+  "source": "keyword"
+ },
+ "apply technical communication skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "appreciate diverse cultural and artistic expression": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cultural"
+  ],
+  "source": "keyword"
+ },
+ "arrange bookings": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "articulate artistic proposal": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "artificial neural networks": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "assemble an artistic team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "assertiveness": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess ICT knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess each stage of the creative process": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "assess employees' capability levels": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess environmental impact": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess others feelings": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess prior learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "assess reliability of data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess telecommunication infrastructure issues": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assess the feasibility of implementing developments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assessment of risks and threats": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assessment processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "asset management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assign homework": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist children in developing personal skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist customers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "assist in developing practices for well being of employees": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist in fund management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist in loan applications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist in the production of laboratory documentation": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "document",
+   "documentation"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist in will writing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "writing"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "assist students in their learning": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "learn",
+   "student"
+  ],
+  "source": "keyword"
+ },
+ "assume responsibility": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "responsib"
+  ],
+  "source": "keyword"
+ },
+ "assume responsibility for the management of a business": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "responsib"
+  ],
+  "source": "keyword"
+ },
+ "attend meetings": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "attend to ICT systems quality": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "attend to detail in preparation for audits": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "audit techniques": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "authoring software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "automation technology": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "automat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "banking activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "bioethics": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "blueprints": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "body language": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "book reviews": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "brainstorm ideas": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "bring out performers’ artistic potential": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "broadcast equipment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "broadcast using Internet Protocol": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "budgetary principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "build business relationships": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "build community relations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "build scaffolding": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "build team spirit": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "build trust": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "trust"
+  ],
+  "source": "keyword"
+ },
+ "building construction principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business ICT systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "business analytics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "business communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business intelligence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business law": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business loans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business management principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business process modelling": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "model"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "business processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business requirements techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "business strategy concepts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "calibrate electronic instruments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "carry out project activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "carry out ship-to-shore operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "channel marketing": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "check methods": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "classical languages": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "climate change impact": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "clinical decision-making at advanced practice": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "cloud technologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coach employees": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "coach"
+  ],
+  "source": "keyword"
+ },
+ "coaching techniques": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "coach"
+  ],
+  "source": "keyword"
+ },
+ "cognitive psychology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "collaborate in company's daily operations": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate in the development of marketing strategies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate on international energy projects": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate through digital technologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "digital"
+  ],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with a technical staff in artistic productions": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with animal related professionals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with coaching team": {
+  "exposure": 0.15,
+  "base": 0.5,
+  "adj": -0.35,
+  "high": [],
+  "low": [
+   "coach",
+   "collaborat",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with designers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with engineers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with music librarians": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with stakeholders in leading community arts": {
+  "exposure": 0.15,
+  "base": 0.5,
+  "adj": -0.35,
+  "high": [],
+  "low": [
+   "collaborat",
+   "lead",
+   "stakeholder"
+  ],
+  "source": "keyword"
+ },
+ "collaborate with technical experts on artworks": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "collect ICT data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "collect customer feedback on applications": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "collect financial data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "collect real-time geolocation information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "combine multiple fields of knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate analytical insights": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate by telephone": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate by use of interpretation services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate clearly with passengers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate commercial and technical issues in foreign languages": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate during show": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate in air traffic services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate in an outdoor setting": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate in healthcare": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "communicate in specialised nursing care": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "communicate mathematical information": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "format",
+   "information",
+   "math"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate on the environmental impact of mining": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate production plan": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate professionally with colleagues in other fields": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "colleague"
+  ],
+  "source": "keyword"
+ },
+ "communicate regulations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate technicalities with clients": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "communicate using non-verbal language": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate verbal instructions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communicate with banking professionals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "communicate with"
+  ],
+  "source": "keyword"
+ },
+ "communicate with construction crews": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "communicate with"
+  ],
+  "source": "keyword"
+ },
+ "communicate with customers": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "communicate with",
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "communicate with media": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "communicate with"
+  ],
+  "source": "keyword"
+ },
+ "communicate with stakeholders": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "communicate with",
+   "stakeholder"
+  ],
+  "source": "keyword"
+ },
+ "communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communication disorders": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communication principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communication related to hearing impairment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communication sciences": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communication studies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "communications sector policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "company policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "comply with regulations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "comply with schedule": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "schedul"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "compose digital game story": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "compose",
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "computational linguistics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "computer engineering": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "computer history": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "computer science": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "computer technology": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "concepts of telecommunications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "concretise artistic concept": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct financial audits": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct inter-shift communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct military music services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct online competitive analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct participatory research": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct quantitative research": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "quantitat",
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct research interview": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct threat intelligence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "conduct training on monitoring and evaluation frameworks": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "confer with library colleagues": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "colleague"
+  ],
+  "source": "keyword"
+ },
+ "conflict management": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "conflict"
+  ],
+  "source": "keyword"
+ },
+ "consider economic criteria in decision making": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "construct individual learning plans": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "construction methods": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "consult students on learning content": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "learn",
+   "student"
+  ],
+  "source": "keyword"
+ },
+ "consult team on creative project": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "creativ",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "consult with business clients": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "client",
+   "consult with"
+  ],
+  "source": "keyword"
+ },
+ "consultation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "consumer goods industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "content development processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "content marketing strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "contextualise artistic work": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "continuous improvement philosophies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "contribute to an artistic approach": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "contribute to the programmer's reflection process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "program"
+  ],
+  "low": [
+   "reflect"
+  ],
+  "source": "keyword"
+ },
+ "control objectives for information and related technology": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "control production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "cooperate at inter-professional level": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "cooperate with colleagues": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "colleague",
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "cooperate with education professionals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "cooperate with professionals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "coordinate communication within a team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "coordinate engineering teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "coordinate environmental efforts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coordinate government activities in foreign institutions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coordinate operational activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coordinate security": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coordinate technical teams in artistic productions": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "coordinate technological activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "coordinate the running of a performance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "corporate social responsibility": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "responsib"
+  ],
+  "source": "keyword"
+ },
+ "corporate sustainability": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "cost management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "counsel clients": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "client",
+   "counsel"
+  ],
+  "source": "keyword"
+ },
+ "counsel on communication disorders": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "counsel"
+  ],
+  "source": "keyword"
+ },
+ "crafting": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create a work atmosphere of continuous improvement": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create an artistic performance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create business process models": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "model"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "create concept of digital game": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "create cooperation modalities": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "create digital content": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "create digital files": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "create model": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "model"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "create new concepts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create project specifications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create semantic trees": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create sketches": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create social alliances": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create solutions to problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create technical plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "create training materials": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "creatively use digital technologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "digital"
+  ],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "credit control processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "critically reflect on artistic production processes": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "reflect"
+  ],
+  "source": "keyword"
+ },
+ "critique other writers": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "cultural projects": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cultural"
+  ],
+  "source": "keyword"
+ },
+ "customer insight": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "customer relationship management": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "customer",
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "customer segmentation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "cyber security": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "data analytics": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "analytic",
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data engineering": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data ethics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "data"
+  ],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "data extraction": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "extract"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data mining": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data protection": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data quality assessment": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data science": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data security principles": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data visualisation software": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "data warehouse": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "deal with challenging work conditions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "decision support systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "deep learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "defence standard procedures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "define artistic vision": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "define risk policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "define security policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "define technology strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "delegate responsibilities": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "delegat",
+   "responsib"
+  ],
+  "source": "keyword"
+ },
+ "deliberate prior learning assessment results": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "deliver visual presentation of data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "demonstrate awareness of health risks": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "demonstrate curiosity": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "curios"
+  ],
+  "source": "keyword"
+ },
+ "demonstrate disciplinary expertise": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "demonstrate leadership in social service cases": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "lead",
+   "leadership"
+  ],
+  "source": "keyword"
+ },
+ "demonstrate professional attitude to clients": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "demonstrate technical skills during neurological surgery": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "demonstrate when teaching": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "demonstrate willingness to learn": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "deploy ICT systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design customer experiences": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "design digital call to action": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "design enterprise architecture": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design for organisational complexity": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design graphics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design information system": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "design management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design materials for multimedia campaigns": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design piers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "design thinking": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "design thinking"
+  ],
+  "source": "keyword"
+ },
+ "detect financial crime": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "determine context to present the work": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop ICT workflow": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop a collaborative therapeutic relationship": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "collaborat",
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "develop account strategy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop an artistic approach to your interpretation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop an artistic network": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "develop artistic coaching programme": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "program"
+  ],
+  "low": [
+   "coach"
+  ],
+  "source": "keyword"
+ },
+ "develop artistic educational activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop audit plan": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop business case": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop business plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop communication networks with shipping sites": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "develop communications strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop company strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop creative ideas": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "develop data processing applications": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop design ideas cooperatively": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "develop digital content": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop digital educational materials": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop documentation in accordance with legal requirements": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "document",
+   "documentation"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop employee retention programs": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop environmental policy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop environmental remediation strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop inclusive communication material": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "inclusi"
+  ],
+  "source": "keyword"
+ },
+ "develop international cooperation strategies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "develop interregional collaboration strategies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "develop learning curriculum": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "develop management plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop media strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop musical ideas": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop new products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop organisational information goals": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop organisational policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop original melodies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "original"
+  ],
+  "source": "keyword"
+ },
+ "develop personal skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop professional identity in social work": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop professional network": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "develop professional network with researchers and scientists": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "search"
+  ],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "develop program ideas": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop public relations strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop software prototype": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop staff": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop standard operating procedures in the food chain": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop strategy to solve problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop terminology databases": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "database"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop the physical language": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "physical"
+  ],
+  "source": "keyword"
+ },
+ "develop training programmes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop waste management processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "develop working procedures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "devise military tactics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "devise special promotions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital arts": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital communication and collaboration": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "digital"
+  ],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "digital compositing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital content creation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital data processing": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital game genres": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital journalism": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital marketing techniques": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital media": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digital systems": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "digitization": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "direct an artistic team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "discern written communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "disseminate internal communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "disseminate messages to people": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "document evidence": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "document"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "draw design sketches": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "draw up artistic production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "draw up artistic programming policy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "draw up artistic project proposals": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "draw up professional texts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "e-commerce systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "e-learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "e-procurement": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ecosystem management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "electronic and telecommunication equipment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "electronic business": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "electronic communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "electronic signals intelligence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "emergent technologies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "employment law": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "empower individuals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "empower"
+  ],
+  "source": "keyword"
+ },
+ "encourage teambuilding": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "enforce financial policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "engage artistic staff": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "engage with stakeholders": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "stakeholder"
+  ],
+  "source": "keyword"
+ },
+ "engineering processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure client orientation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "ensure compliance with accounting conventions": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure compliance with company regulations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure compliance with legal requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure compliance with policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure cross-department cooperation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "ensure finished product meet requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure information privacy": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure information security": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure price competitiveness": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ensure quality of legislation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "enterprise risk management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "entertain people": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "entertainment industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "entrepreneurship": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental design": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental economics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental legislation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental policy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "environmental threats": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "establish collaborative relations": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "establish communication with foreign cultures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "establish data processes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "establish relationship with the media": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "estimate profitability": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "ethical code of conduct of journalists": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "ethics": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "ethics and religion": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "evaluate benefit plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evaluate environmental impact of personal behaviour": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evaluate implementation of safety procedures": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "safety"
+  ],
+  "source": "keyword"
+ },
+ "evaluate performance of organisational collaborators": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "evaluate pharmaceutical manufacturing process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evaluate supporting team in community arts program": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "program"
+  ],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "evaluate training": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evaluation theory": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evidence-based approach in general practice": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "evidence-based nursing care": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "execute analytical mathematical calculations": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "analytic",
+   "calculat",
+   "math"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "execute marketing plan": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "execute necessary procedures prior to take off": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "exercise self-reflection": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "reflect",
+   "self-reflect"
+  ],
+  "source": "keyword"
+ },
+ "express yourself creatively": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "facilitate access to information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "facilitate motor skill activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "facilitate teamwork between students": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "student",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "facilities management in the organisation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial capability": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial jurisdiction": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial markets": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "financial statements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "finish project within budget": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "focus on service": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "follow code of ethics for biomedical practices": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "follow ethical code of conduct in assessment situations": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "follow ethical code of conduct in tourism": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "follow ethical code of conduct in transport services": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "follow ethical code of conduct of gambling": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "follow strict level crossing operating procedures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "follow the statutory obligations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "follow up accounts receivables": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "follow verbal instructions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "follow work schedule": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "schedul"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "food ethics": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "formulate findings": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "gather data": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "gather data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "gather data for forensic purposes": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "gather data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "gather technical information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "genetics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "give constructive feedback": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "give feedback on changing circumstances": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "give interviews to media": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "give live presentation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "give out grants": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "good governance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "good manufacturing practices": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "government representation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "guidance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "guide learners in using assistive technologies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "handle case evidence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "handle cash flow": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "handle communications in the food processing industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "handle customer complaints": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "handle financial transactions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "handle tasks independently": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "hardware architectures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "hardware components suppliers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "have computer literacy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "have emotional intelligence": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "emotional"
+  ],
+  "source": "keyword"
+ },
+ "hire human resources": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "human psychological development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "human resource management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "human resources department processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "human-computer interaction": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "human-robot collaboration": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "id Tech": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify ICT security risks": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify ICT user needs": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify artistic niche": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify clients' needs": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "identify customer objectives": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "identify customer requirements": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "identify customer's needs": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "identify digital competence gaps": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify legal requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify new business opportunities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify potential markets for companies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify processes for re-engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify security threats": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify skills gaps": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify talent": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify technological needs": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify training needs": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "identify with the company's goals": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "image recognition": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "impart business plans to collaborators": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "implement ICT risk management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement a management system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement corporate governance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement data quality processes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement data warehousing techniques": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement environmental action plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement operational business plans": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement relevant technical skills to perform at the highest level in sport": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement sales strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "implement scientific decision making in healthcare": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "implement strategic management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "imprint visionary aspirations into the business management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "improve business processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "improvise": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "increase the impact of science on policy and society": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "incremental development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "industrial design": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "industrial software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "influence public policies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "influence"
+  ],
+  "source": "keyword"
+ },
+ "influence voting behaviour": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "influence"
+  ],
+  "source": "keyword"
+ },
+ "information and digital content": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "digital",
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information architecture": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information categorisation": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "categor",
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information confidentiality": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information extraction": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "extract",
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information governance compliance": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information security strategy": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "information structure": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "innovate in ICT": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "innovat"
+  ],
+  "source": "keyword"
+ },
+ "innovation processes": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "innovat"
+  ],
+  "source": "keyword"
+ },
+ "inspect data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "instruct library users in digital literacy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "instruct others": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "instructional strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "integrate and re-elaborate digital content": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "integrate community outreach": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "integrate marketing strategies with the global strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "integrate principles of training": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "integrate strategic foundation in daily performance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "intellectual property regime of digital content": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "inter-professional communication in the psychosocial field": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact professionally in research and professional environments": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact through digital technologies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact verbally in Chinese": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact verbally in German": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact with an audience": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interact with users to gather requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interactive media": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interfacing techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interfere with enemy communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "internal auditing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "internal risk management policy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "internet governance": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interpret artistic intentions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interpret business information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "interpret languages in conferences": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interpret mathematical information": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "format",
+   "information",
+   "math"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "interpret performance concepts in the creative process": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "interpret technical texts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "interview people": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "introduce new employees": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "investigate manufacturing facilities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "investment analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "involve volunteers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "issue sales invoices": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "invoice"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "iterative development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "joint ventures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "journalism": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "keep task records": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "record"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "keep track of expenses": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "keep up to date on product knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "keep up with digital transformation of industrial processes": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "digital",
+   "format"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "knowledge base": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "knowledge base"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "knowledge management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "laboratory methods in biomedical sciences": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "lactation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "language teaching methods": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "lay out digital written content": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "lead a team": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "lead",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "lead a team in hospitality service": {
+  "exposure": 0.15,
+  "base": 0.5,
+  "adj": -0.35,
+  "high": [],
+  "low": [
+   "hospitality",
+   "lead",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "lead a team in water management": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "lead",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "lead managers of company departments": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "lead"
+  ],
+  "source": "keyword"
+ },
+ "lead others": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "lead"
+  ],
+  "source": "keyword"
+ },
+ "lead process optimisation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "lead"
+  ],
+  "source": "keyword"
+ },
+ "lead technology development of an organisation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "lead"
+  ],
+  "source": "keyword"
+ },
+ "leadership in nursing": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "lead",
+   "leadership"
+  ],
+  "source": "keyword"
+ },
+ "leadership principles": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "lead",
+   "leadership"
+  ],
+  "source": "keyword"
+ },
+ "learning difficulties": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "learning management systems": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "learning technologies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "legal studies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "liaise with colleagues": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "colleague",
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with cultural partners": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "cultural",
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with government officials": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with industrial professionals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with industry experts": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with managers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with politicians": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with shareholders": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "liaise with union officials": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "liaise"
+  ],
+  "source": "keyword"
+ },
+ "life sciences": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "liquidity management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "literary criticism": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "logistics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "machine learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "maintain ICT system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain a non-emotional involvement": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "emotional"
+  ],
+  "source": "keyword"
+ },
+ "maintain contractual information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain credit history of clients": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "maintain customer records": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "record"
+  ],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "maintain data entry requirements": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "data entry"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain internal communication systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain logistics databases": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "database"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain operational communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain plan for continuity of operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain privacy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain professional administration": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain professional boundaries in social work": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain records of mining operations": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "record"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain relationship with customers": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "customer",
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "maintain relationship with suppliers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "maintain the security of machinery": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "maintain updated professional knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make artistic food creations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make clinical decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make data-driven decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "data"
+  ],
+  "low": [
+   "drive"
+  ],
+  "source": "keyword"
+ },
+ "make decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make diplomatic decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make investment decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make legal decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make strategic business decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "make time-critical decisions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage ICT data architecture": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage ICT project": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage a multidisciplinary team involved in patient care": {
+  "exposure": 0.15,
+  "base": 0.5,
+  "adj": -0.35,
+  "high": [],
+  "low": [
+   "care",
+   "patient",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "manage a small-to-medium business": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage a team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "manage accounts": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage all process engineering activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage artistic career": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "manage backlogs": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage business knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage cash desk": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage challenging work conditions during food processing operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage changes in ICT system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage chemical processes inspection": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage claims process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage cleaning activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage commercial risks": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage communications with food industry governmental bodies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage content development projects": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage corporate training programmes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage creative department": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "manage data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage data for legal matters": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage difficult clients": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "manage engineering project": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage environmental impact": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage environmental impact of operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage ethical dilemmas in genetic testing": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "test"
+  ],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "manage ethical issues within social services": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "manage ethics issues in the food industry": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "manage factory operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage feedback": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage financial and material resources": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage financial aspects of a company": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage financial risk": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage findable accessible interoperable and reusable data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage fitness goals": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage health and safety": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "safety"
+  ],
+  "source": "keyword"
+ },
+ "manage human resources": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage information sources": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage lost and found articles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage maintenance operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage manufacturing documentation": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "document",
+   "documentation"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage manufacturing facilities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage online communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage online content": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage payroll": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "payroll"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage personal professional development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage personal progression": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage production systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage profitability": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage prompt book": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage quality": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage quantitative data": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "quantitat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage relationships with stakeholders": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "relationship",
+   "stakeholder"
+  ],
+  "source": "keyword"
+ },
+ "manage resources": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage restaurant service": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage revenue": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage routine waste": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "routine"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage sales teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "manage schedule of tasks": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "schedul"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage service contracts in the drilling industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage several projects": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage staff": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "manage staff"
+  ],
+  "source": "keyword"
+ },
+ "manage standard enterprise resource planning system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage teamwork": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "manage technical aspects of vineyard production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage technical security systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage the general ledger": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "ledger"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage time": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage visual communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manage workflow processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "management consulting": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "management department processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "management systems standards": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "manufacturing processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "market analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "market entry planning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "market entry strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "market participants": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "market research": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "marketing analytics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "marketing department processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "marketing management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "marketing principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "mathematical economics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "math"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "mathematics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "math"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "maximise sales revenues": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "media and information literacy": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "media planning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "meet commitments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "meet commitments in hospitality": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "hospitality"
+  ],
+  "source": "keyword"
+ },
+ "meet deadlines": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "meet productivity targets": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "memorise large amounts of information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "mentor individuals": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "mentor"
+  ],
+  "source": "keyword"
+ },
+ "mergers and acquisitions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "metrology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "mobile marketing": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "mobility as a service": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "modern languages": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor assessment": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor communication channels' performance": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor daily work": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor developments in field of expertise": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor machine operations": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor processing conditions": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor processing environment conditions": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "monitor technology trends": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "monitor"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "morality": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "moral"
+  ],
+  "source": "keyword"
+ },
+ "motivate others": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "motivat"
+  ],
+  "source": "keyword"
+ },
+ "multi-professional cooperation in health care": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "care",
+   "cooperat"
+  ],
+  "source": "keyword"
+ },
+ "national generally accepted accounting principles": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "negotiate compromises": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "negoti"
+  ],
+  "source": "keyword"
+ },
+ "negotiate employment agreements": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "negoti"
+  ],
+  "source": "keyword"
+ },
+ "negotiate price": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "negoti"
+  ],
+  "source": "keyword"
+ },
+ "negotiate sales contracts": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "negoti"
+  ],
+  "source": "keyword"
+ },
+ "negotiate settlements": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "negoti"
+  ],
+  "source": "keyword"
+ },
+ "negotiate with stakeholders": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "negoti",
+   "stakeholder"
+  ],
+  "source": "keyword"
+ },
+ "network engineering": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "network marketing": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "network standards": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "network within the writing industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "writing"
+  ],
+  "low": [
+   "network"
+  ],
+  "source": "keyword"
+ },
+ "newsletter analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "obtain financial information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "occupational health": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "offer financial services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "office software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "online analytical processing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "online job platforms": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate an emergency communication system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate automated process control": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "automat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate broadcast equipment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate digital hardware": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate marine communication systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operate railway communication systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operational research": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "operations department processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "operations management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "optics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organisational learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "organisational policies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organisational resilience": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "resilien"
+  ],
+  "source": "keyword"
+ },
+ "organisational structure": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organise compositions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organise creative performance": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "organise facilities for office personnel": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organise information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "organise information on availability of the team": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "organise project meetings": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "organise training": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "outsourcing strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "oversee development of software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "own management skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "packaging functions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "packaging processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "participate as a performer in the creative process": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "participate in artistic mediation activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "participate in technical aspects of the production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "participatory decision-making": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "people and the environment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform asset recognition": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform business analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform business research": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform cost accounting activities": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform data analysis": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "analysis",
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform data mining": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform dunning activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform escalation procedure": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform financial market business": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform follow-up on pipeline route services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform ideation activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform manual work autonomously": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "manual"
+  ],
+  "source": "keyword"
+ },
+ "perform market research": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform multiple tasks at the same time": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform office routine activities": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "routine"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform process control in the wearing apparel industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform procurement processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform product planning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform project management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform public relations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform resource planning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform technically demanding tasks": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "perform warehousing operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "personal development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "personal reflection techniques based on feedback": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "reflect"
+  ],
+  "source": "keyword"
+ },
+ "personnel management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "persuade clients with alternatives": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "client",
+   "persuad"
+  ],
+  "source": "keyword"
+ },
+ "plan artistic production activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan choreographic improvisation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan digital marketing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan maintenance activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan manufacturing processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan marketing campaigns": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan marketing strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan medium to long term objectives": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan presence at professional events": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan product management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan scaffolding": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "plan workshop activity": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "policy analysis": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analysis"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "pose questions referring to documents": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "document"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "prepare broadcasts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "prepare financial statements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "prepare personal work environment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "prepare the assessment of prior learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "prescribe exercises": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "present artistic design proposals": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "present during live broadcasts": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "present evidence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "present reports": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "report"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "pricing strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "principles of artificial intelligence": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "problem-solving with digital tools": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "process applications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "process collected survey data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "process data": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "process data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "process data from railway control rooms": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "process data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "process payments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "process qualitative information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "procurement lifecycle": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "produce materials for decision making": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "product data management": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "product life-cycle": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "production engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "production processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "program artistic productions": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "program management": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "project configuration management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "project management principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote communication between parties": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote environmental awareness": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote ethical eating": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "promote event": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote financial products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote health and safety": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "safety"
+  ],
+  "source": "keyword"
+ },
+ "promote ideas": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote inclusion": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "inclusi"
+  ],
+  "source": "keyword"
+ },
+ "promote organisational communication": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote social change": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote social security programmes": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "promote the transfer of knowledge": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "propose ICT solutions to business problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "propose improvements to artistic production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "propose projects to artist": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "prospect new customers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "protect personal data and privacy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "protect the environment from the impact of the digital technologies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide assistive technology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide charity services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide customer guidance on product selection": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "provide financial product information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide high quality customer service": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "provide input to collaborators to guide their work": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "provide learning support": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "provide learning support in healthcare": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "care",
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "provide lesson materials": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide operational efficiency training to employees": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide support in financial calculation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "calculat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide technical expertise": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide technical training": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide training on e-learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "provide training on technological business developments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide user documentation": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "document",
+   "documentation"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "provide visitor information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "psychosociology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "public administration": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "public relations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "publishing strategy": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "quantitative analysis": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "analysis",
+   "quantitat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "quantitative risk analysis techniques": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "analysis",
+   "quantitat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "read books": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "real estate market": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "recruit employees": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "recruit personnel": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "relate empathetically": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "empath"
+  ],
+  "source": "keyword"
+ },
+ "relationship marketing": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "relay messages through radio and telephone systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "renew artistic practice": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "report accounts of the professional activity": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "account",
+   "report"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "report on environmental issues": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "report"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "report on overall management of a business": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "report"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "report to the team leader": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [
+   "report"
+  ],
+  "low": [
+   "lead",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "represent artistic production": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "reputation management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "resolve conflicts": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "conflict"
+  ],
+  "source": "keyword"
+ },
+ "respect confidentiality obligations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "respect the diversity of cultural values and norms": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "cultural",
+   "diversity"
+  ],
+  "source": "keyword"
+ },
+ "results-based management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "reverse engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "rhetoric": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "risk identification": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "risk management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "risk modelling": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "model"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "sales activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sales department processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sales strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "satisfy aesthetic requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "satisfy customers": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "customer"
+  ],
+  "source": "keyword"
+ },
+ "satisfy technical requirements": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "schedule artistic activities": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "schedul"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "schedule regular machine maintenance": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "schedul"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "scientific computing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "comput"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "search and filter data": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "search databases": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "data",
+   "database",
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "search engine optimisation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "search"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "securities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "security regulations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "security threats": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "seek innovation in current practices": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "innovat"
+  ],
+  "source": "keyword"
+ },
+ "self-promote": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sell art": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sell products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sell services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sell telecommunication products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "semantics": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "services": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "services marketing": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "set sales goals": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "set up effective working relationships with other sports players": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "shape corporate culture": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "shape organisational teams based on competencies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "share through digital technologies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "show entrepreneurial spirit": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "show impartiality in an assessment situation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "show initiative": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "show professional responsibility": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "responsib"
+  ],
+  "source": "keyword"
+ },
+ "simplify communication in maritime management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social alliances": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social development": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social entrepreneurship": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social entreprise": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social innovation": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "innovat"
+  ],
+  "source": "keyword"
+ },
+ "social media management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social media marketing techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "social mediation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "software design methodologies": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "solution deployment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "solve ICT system problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "solve problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "solve problems in healthcare": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "care"
+  ],
+  "source": "keyword"
+ },
+ "solve technical problems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "source criticism": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "speak about your work in public": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "speak different languages": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "sports ethics": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "state estimation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "statistical process control": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "statistic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "stimulate creative processes": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "stimulate creativity in the team": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "creativ",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "stimulate performers' imagination": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "imagin"
+  ],
+  "source": "keyword"
+ },
+ "stock market": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "store digital data and systems": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "data",
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "store products": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "strategic planning": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "strive for company growth": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "study a collection": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "study acquisition of language": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "study cultures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "study the relationships between quantities": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "relationship"
+  ],
+  "source": "keyword"
+ },
+ "summarise stories": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "summar"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "supervise accounting operations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "account"
+  ],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervise daily information operations": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervise data entry": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data",
+   "data entry"
+  ],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervise speech and language team": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "supervis",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "supervise spoken language learning": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "learn",
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervise work": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervise work on design planning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supervision of persons": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "supervis"
+  ],
+  "source": "keyword"
+ },
+ "supplier management": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "supply chain principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "support ICT system users": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "support managers": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "support service users in developing skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "support witnesses": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "synthesise financial information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "synthesise information": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "format",
+   "information"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "system backup best practice": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "systems development life-cycle": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "systems theory": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "systems thinking": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "take artistic vision into account": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "account"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "talent management strategies": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "task algorithmisation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "algorithm"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "tax legislation": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "teach business principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "teach communication methods": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "teach communication to clients": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "client"
+  ],
+  "source": "keyword"
+ },
+ "teach digital literacy": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "digital"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "teach languages": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "teach writing": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "writing"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "team building": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "teamwork principles": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "technical terminology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "technology and engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "technology education": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "telecom regulations": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "telecommunication industry": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "telecommunication trunking": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "telecommunications engineering": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "theoretical lexicography": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "think abstractly": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "think analytically": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "think creatively": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "think creatively about food and beverages": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "think creatively about jewellery": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "think critically": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "think innovatively": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "innovat"
+  ],
+  "source": "keyword"
+ },
+ "think proactively": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "think quickly": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "track shipments": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "train staff in quality procedures": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "training subject expertise": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "translate language concepts": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "translat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "translate strategy into operation": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "translat"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "transmission technology": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "treasury management system": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "treat animals ethically": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "ethic"
+  ],
+  "source": "keyword"
+ },
+ "trendwatching": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "types of metal manufacturing processes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "understand the emotional dimension of a performance": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "emotional"
+  ],
+  "source": "keyword"
+ },
+ "undertake clinical audit": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "audit"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "undertake continuous professional development in social work": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "unstructured data": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "update language skills": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "urban sustainability": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use ICT systems": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use IT systems for commercial purposes": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use aeronautical mobile service communications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use automatic programming": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "automat",
+   "program"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "use communication and collaboration software": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "software"
+  ],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "use communication devices": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use communication equipment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use communication techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use data processing techniques": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "data"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "use different communication channels": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use learning strategies": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "use methodologies for user-centered design": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use microsoft office": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use of special equipment for daily activities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use online tools to collaborate": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "use pedagogic strategies for creativity": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "creativ"
+  ],
+  "source": "keyword"
+ },
+ "use presentation software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "use production planning software": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "software"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "use questioning techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use questioning techniques for assessment": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "use spreadsheets software": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "software",
+   "spreadsheet"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "use therapeutic communication techniques": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "utilise machine learning": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "learn"
+  ],
+  "source": "keyword"
+ },
+ "value properties": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "vehicle manufacturing process": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "verify formal ICT specifications": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "web analytics": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "analytic"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "web based collaborative platforms": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "collaborat"
+  ],
+  "source": "keyword"
+ },
+ "work as a team in a hazardous environment": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work efficiently": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "work ergonomically": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "work for public inclusion": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "inclusi"
+  ],
+  "source": "keyword"
+ },
+ "work in a construction team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in a hospitality team": {
+  "exposure": 0.24,
+  "base": 0.5,
+  "adj": -0.26,
+  "high": [],
+  "low": [
+   "hospitality",
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in a land-based team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in an organised manner": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "work in assembly line teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in crises areas": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "work in fitness teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in inclement conditions": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "work in metal manufacture teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in multidisciplinary health teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work in teams": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work with a dance team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work with an artistic team": {
+  "exposure": 0.37,
+  "base": 0.5,
+  "adj": -0.13,
+  "high": [],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work with supporting team in community arts programme": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [
+   "program"
+  ],
+  "low": [
+   "team"
+  ],
+  "source": "keyword"
+ },
+ "work within communities": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ },
+ "write English": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "write job descriptions": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "script",
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "write research proposals": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "search",
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "write routine reports": {
+  "exposure": 0.85,
+  "base": 0.5,
+  "adj": 0.35,
+  "high": [
+   "report",
+   "routine",
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "write storylines": {
+  "exposure": 0.63,
+  "base": 0.5,
+  "adj": 0.13,
+  "high": [
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "write technical reports": {
+  "exposure": 0.76,
+  "base": 0.5,
+  "adj": 0.26,
+  "high": [
+   "report",
+   "write"
+  ],
+  "low": [],
+  "source": "keyword"
+ },
+ "youth work principles": {
+  "exposure": 0.5,
+  "base": 0.5,
+  "adj": 0.0,
+  "high": [],
+  "low": [],
+  "source": "keyword"
+ }
+}

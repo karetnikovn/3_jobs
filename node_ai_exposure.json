@@ -1,0 +1,332 @@
+{
+ "Declarative and retrieval-based knowledge": {
+  "exposure": 0.623,
+  "n_skills": 6,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "Individual knowledge": {
+  "exposure": 0.5,
+  "n_skills": 4,
+  "category": "Declining",
+  "type": "soft"
+ },
+ "Locate and retrieve information": {
+  "exposure": 0.72,
+  "n_skills": 15,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "language-specific knowledge": {
+  "exposure": 0.491,
+  "n_skills": 15,
+  "category": "Declining",
+  "type": "soft"
+ },
+ "Digital information analysis and synthesis": {
+  "exposure": 0.685,
+  "n_skills": 26,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "business knowledge as stored facts": {
+  "exposure": 0.606,
+  "n_skills": 16,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "Standardized routine execution": {
+  "exposure": 0.481,
+  "n_skills": 7,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "Routine tasks": {
+  "exposure": 0.552,
+  "n_skills": 29,
+  "category": "Declining",
+  "type": "hard"
+ },
+ "Foundations": {
+  "exposure": 0.5,
+  "n_skills": 4,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Creativity": {
+  "exposure": 0.453,
+  "n_skills": 61,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Business and management foundations": {
+  "exposure": 0.514,
+  "n_skills": 27,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Entrepreneurial and Innovation-Oriented Thinking": {
+  "exposure": 0.448,
+  "n_skills": 5,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Quantitative, data, and analytical foundations": {
+  "exposure": 0.63,
+  "n_skills": 3,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Creative Thinking and Curiosity": {
+  "exposure": 0.402,
+  "n_skills": 8,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "A structured approach to work": {
+  "exposure": 0.483,
+  "n_skills": 15,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Criticism": {
+  "exposure": 0.519,
+  "n_skills": 7,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Analytical and Structured Problem-Solving": {
+  "exposure": 0.569,
+  "n_skills": 7,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Analytical and critical thinking": {
+  "exposure": 0.587,
+  "n_skills": 3,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Data- and Evidence-Based Decision-Making": {
+  "exposure": 0.56,
+  "n_skills": 13,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Critical thinking": {
+  "exposure": 0.5,
+  "n_skills": 4,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Methodical Process and Technology Management": {
+  "exposure": 0.522,
+  "n_skills": 72,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Ethical decision-making": {
+  "exposure": 0.406,
+  "n_skills": 29,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Communications": {
+  "exposure": 0.482,
+  "n_skills": 81,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Collaboration": {
+  "exposure": 0.412,
+  "n_skills": 38,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Business & Professional communication": {
+  "exposure": 0.465,
+  "n_skills": 37,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Teamwork and cooperation": {
+  "exposure": 0.343,
+  "n_skills": 39,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Data communication and storytelling": {
+  "exposure": 0.63,
+  "n_skills": 7,
+  "category": "Enduring",
+  "type": "hard"
+ },
+ "Leadership and social influence": {
+  "exposure": 0.372,
+  "n_skills": 16,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Emotional and interpersonal intelligence": {
+  "exposure": 0.426,
+  "n_skills": 7,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Learning": {
+  "exposure": 0.439,
+  "n_skills": 34,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Learning orientation": {
+  "exposure": 0.37,
+  "n_skills": 1,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "Self-reflection": {
+  "exposure": 0.402,
+  "n_skills": 4,
+  "category": "Enduring",
+  "type": "soft"
+ },
+ "AI Interaction (How do humans use, communicate with, and evaluate AI?)": {
+  "exposure": 0.5,
+  "n_skills": 3,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Adaptability (capacity to respond constructively to technological and organizational change)": {
+  "exposure": 0.409,
+  "n_skills": 10,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "Digital and AI literacy": {
+  "exposure": 0.643,
+  "n_skills": 10,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Adaptive Mindset and Resilience": {
+  "exposure": 0.37,
+  "n_skills": 1,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "Prompting skills": {
+  "exposure": 0.481,
+  "n_skills": 21,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI-Driven Change and Opportunity Management": {
+  "exposure": 0.5,
+  "n_skills": 2,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI Use-Case Identification and Professional Application": {
+  "exposure": 0.5,
+  "n_skills": 4,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI self-efficacy": {
+  "exposure": null,
+  "n_skills": 0,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI monitoring; output evaluation and verification": {
+  "exposure": 0.604,
+  "n_skills": 5,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI-ideation": {
+  "exposure": 0.556,
+  "n_skills": 7,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI System Design (How are AI-supported tools, workflows, and processes designed?)": {
+  "exposure": 0.63,
+  "n_skills": 1,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context)": {
+  "exposure": 0.5,
+  "n_skills": 1,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI Development and Implementation": {
+  "exposure": 0.565,
+  "n_skills": 6,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Human-AI collaboration": {
+  "exposure": 0.5,
+  "n_skills": 2,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI Data and Process Management": {
+  "exposure": 0.63,
+  "n_skills": 29,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Socio-Technical Systems Thinking": {
+  "exposure": 0.531,
+  "n_skills": 25,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI infrastructure and Deployment Readiness": {
+  "exposure": 0.5,
+  "n_skills": 2,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI transformation and organizational redesign": {
+  "exposure": 0.63,
+  "n_skills": 1,
+  "category": "Emerging",
+  "type": "soft"
+ },
+ "AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)": {
+  "exposure": null,
+  "n_skills": 0,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Governance and Accountability Structures": {
+  "exposure": 0.48,
+  "n_skills": 13,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Responsible and Ethical AI Evaluation": {
+  "exposure": 0.5,
+  "n_skills": 1,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "AI Risk, Privacy, and Security Management": {
+  "exposure": 0.557,
+  "n_skills": 23,
+  "category": "Emerging",
+  "type": "hard"
+ },
+ "Societal and Environmental AI Impact": {
+  "exposure": 0.511,
+  "n_skills": 23,
+  "category": "Emerging",
+  "type": "hard"
+ }
+}

@@ -1,0 +1,269 @@
+pillar,occupation,n_skills,n_groups,exposure,pct_2023,pct_2026,change_pp
+accessing and analysing digital data,All,69,3,0.616,8.6,12.62,4.02
+accessing and analysing digital data,Marketing Managers,69,3,0.616,11.7,16.44,4.74
+accessing and analysing digital data,Human Resources Managers,69,3,0.616,5.77,5.31,-0.46
+accessing and analysing digital data,Financial Managers,69,3,0.616,5.19,8.33,3.14
+advising and consulting,All,108,9,0.433,10.21,10.91,0.7
+advising and consulting,Marketing Managers,108,9,0.433,7.92,9.18,1.26
+advising and consulting,Human Resources Managers,108,9,0.433,13.1,11.35,-1.75
+advising and consulting,Financial Managers,108,9,0.433,12.39,14.21,1.82
+allocating and controlling resources,All,93,4,0.504,21.79,20.58,-1.21
+allocating and controlling resources,Marketing Managers,93,4,0.504,11.54,11.05,-0.49
+allocating and controlling resources,Human Resources Managers,93,4,0.504,51.0,41.59,-9.41
+allocating and controlling resources,Financial Managers,93,4,0.504,24.59,29.99,5.4
+analysing and evaluating information and data,All,211,7,0.58,22.48,22.97,0.49
+analysing and evaluating information and data,Marketing Managers,211,7,0.58,19.58,22.59,3.01
+analysing and evaluating information and data,Human Resources Managers,211,7,0.58,12.93,17.9,4.97
+analysing and evaluating information and data,Financial Managers,211,7,0.58,30.86,26.1,-4.76
+architecture and construction,All,32,2,0.504,0.74,1.3,0.56
+architecture and construction,Marketing Managers,32,2,0.504,1.01,1.12,0.11
+architecture and construction,Human Resources Managers,32,2,0.504,0.7,3.4,2.7
+architecture and construction,Financial Managers,32,2,0.504,0.35,0.7,0.35
+arts,All,78,5,0.518,3.97,5.99,2.02
+arts,Marketing Managers,78,5,0.518,6.6,9.39,2.79
+arts,Human Resources Managers,78,5,0.518,1.68,1.55,-0.13
+arts,Financial Managers,78,5,0.518,1.05,1.2,0.15
+assembling and fabricating products,All,53,9,0.485,7.58,6.15,-1.43
+assembling and fabricating products,Marketing Managers,53,9,0.485,9.74,7.47,-2.27
+assembling and fabricating products,Human Resources Managers,53,9,0.485,5.24,5.78,0.54
+assembling and fabricating products,Financial Managers,53,9,0.485,5.35,3.67,-1.68
+biological and related sciences,All,33,2,0.496,2.18,2.44,0.26
+biological and related sciences,Marketing Managers,33,2,0.496,2.74,2.62,-0.12
+biological and related sciences,Human Resources Managers,33,2,0.496,1.56,2.0,0.44
+biological and related sciences,Financial Managers,33,2,0.496,1.6,2.29,0.69
+building and developing teams,All,11,1,0.37,3.52,3.91,0.39
+building and developing teams,Marketing Managers,11,1,0.37,4.63,4.48,-0.15
+building and developing teams,Human Resources Managers,11,1,0.37,4.13,4.49,0.36
+building and developing teams,Financial Managers,11,1,0.37,1.6,2.49,0.89
+business and administration,All,212,7,0.509,71.64,71.97,0.33
+business and administration,Marketing Managers,212,7,0.509,73.1,71.7,-1.4
+business and administration,Human Resources Managers,212,7,0.509,61.93,64.55,2.62
+business and administration,Financial Managers,212,7,0.509,73.61,75.98,2.37
+calculating and estimating,All,42,4,0.552,5.91,6.69,0.78
+calculating and estimating,Marketing Managers,42,4,0.552,5.68,5.13,-0.55
+calculating and estimating,Human Resources Managers,42,4,0.552,2.01,3.32,1.31
+calculating and estimating,Financial Managers,42,4,0.552,7.93,11.41,3.48
+"communication, collaboration and creativity",All,7,1,0.444,5.57,5.73,0.16
+"communication, collaboration and creativity",Marketing Managers,7,1,0.444,7.5,6.76,-0.74
+"communication, collaboration and creativity",Human Resources Managers,7,1,0.444,4.34,3.59,-0.75
+"communication, collaboration and creativity",Financial Managers,7,1,0.444,3.22,4.64,1.42
+"conducting studies, investigations and examinations",All,133,4,0.54,11.38,9.16,-2.22
+"conducting studies, investigations and examinations",Marketing Managers,133,4,0.54,9.11,9.81,0.7
+"conducting studies, investigations and examinations",Human Resources Managers,133,4,0.54,7.78,7.43,-0.35
+"conducting studies, investigations and examinations",Financial Managers,133,4,0.54,16.28,8.66,-7.62
+counselling,All,21,4,0.407,1.67,1.63,-0.04
+counselling,Marketing Managers,21,4,0.407,0.89,1.17,0.28
+counselling,Human Resources Managers,21,4,0.407,4.79,3.0,-1.79
+counselling,Financial Managers,21,4,0.407,1.5,1.91,0.41
+"creating artistic, visual or instructive materials",All,102,4,0.503,12.25,17.8,5.55
+"creating artistic, visual or instructive materials",Marketing Managers,102,4,0.503,18.14,23.14,5.0
+"creating artistic, visual or instructive materials",Human Resources Managers,102,4,0.503,5.44,12.8,7.36
+"creating artistic, visual or instructive materials",Financial Managers,102,4,0.503,6.4,9.37,2.97
+demonstrate consideration,All,12,1,0.359,4.06,4.87,0.81
+demonstrate consideration,Marketing Managers,12,1,0.359,3.55,4.63,1.08
+demonstrate consideration,Human Resources Managers,12,1,0.359,8.31,7.93,-0.38
+demonstrate consideration,Financial Managers,12,1,0.359,3.0,3.92,0.92
+designing systems and products,All,119,6,0.517,12.57,14.42,1.85
+designing systems and products,Marketing Managers,119,6,0.517,18.02,17.78,-0.24
+designing systems and products,Human Resources Managers,119,6,0.517,4.71,9.85,5.14
+designing systems and products,Financial Managers,119,6,0.517,7.83,9.77,1.94
+developing objectives and strategies,All,250,8,0.504,48.63,50.7,2.07
+developing objectives and strategies,Marketing Managers,250,8,0.504,54.35,52.1,-2.25
+developing objectives and strategies,Human Resources Managers,250,8,0.504,42.78,47.34,4.56
+developing objectives and strategies,Financial Managers,250,8,0.504,42.61,49.45,6.84
+documenting and recording information,All,119,8,0.606,6.1,6.72,0.62
+documenting and recording information,Marketing Managers,119,8,0.606,2.81,3.06,0.25
+documenting and recording information,Human Resources Managers,119,8,0.606,4.99,4.34,-0.65
+documenting and recording information,Financial Managers,119,8,0.606,11.47,15.24,3.77
+education,All,23,3,0.472,5.3,5.26,-0.04
+education,Marketing Managers,23,3,0.472,5.37,5.47,0.1
+education,Human Resources Managers,23,3,0.472,6.22,5.7,-0.52
+education,Financial Managers,23,3,0.472,4.79,4.64,-0.15
+engineering and engineering trades,All,160,8,0.507,6.96,11.46,4.5
+engineering and engineering trades,Marketing Managers,160,8,0.507,8.56,12.03,3.47
+engineering and engineering trades,Human Resources Managers,160,8,0.507,4.91,12.38,7.47
+engineering and engineering trades,Financial Managers,160,8,0.507,5.45,9.88,4.43
+environment,All,13,2,0.5,1.6,1.88,0.28
+environment,Marketing Managers,13,2,0.5,1.42,1.73,0.31
+environment,Human Resources Managers,13,2,0.5,2.25,3.11,0.86
+environment,Financial Managers,13,2,0.5,1.6,1.61,0.01
+follow ethical code of conduct,All,11,1,0.382,0.63,1.07,0.44
+follow ethical code of conduct,Marketing Managers,11,1,0.382,0.39,0.54,0.15
+follow ethical code of conduct,Human Resources Managers,11,1,0.382,0.82,0.45,-0.37
+follow ethical code of conduct,Financial Managers,11,1,0.382,0.91,2.41,1.5
+health,All,176,7,0.496,8.59,9.94,1.35
+health,Marketing Managers,176,7,0.496,9.08,10.13,1.05
+health,Human Resources Managers,176,7,0.496,11.95,12.85,0.9
+health,Financial Managers,176,7,0.496,6.45,8.2,1.75
+humanities (except languages),All,19,3,0.493,3.36,6.84,3.48
+humanities (except languages),Marketing Managers,19,3,0.493,2.95,5.5,2.55
+humanities (except languages),Human Resources Managers,19,3,0.493,5.49,11.29,5.8
+humanities (except languages),Financial Managers,19,3,0.493,3.07,7.47,4.4
+hygiene and occupational health services,All,27,2,0.433,0.76,1.11,0.35
+hygiene and occupational health services,Marketing Managers,27,2,0.433,0.63,1.06,0.43
+hygiene and occupational health services,Human Resources Managers,27,2,0.433,2.46,2.48,0.02
+hygiene and occupational health services,Financial Managers,27,2,0.433,0.23,0.59,0.36
+information and communication technologies (icts),All,250,4,0.568,22.4,31.27,8.87
+information and communication technologies (icts),Marketing Managers,250,4,0.568,27.01,34.21,7.2
+information and communication technologies (icts),Human Resources Managers,250,4,0.568,17.6,28.43,10.83
+information and communication technologies (icts),Financial Managers,250,4,0.568,17.6,26.67,9.07
+journalism and information,All,22,2,0.593,5.46,8.69,3.23
+journalism and information,Marketing Managers,22,2,0.593,7.38,12.04,4.66
+journalism and information,Human Resources Managers,22,2,0.593,6.67,5.99,-0.68
+journalism and information,Financial Managers,22,2,0.593,2.09,3.18,1.09
+language skills and knowledge,All,51,2,0.5,4.1,4.17,0.07
+language skills and knowledge,Marketing Managers,51,2,0.5,4.14,4.02,-0.12
+language skills and knowledge,Human Resources Managers,51,2,0.5,5.89,4.19,-1.7
+language skills and knowledge,Financial Managers,51,2,0.5,3.28,4.47,1.19
+languages,All,30,2,0.53,2.06,2.35,0.29
+languages,Marketing Managers,30,2,0.53,2.73,2.68,-0.05
+languages,Human Resources Managers,30,2,0.53,1.23,2.75,1.52
+languages,Financial Managers,30,2,0.53,1.43,1.49,0.06
+law,All,66,1,0.502,5.95,5.76,-0.19
+law,Marketing Managers,66,1,0.502,2.72,3.65,0.93
+law,Human Resources Managers,66,1,0.502,18.13,14.61,-3.52
+law,Financial Managers,66,1,0.502,5.56,5.87,0.31
+leading and motivating,All,25,1,0.382,13.12,15.2,2.08
+leading and motivating,Marketing Managers,25,1,0.382,11.26,12.7,1.44
+leading and motivating,Human Resources Managers,25,1,0.382,19.89,23.55,3.66
+leading and motivating,Financial Managers,25,1,0.382,13.02,16.32,3.3
+liaising and networking,All,198,4,0.421,38.99,44.0,5.01
+liaising and networking,Marketing Managers,198,4,0.421,38.53,43.22,4.69
+liaising and networking,Human Resources Managers,198,4,0.421,31.44,43.34,11.9
+liaising and networking,Financial Managers,198,4,0.421,42.89,45.9,3.01
+making decisions,All,17,1,0.492,15.26,14.82,-0.44
+making decisions,Marketing Managers,17,1,0.492,13.59,13.6,0.01
+making decisions,Human Resources Managers,17,1,0.492,7.74,13.59,5.85
+making decisions,Financial Managers,17,1,0.492,20.95,17.87,-3.08
+manage quality,All,24,4,0.484,4.17,6.51,2.34
+manage quality,Marketing Managers,24,4,0.484,4.37,6.8,2.43
+manage quality,Human Resources Managers,24,4,0.484,2.37,6.84,4.47
+manage quality,Financial Managers,24,4,0.484,4.64,5.78,1.14
+management skills,All,24,1,0.484,4.97,4.31,-0.66
+management skills,Marketing Managers,24,1,0.484,2.61,2.31,-0.3
+management skills,Human Resources Managers,24,1,0.484,15.72,11.59,-4.13
+management skills,Financial Managers,24,1,0.484,3.89,4.93,1.04
+managing information,All,34,1,0.649,2.44,2.51,0.07
+managing information,Marketing Managers,34,1,0.649,2.13,2.48,0.35
+managing information,Human Resources Managers,34,1,0.649,2.21,2.4,0.19
+managing information,Financial Managers,34,1,0.649,3.0,2.64,-0.36
+mathematics and statistics,All,20,2,0.57,2.24,1.94,-0.3
+mathematics and statistics,Marketing Managers,20,2,0.57,1.61,1.87,0.26
+mathematics and statistics,Human Resources Managers,20,2,0.57,0.41,1.44,1.03
+mathematics and statistics,Financial Managers,20,2,0.57,3.97,2.31,-1.66
+meet commitments,All,17,4,0.515,10.89,12.93,2.04
+meet commitments,Marketing Managers,17,4,0.515,8.57,9.45,0.88
+meet commitments,Human Resources Managers,17,4,0.515,9.78,12.08,2.3
+meet commitments,Financial Managers,17,4,0.515,14.81,20.34,5.53
+monitoring developments in area of expertise,All,54,1,0.534,5.93,6.35,0.42
+monitoring developments in area of expertise,Marketing Managers,54,1,0.534,6.21,6.33,0.12
+monitoring developments in area of expertise,Human Resources Managers,54,1,0.534,5.32,6.43,1.11
+monitoring developments in area of expertise,Financial Managers,54,1,0.534,5.77,6.33,0.56
+"monitoring, inspecting and testing",All,210,8,0.557,17.02,17.03,0.01
+"monitoring, inspecting and testing",Marketing Managers,210,8,0.557,14.08,13.64,-0.44
+"monitoring, inspecting and testing",Human Resources Managers,210,8,0.557,9.5,13.9,4.4
+"monitoring, inspecting and testing",Financial Managers,210,8,0.557,24.59,25.35,0.76
+negotiating,All,60,4,0.431,10.02,8.99,-1.03
+negotiating,Marketing Managers,60,4,0.431,8.18,7.55,-0.63
+negotiating,Human Resources Managers,60,4,0.431,15.27,12.75,-2.52
+negotiating,Financial Managers,60,4,0.431,10.53,10.14,-0.39
+obtaining information verbally,All,41,3,0.462,14.75,16.95,2.2
+obtaining information verbally,Marketing Managers,41,3,0.462,15.55,17.51,1.96
+obtaining information verbally,Human Resources Managers,41,3,0.462,16.95,16.51,-0.44
+obtaining information verbally,Financial Managers,41,3,0.462,12.62,16.04,3.42
+"organising, planning and scheduling work and activities",All,247,3,0.493,22.19,25.96,3.77
+"organising, planning and scheduling work and activities",Marketing Managers,247,3,0.493,27.9,30.14,2.24
+"organising, planning and scheduling work and activities",Human Resources Managers,247,3,0.493,16.33,21.77,5.44
+"organising, planning and scheduling work and activities",Financial Managers,247,3,0.493,16.21,19.49,3.28
+performing administrative activities,All,60,4,0.504,9.86,10.68,0.82
+performing administrative activities,Marketing Managers,60,4,0.504,5.42,6.78,1.36
+performing administrative activities,Human Resources Managers,60,4,0.504,4.34,6.03,1.69
+performing administrative activities,Financial Managers,60,4,0.504,18.82,20.72,1.9
+performing and entertaining,All,68,3,0.483,4.23,5.92,1.69
+performing and entertaining,Marketing Managers,68,3,0.483,5.37,7.61,2.24
+performing and entertaining,Human Resources Managers,68,3,0.483,3.81,3.5,-0.31
+performing and entertaining,Financial Managers,68,3,0.483,2.7,3.65,0.95
+personal skills and development,All,7,1,0.407,10.62,10.95,0.33
+personal skills and development,Marketing Managers,7,1,0.407,11.27,10.57,-0.7
+personal skills and development,Human Resources Managers,7,1,0.407,14.04,13.49,-0.55
+personal skills and development,Financial Managers,7,1,0.407,8.21,10.55,2.34
+physical sciences,All,58,3,0.509,1.8,3.02,1.22
+physical sciences,Marketing Managers,58,3,0.509,1.84,3.03,1.19
+physical sciences,Human Resources Managers,58,3,0.509,2.09,2.64,0.55
+physical sciences,Financial Managers,58,3,0.509,1.62,3.19,1.57
+presenting information,All,42,4,0.561,9.71,9.83,0.12
+presenting information,Marketing Managers,42,4,0.561,8.86,8.37,-0.49
+presenting information,Human Resources Managers,42,4,0.561,6.79,5.86,-0.93
+presenting information,Financial Managers,42,4,0.561,12.22,14.65,2.43
+processing information,All,56,3,0.597,6.99,7.09,0.1
+processing information,Marketing Managers,56,3,0.597,6.4,8.42,2.02
+processing information,Human Resources Managers,56,3,0.597,5.4,4.35,-1.05
+processing information,Financial Managers,56,3,0.597,8.54,5.68,-2.86
+"promoting, selling and purchasing",All,154,4,0.494,20.9,21.49,0.59
+"promoting, selling and purchasing",Marketing Managers,154,4,0.494,31.04,27.76,-3.28
+"promoting, selling and purchasing",Human Resources Managers,154,4,0.494,7.16,9.77,2.61
+"promoting, selling and purchasing",Financial Managers,154,4,0.494,11.69,14.33,2.64
+protecting and enforcing,All,256,7,0.494,21.36,23.87,2.51
+protecting and enforcing,Marketing Managers,256,7,0.494,14.92,19.8,4.88
+protecting and enforcing,Human Resources Managers,256,7,0.494,27.96,34.46,6.5
+protecting and enforcing,Financial Managers,256,7,0.494,28.13,27.11,-1.02
+providing general personal care,All,29,5,0.428,1.18,1.28,0.1
+providing general personal care,Marketing Managers,29,5,0.428,1.09,1.2,0.11
+providing general personal care,Human Resources Managers,29,5,0.428,2.05,2.39,0.34
+providing general personal care,Financial Managers,29,5,0.428,0.94,0.92,-0.02
+providing health care or medical treatments,All,55,7,0.455,1.63,2.66,1.03
+providing health care or medical treatments,Marketing Managers,55,7,0.455,1.85,3.12,1.27
+providing health care or medical treatments,Human Resources Managers,55,7,0.455,1.76,2.44,0.68
+providing health care or medical treatments,Financial Managers,55,7,0.455,1.25,1.83,0.58
+providing information and support to the public and clients,All,81,5,0.481,14.93,14.91,-0.02
+providing information and support to the public and clients,Marketing Managers,81,5,0.481,15.98,15.66,-0.32
+providing information and support to the public and clients,Human Resources Managers,81,5,0.481,14.45,9.14,-5.31
+providing information and support to the public and clients,Financial Managers,81,5,0.481,13.56,16.09,2.53
+recruiting and hiring,All,16,1,0.476,13.74,14.1,0.36
+recruiting and hiring,Marketing Managers,16,1,0.476,7.07,8.15,1.08
+recruiting and hiring,Human Resources Managers,16,1,0.476,47.81,49.98,2.17
+recruiting and hiring,Financial Managers,16,1,0.476,9.15,9.29,0.14
+setting up and protecting computer systems,All,35,3,0.522,1.99,2.55,0.56
+setting up and protecting computer systems,Marketing Managers,35,3,0.522,2.78,2.67,-0.11
+setting up and protecting computer systems,Human Resources Managers,35,3,0.522,0.94,2.44,1.5
+setting up and protecting computer systems,Financial Managers,35,3,0.522,1.27,2.35,1.08
+social and behavioural sciences,All,54,4,0.5,40.97,40.72,-0.25
+social and behavioural sciences,Marketing Managers,54,4,0.5,40.42,40.7,0.28
+social and behavioural sciences,Human Resources Managers,54,4,0.5,54.44,46.19,-8.25
+social and behavioural sciences,Financial Managers,54,4,0.5,36.06,38.19,2.13
+solving problems,All,42,3,0.481,11.68,12.57,0.89
+solving problems,Marketing Managers,42,3,0.481,12.07,10.51,-1.56
+solving problems,Human Resources Managers,42,3,0.481,13.47,13.32,-0.15
+solving problems,Financial Managers,42,3,0.481,10.35,16.37,6.02
+supervising people,All,85,3,0.438,20.31,19.53,-0.78
+supervising people,Marketing Managers,85,3,0.438,19.59,18.24,-1.35
+supervising people,Human Resources Managers,85,3,0.438,25.17,27.32,2.15
+supervising people,Financial Managers,85,3,0.438,19.29,18.47,-0.82
+teaching and training,All,125,6,0.473,9.3,8.98,-0.32
+teaching and training,Marketing Managers,125,6,0.473,7.68,8.25,0.57
+teaching and training,Human Resources Managers,125,6,0.473,12.65,11.31,-1.34
+teaching and training,Financial Managers,125,6,0.473,10.28,9.37,-0.91
+tending plants and crops,All,16,4,0.5,1.51,1.57,0.06
+tending plants and crops,Marketing Managers,16,4,0.5,1.68,1.26,-0.42
+tending plants and crops,Human Resources Managers,16,4,0.5,1.68,2.06,0.38
+tending plants and crops,Financial Managers,16,4,0.5,1.19,1.96,0.77
+"using digital tools for collaboration, content creation and problem solving",All,33,4,0.559,10.62,13.57,2.95
+"using digital tools for collaboration, content creation and problem solving",Marketing Managers,33,4,0.559,12.51,14.82,2.31
+"using digital tools for collaboration, content creation and problem solving",Human Resources Managers,33,4,0.559,9.99,12.24,2.25
+"using digital tools for collaboration, content creation and problem solving",Financial Managers,33,4,0.559,8.07,11.69,3.62
+using precision instrumentation and equipment,All,67,7,0.519,1.14,2.12,0.98
+using precision instrumentation and equipment,Marketing Managers,67,7,0.519,1.61,3.05,1.44
+using precision instrumentation and equipment,Human Resources Managers,67,7,0.519,1.27,1.09,-0.18
+using precision instrumentation and equipment,Financial Managers,67,7,0.519,0.4,0.74,0.34
+welfare,All,30,3,0.465,10.7,13.8,3.1
+welfare,Marketing Managers,30,3,0.465,9.1,13.89,4.79
+welfare,Human Resources Managers,30,3,0.465,10.19,16.84,6.65
+welfare,Financial Managers,30,3,0.465,13.3,12.17,-1.13
+working with others,All,81,7,0.449,10.93,12.9,1.97
+working with others,Marketing Managers,81,7,0.449,12.23,14.02,1.79
+working with others,Human Resources Managers,81,7,0.449,12.32,14.3,1.98
+working with others,Financial Managers,81,7,0.449,8.42,9.96,1.54
+writing and composing,All,67,4,0.608,6.51,8.91,2.4
+writing and composing,Marketing Managers,67,4,0.608,5.83,7.71,1.88
+writing and composing,Human Resources Managers,67,4,0.608,6.59,9.62,3.03
+writing and composing,Financial Managers,67,4,0.608,7.49,11.01,3.52

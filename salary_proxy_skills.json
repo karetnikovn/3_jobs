@@ -1,0 +1,1787 @@
+{
+  "method": "Posting-level salaries are unavailable. High-pay group = top 5% of 2026 postings within each O*NET occupation by a title-seniority score (VP/Director/Senior/…). This is a PROXY for top-tail pay, validated directionally against BLS OES upper-tail wages for the same occupations. Compare to (1) all postings and (2) a random sample of 100 postings.",
+  "year": 2026,
+  "top_pct": 0.05,
+  "sample_n": 100,
+  "occupations": {
+    "Marketing Managers": {
+      "onet": "11-2021.00",
+      "n_all": 43126,
+      "n_high_proxy": 2156,
+      "n_sample": 100,
+      "score_cutoff": 9.0,
+      "high_with_seniority_signal_pct": 100.0,
+      "bls": {
+        "source": "BLS OES / OOH (Marketing Managers 11-2021)",
+        "year": "May 2024 (median/OOH); percentiles May 2023 OES where noted",
+        "median": 161030,
+        "p10": 81900,
+        "p25": 108000,
+        "p75": 208000,
+        "p90": 239200,
+        "p90_note": "OOH: highest 10% > $239,200 (top-coded)"
+      },
+      "example_high_titles": [
+        "Brand Alliances & Partnerships-Giftcards (VP/SVP/Director)",
+        "Sr. Director/VP - Market Leaders (Southern California)",
+        "Senior Director, Partner Marketing",
+        "Sr. Director, Partner and Field Marketing",
+        "Sr. Director, Global Partner Marketing",
+        "VP/Director Head of Municipals Marketing",
+        "Sr. Director, Global Partner Marketing",
+        "Sr. Director, Global Partner Marketing",
+        "Senior Vice President & Chief Marketing and Communications Officer",
+        "Sr Director, Global Partner Marketing & Customer Advocacy",
+        "Senior VP and Chief Marketing Officer - Communications Administration",
+        "Managing Director, Global Head of Marketing & Communications Marq Logistics"
+      ],
+      "top_all": [
+        {
+          "skill": "sales activities",
+          "jobs": 8015,
+          "pct": 18.6
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 5497,
+          "pct": 12.7
+        },
+        {
+          "skill": "develop new products",
+          "jobs": 5154,
+          "pct": 12.0
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 5082,
+          "pct": 11.8
+        },
+        {
+          "skill": "web analytics",
+          "jobs": 4952,
+          "pct": 11.5
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 4833,
+          "pct": 11.2
+        },
+        {
+          "skill": "implement sales strategies",
+          "jobs": 4724,
+          "pct": 11.0
+        },
+        {
+          "skill": "communicate with customers",
+          "jobs": 4587,
+          "pct": 10.6
+        },
+        {
+          "skill": "communication",
+          "jobs": 4035,
+          "pct": 9.4
+        },
+        {
+          "skill": "lead others",
+          "jobs": 3900,
+          "pct": 9.0
+        },
+        {
+          "skill": "design customer experiences",
+          "jobs": 3716,
+          "pct": 8.6
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 3423,
+          "pct": 7.9
+        },
+        {
+          "skill": "develop creative ideas",
+          "jobs": 3400,
+          "pct": 7.9
+        },
+        {
+          "skill": "plan marketing strategy",
+          "jobs": 3369,
+          "pct": 7.8
+        },
+        {
+          "skill": "market analysis",
+          "jobs": 3363,
+          "pct": 7.8
+        },
+        {
+          "skill": "marketing management",
+          "jobs": 3302,
+          "pct": 7.7
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 3068,
+          "pct": 7.1
+        },
+        {
+          "skill": "use presentation software",
+          "jobs": 3029,
+          "pct": 7.0
+        },
+        {
+          "skill": "market research",
+          "jobs": 3025,
+          "pct": 7.0
+        },
+        {
+          "skill": "promote ideas",
+          "jobs": 2885,
+          "pct": 6.7
+        }
+      ],
+      "top_high_proxy": [
+        {
+          "skill": "sales activities",
+          "jobs": 516,
+          "pct": 23.9,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 18.6,
+          "pct_delta": 5.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 427,
+          "pct": 19.8,
+          "rank": 2,
+          "base_rank": 2,
+          "rank_delta": 0,
+          "base_pct": 12.7,
+          "pct_delta": 7.1,
+          "new_in_top": false
+        },
+        {
+          "skill": "implement sales strategies",
+          "jobs": 410,
+          "pct": 19.0,
+          "rank": 3,
+          "base_rank": 7,
+          "rank_delta": 4,
+          "base_pct": 11.0,
+          "pct_delta": 8.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "web analytics",
+          "jobs": 364,
+          "pct": 16.9,
+          "rank": 4,
+          "base_rank": 5,
+          "rank_delta": 1,
+          "base_pct": 11.5,
+          "pct_delta": 5.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "market research",
+          "jobs": 338,
+          "pct": 15.7,
+          "rank": 5,
+          "base_rank": 19,
+          "rank_delta": 14,
+          "base_pct": 7.0,
+          "pct_delta": 8.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "plan marketing strategy",
+          "jobs": 333,
+          "pct": 15.4,
+          "rank": 6,
+          "base_rank": 14,
+          "rank_delta": 8,
+          "base_pct": 7.8,
+          "pct_delta": 7.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "apply customer engagement strategy",
+          "jobs": 306,
+          "pct": 14.2,
+          "rank": 7,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "develop creative ideas",
+          "jobs": 282,
+          "pct": 13.1,
+          "rank": 8,
+          "base_rank": 13,
+          "rank_delta": 5,
+          "base_pct": 7.9,
+          "pct_delta": 5.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "coaching techniques",
+          "jobs": 277,
+          "pct": 12.8,
+          "rank": 9,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "lead others",
+          "jobs": 276,
+          "pct": 12.8,
+          "rank": 10,
+          "base_rank": 10,
+          "rank_delta": 0,
+          "base_pct": 9.0,
+          "pct_delta": 3.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 273,
+          "pct": 12.7,
+          "rank": 11,
+          "base_rank": 4,
+          "rank_delta": -7,
+          "base_pct": 11.8,
+          "pct_delta": 0.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with customers",
+          "jobs": 250,
+          "pct": 11.6,
+          "rank": 12,
+          "base_rank": 8,
+          "rank_delta": -4,
+          "base_pct": 10.6,
+          "pct_delta": 1.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 248,
+          "pct": 11.5,
+          "rank": 13,
+          "base_rank": 6,
+          "rank_delta": -7,
+          "base_pct": 11.2,
+          "pct_delta": 0.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "develop new products",
+          "jobs": 247,
+          "pct": 11.5,
+          "rank": 14,
+          "base_rank": 3,
+          "rank_delta": -11,
+          "base_pct": 12.0,
+          "pct_delta": -0.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "digital marketing techniques",
+          "jobs": 228,
+          "pct": 10.6,
+          "rank": 15,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 228,
+          "pct": 10.6,
+          "rank": 16,
+          "base_rank": 17,
+          "rank_delta": 1,
+          "base_pct": 7.1,
+          "pct_delta": 3.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "apply strategic thinking",
+          "jobs": 223,
+          "pct": 10.3,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "design customer experiences",
+          "jobs": 221,
+          "pct": 10.3,
+          "rank": 18,
+          "base_rank": 11,
+          "rank_delta": -7,
+          "base_pct": 8.6,
+          "pct_delta": 1.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 221,
+          "pct": 10.3,
+          "rank": 19,
+          "base_rank": 12,
+          "rank_delta": -7,
+          "base_pct": 7.9,
+          "pct_delta": 2.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "communication",
+          "jobs": 217,
+          "pct": 10.1,
+          "rank": 20,
+          "base_rank": 9,
+          "rank_delta": -11,
+          "base_pct": 9.4,
+          "pct_delta": 0.7,
+          "new_in_top": false
+        }
+      ],
+      "top_sample100": [
+        {
+          "skill": "sales activities",
+          "jobs": 21,
+          "pct": 21.0,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 18.6,
+          "pct_delta": 2.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with customers",
+          "jobs": 12,
+          "pct": 12.0,
+          "rank": 2,
+          "base_rank": 8,
+          "rank_delta": 6,
+          "base_pct": 10.6,
+          "pct_delta": 1.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "develop new products",
+          "jobs": 12,
+          "pct": 12.0,
+          "rank": 3,
+          "base_rank": 3,
+          "rank_delta": 0,
+          "base_pct": 12.0,
+          "pct_delta": 0.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 11,
+          "pct": 11.0,
+          "rank": 4,
+          "base_rank": 2,
+          "rank_delta": -2,
+          "base_pct": 12.7,
+          "pct_delta": -1.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "use presentation software",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 5,
+          "base_rank": 18,
+          "rank_delta": 13,
+          "base_pct": 7.0,
+          "pct_delta": 3.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 6,
+          "base_rank": 12,
+          "rank_delta": 6,
+          "base_pct": 7.9,
+          "pct_delta": 2.1,
+          "new_in_top": false
+        },
+        {
+          "skill": "continuous improvement philosophies",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 7,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "implement sales strategies",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 8,
+          "base_rank": 7,
+          "rank_delta": -1,
+          "base_pct": 11.0,
+          "pct_delta": -2.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 9,
+          "base_rank": 4,
+          "rank_delta": -5,
+          "base_pct": 11.8,
+          "pct_delta": -2.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead others",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 10,
+          "base_rank": 10,
+          "rank_delta": 0,
+          "base_pct": 9.0,
+          "pct_delta": 0.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "web analytics",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 11,
+          "base_rank": 5,
+          "rank_delta": -6,
+          "base_pct": 11.5,
+          "pct_delta": -3.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "interact with users to gather requirements",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 12,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "solve problems",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 13,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "promote ideas",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 14,
+          "base_rank": 20,
+          "rank_delta": 6,
+          "base_pct": 6.7,
+          "pct_delta": 1.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "products",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 15,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "services",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 16,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "make strategic business decisions",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "perform multiple tasks at the same time",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 18,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "digital marketing techniques",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 19,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 20,
+          "base_rank": 6,
+          "rank_delta": -14,
+          "base_pct": 11.2,
+          "pct_delta": -4.2,
+          "new_in_top": false
+        }
+      ],
+      "dropped_from_high_vs_all": [
+        "market analysis",
+        "marketing management",
+        "use presentation software",
+        "promote ideas"
+      ],
+      "dropped_from_sample_vs_all": [
+        "communication",
+        "design customer experiences",
+        "develop creative ideas",
+        "plan marketing strategy",
+        "market analysis",
+        "marketing management",
+        "ensure compliance with policies",
+        "market research"
+      ]
+    },
+    "Human Resources Managers": {
+      "onet": "11-3121.00",
+      "n_all": 10011,
+      "n_high_proxy": 501,
+      "n_sample": 100,
+      "score_cutoff": 11.0,
+      "high_with_seniority_signal_pct": 100.0,
+      "bls": {
+        "source": "BLS OES May 2023 (Human Resources Managers 11-3121)",
+        "year": "May 2023",
+        "median": 136350,
+        "p10": 81060,
+        "p25": 103340,
+        "p75": 182120,
+        "p90": 239200,
+        "p90_note": "OES 90th often top-coded (5); use $239,200+ as upper-tail marker"
+      },
+      "example_high_titles": [
+        "Principal HR Business Partner, CMO",
+        "Senior Director/Vice President, Talent Acquisition",
+        "Employee Success Business Partner Senior Director",
+        "Senior Director, Human Resources – Global HR Business Partner",
+        "Senior Director, Talent Partner",
+        "Senior Director, Field Human Resources Business Partner",
+        "Senior Director, Employee Success Business Partner",
+        "Senior Director, People Partner(s)",
+        "Sr. Director, HR Business Partner - Hybrid",
+        "Sr. Director, HR Business Partner - Hybrid",
+        "Senior Director, Human Resources Business Partner - Sales",
+        "Senior Director, Human Resources Business Partner - Tech, Product, Data, Analytics and Corporate Functions"
+      ],
+      "top_all": [
+        {
+          "skill": "talent management strategies",
+          "jobs": 3734,
+          "pct": 37.3
+        },
+        {
+          "skill": "manage human resources",
+          "jobs": 3575,
+          "pct": 35.7
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 1865,
+          "pct": 18.6
+        },
+        {
+          "skill": "recruit personnel",
+          "jobs": 1723,
+          "pct": 17.2
+        },
+        {
+          "skill": "lead others",
+          "jobs": 1647,
+          "pct": 16.5
+        },
+        {
+          "skill": "company policies",
+          "jobs": 1529,
+          "pct": 15.3
+        },
+        {
+          "skill": "coaching techniques",
+          "jobs": 1489,
+          "pct": 14.9
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 1304,
+          "pct": 13.0
+        },
+        {
+          "skill": "human resource management",
+          "jobs": 1172,
+          "pct": 11.7
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 1125,
+          "pct": 11.2
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 1100,
+          "pct": 11.0
+        },
+        {
+          "skill": "communication",
+          "jobs": 1093,
+          "pct": 10.9
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 1014,
+          "pct": 10.1
+        },
+        {
+          "skill": "continuous improvement philosophies",
+          "jobs": 1003,
+          "pct": 10.0
+        },
+        {
+          "skill": "apply change management",
+          "jobs": 975,
+          "pct": 9.7
+        },
+        {
+          "skill": "employment law",
+          "jobs": 925,
+          "pct": 9.2
+        },
+        {
+          "skill": "recruit employees",
+          "jobs": 871,
+          "pct": 8.7
+        },
+        {
+          "skill": "improve business processes",
+          "jobs": 850,
+          "pct": 8.5
+        },
+        {
+          "skill": "business requirements techniques",
+          "jobs": 841,
+          "pct": 8.4
+        },
+        {
+          "skill": "lead a team",
+          "jobs": 745,
+          "pct": 7.4
+        }
+      ],
+      "top_high_proxy": [
+        {
+          "skill": "talent management strategies",
+          "jobs": 332,
+          "pct": 66.3,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 37.3,
+          "pct_delta": 29.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage human resources",
+          "jobs": 215,
+          "pct": 42.9,
+          "rank": 2,
+          "base_rank": 2,
+          "rank_delta": 0,
+          "base_pct": 35.7,
+          "pct_delta": 7.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead others",
+          "jobs": 115,
+          "pct": 23.0,
+          "rank": 3,
+          "base_rank": 5,
+          "rank_delta": 2,
+          "base_pct": 16.5,
+          "pct_delta": 6.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "coaching techniques",
+          "jobs": 115,
+          "pct": 23.0,
+          "rank": 4,
+          "base_rank": 7,
+          "rank_delta": 3,
+          "base_pct": 14.9,
+          "pct_delta": 8.1,
+          "new_in_top": false
+        },
+        {
+          "skill": "apply change management",
+          "jobs": 96,
+          "pct": 19.2,
+          "rank": 5,
+          "base_rank": 15,
+          "rank_delta": 10,
+          "base_pct": 9.7,
+          "pct_delta": 9.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 91,
+          "pct": 18.2,
+          "rank": 6,
+          "base_rank": 11,
+          "rank_delta": 5,
+          "base_pct": 11.0,
+          "pct_delta": 7.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "recruit personnel",
+          "jobs": 89,
+          "pct": 17.8,
+          "rank": 7,
+          "base_rank": 4,
+          "rank_delta": -3,
+          "base_pct": 17.2,
+          "pct_delta": 0.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 87,
+          "pct": 17.4,
+          "rank": 8,
+          "base_rank": 3,
+          "rank_delta": -5,
+          "base_pct": 18.6,
+          "pct_delta": -1.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "company policies",
+          "jobs": 86,
+          "pct": 17.2,
+          "rank": 9,
+          "base_rank": 6,
+          "rank_delta": -3,
+          "base_pct": 15.3,
+          "pct_delta": 1.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "employment law",
+          "jobs": 58,
+          "pct": 11.6,
+          "rank": 10,
+          "base_rank": 16,
+          "rank_delta": 6,
+          "base_pct": 9.2,
+          "pct_delta": 2.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "continuous improvement philosophies",
+          "jobs": 55,
+          "pct": 11.0,
+          "rank": 11,
+          "base_rank": 14,
+          "rank_delta": 3,
+          "base_pct": 10.0,
+          "pct_delta": 1.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "communication",
+          "jobs": 51,
+          "pct": 10.2,
+          "rank": 12,
+          "base_rank": 12,
+          "rank_delta": 0,
+          "base_pct": 10.9,
+          "pct_delta": -0.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "conflict management",
+          "jobs": 51,
+          "pct": 10.2,
+          "rank": 13,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 49,
+          "pct": 9.8,
+          "rank": 14,
+          "base_rank": 8,
+          "rank_delta": -6,
+          "base_pct": 13.0,
+          "pct_delta": -3.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead a team",
+          "jobs": 47,
+          "pct": 9.4,
+          "rank": 15,
+          "base_rank": 20,
+          "rank_delta": 5,
+          "base_pct": 7.4,
+          "pct_delta": 2.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 44,
+          "pct": 8.8,
+          "rank": 16,
+          "base_rank": 13,
+          "rank_delta": -3,
+          "base_pct": 10.1,
+          "pct_delta": -1.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "ensure compliance with company regulations",
+          "jobs": 42,
+          "pct": 8.4,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "apply strategic thinking",
+          "jobs": 42,
+          "pct": 8.4,
+          "rank": 18,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "design customer experiences",
+          "jobs": 41,
+          "pct": 8.2,
+          "rank": 19,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 41,
+          "pct": 8.2,
+          "rank": 20,
+          "base_rank": 10,
+          "rank_delta": -10,
+          "base_pct": 11.2,
+          "pct_delta": -3.0,
+          "new_in_top": false
+        }
+      ],
+      "top_sample100": [
+        {
+          "skill": "talent management strategies",
+          "jobs": 39,
+          "pct": 39.0,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 37.3,
+          "pct_delta": 1.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage human resources",
+          "jobs": 38,
+          "pct": 38.0,
+          "rank": 2,
+          "base_rank": 2,
+          "rank_delta": 0,
+          "base_pct": 35.7,
+          "pct_delta": 2.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "recruit personnel",
+          "jobs": 19,
+          "pct": 19.0,
+          "rank": 3,
+          "base_rank": 4,
+          "rank_delta": 1,
+          "base_pct": 17.2,
+          "pct_delta": 1.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "company policies",
+          "jobs": 19,
+          "pct": 19.0,
+          "rank": 4,
+          "base_rank": 6,
+          "rank_delta": 2,
+          "base_pct": 15.3,
+          "pct_delta": 3.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 16,
+          "pct": 16.0,
+          "rank": 5,
+          "base_rank": 3,
+          "rank_delta": -2,
+          "base_pct": 18.6,
+          "pct_delta": -2.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "coaching techniques",
+          "jobs": 13,
+          "pct": 13.0,
+          "rank": 6,
+          "base_rank": 7,
+          "rank_delta": 1,
+          "base_pct": 14.9,
+          "pct_delta": -1.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead others",
+          "jobs": 12,
+          "pct": 12.0,
+          "rank": 7,
+          "base_rank": 5,
+          "rank_delta": -2,
+          "base_pct": 16.5,
+          "pct_delta": -4.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "recruit employees",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 8,
+          "base_rank": 17,
+          "rank_delta": 9,
+          "base_pct": 8.7,
+          "pct_delta": 1.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "employment law",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 9,
+          "base_rank": 16,
+          "rank_delta": 7,
+          "base_pct": 9.2,
+          "pct_delta": 0.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "human resource management",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 10,
+          "base_rank": 9,
+          "rank_delta": -1,
+          "base_pct": 11.7,
+          "pct_delta": -1.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 11,
+          "base_rank": 8,
+          "rank_delta": -3,
+          "base_pct": 13.0,
+          "pct_delta": -3.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "continuous improvement philosophies",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 12,
+          "base_rank": 14,
+          "rank_delta": 2,
+          "base_pct": 10.0,
+          "pct_delta": -1.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 13,
+          "base_rank": 13,
+          "rank_delta": 0,
+          "base_pct": 10.1,
+          "pct_delta": -1.1,
+          "new_in_top": false
+        },
+        {
+          "skill": "conflict management",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 14,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 15,
+          "base_rank": 11,
+          "rank_delta": -4,
+          "base_pct": 11.0,
+          "pct_delta": -3.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "interact with users to gather requirements",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 16,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "attend meetings",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "communication",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 18,
+          "base_rank": 12,
+          "rank_delta": -6,
+          "base_pct": 10.9,
+          "pct_delta": -3.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "apply change management",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 19,
+          "base_rank": 15,
+          "rank_delta": -4,
+          "base_pct": 9.7,
+          "pct_delta": -2.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "perform project management",
+          "jobs": 7,
+          "pct": 7.0,
+          "rank": 20,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        }
+      ],
+      "dropped_from_high_vs_all": [
+        "human resource management",
+        "recruit employees",
+        "improve business processes",
+        "business requirements techniques"
+      ],
+      "dropped_from_sample_vs_all": [
+        "manage relationships with stakeholders",
+        "improve business processes",
+        "business requirements techniques",
+        "lead a team"
+      ]
+    },
+    "Financial Managers": {
+      "onet": "11-3031.00",
+      "n_all": 21363,
+      "n_high_proxy": 1068,
+      "n_sample": 100,
+      "score_cutoff": 10.0,
+      "high_with_seniority_signal_pct": 100.0,
+      "bls": {
+        "source": "BLS OES May 2023 (Financial Managers 11-3031); OOH median May 2024",
+        "year": "May 2023 percentiles; May 2024 median $161,700 (OOH)",
+        "median": 161700,
+        "p10": 82870,
+        "p25": 110190,
+        "p75": 210830,
+        "p90": 239200,
+        "p90_note": "OES 90th top-coded (5); use $239,200+ as upper-tail marker"
+      },
+      "example_high_titles": [
+        "Executive Vice President, Chief Credit Officer",
+        "Sr. Director Chief of Staff - Bank Tech, Account Servicing",
+        "Director/Sr. Director, FP&A / Modeling & Analytics - Office of the CFO",
+        "Senior Director, Office of the CFO // Data Analytics",
+        "Director/Sr. Director, FP&A / Modeling & Analytics - Office of the CFO",
+        "Senior Vice President or Managing Director, Global Private Debt",
+        "Senior Director, Office of the CFO // Data Analytics",
+        "Sr. Director Chief of Staff - Bank Tech, Account Servicing",
+        "Senior Director, Office of the CFO // Data Analytics",
+        "Senior Vice President or Managing Director, Global Private Debt",
+        "Sr. Director Chief of Staff - Bank Tech, Account Servicing",
+        "Senior Director, Office of the CFO // Data Analytics"
+      ],
+      "top_all": [
+        {
+          "skill": "accounting",
+          "jobs": 6472,
+          "pct": 30.3
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 3323,
+          "pct": 15.6
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 3292,
+          "pct": 15.4
+        },
+        {
+          "skill": "finish project within budget",
+          "jobs": 2497,
+          "pct": 11.7
+        },
+        {
+          "skill": "lead others",
+          "jobs": 2364,
+          "pct": 11.1
+        },
+        {
+          "skill": "improve business processes",
+          "jobs": 2131,
+          "pct": 10.0
+        },
+        {
+          "skill": "internal risk management policy",
+          "jobs": 2091,
+          "pct": 9.8
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 2047,
+          "pct": 9.6
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 2026,
+          "pct": 9.5
+        },
+        {
+          "skill": "conduct financial audits",
+          "jobs": 1872,
+          "pct": 8.8
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 1849,
+          "pct": 8.7
+        },
+        {
+          "skill": "solve problems",
+          "jobs": 1844,
+          "pct": 8.6
+        },
+        {
+          "skill": "financial statements",
+          "jobs": 1812,
+          "pct": 8.5
+        },
+        {
+          "skill": "manage financial and material resources",
+          "jobs": 1811,
+          "pct": 8.5
+        },
+        {
+          "skill": "communication",
+          "jobs": 1795,
+          "pct": 8.4
+        },
+        {
+          "skill": "ensure compliance with accounting conventions",
+          "jobs": 1633,
+          "pct": 7.6
+        },
+        {
+          "skill": "communicate with customers",
+          "jobs": 1607,
+          "pct": 7.5
+        },
+        {
+          "skill": "mathematical economics",
+          "jobs": 1551,
+          "pct": 7.3
+        },
+        {
+          "skill": "develop audit plan",
+          "jobs": 1542,
+          "pct": 7.2
+        },
+        {
+          "skill": "company policies",
+          "jobs": 1485,
+          "pct": 7.0
+        }
+      ],
+      "top_high_proxy": [
+        {
+          "skill": "accounting",
+          "jobs": 322,
+          "pct": 30.1,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 30.3,
+          "pct_delta": -0.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 232,
+          "pct": 21.7,
+          "rank": 2,
+          "base_rank": 2,
+          "rank_delta": 0,
+          "base_pct": 15.6,
+          "pct_delta": 6.1,
+          "new_in_top": false
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 226,
+          "pct": 21.2,
+          "rank": 3,
+          "base_rank": 3,
+          "rank_delta": 0,
+          "base_pct": 15.4,
+          "pct_delta": 5.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "internal risk management policy",
+          "jobs": 207,
+          "pct": 19.4,
+          "rank": 4,
+          "base_rank": 7,
+          "rank_delta": 3,
+          "base_pct": 9.8,
+          "pct_delta": 9.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead others",
+          "jobs": 166,
+          "pct": 15.5,
+          "rank": 5,
+          "base_rank": 5,
+          "rank_delta": 0,
+          "base_pct": 11.1,
+          "pct_delta": 4.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 160,
+          "pct": 15.0,
+          "rank": 6,
+          "base_rank": 9,
+          "rank_delta": 3,
+          "base_pct": 9.5,
+          "pct_delta": 5.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with stakeholders",
+          "jobs": 138,
+          "pct": 12.9,
+          "rank": 7,
+          "base_rank": 8,
+          "rank_delta": 1,
+          "base_pct": 9.6,
+          "pct_delta": 3.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "improve business processes",
+          "jobs": 138,
+          "pct": 12.9,
+          "rank": 8,
+          "base_rank": 6,
+          "rank_delta": -2,
+          "base_pct": 10.0,
+          "pct_delta": 2.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "finish project within budget",
+          "jobs": 128,
+          "pct": 12.0,
+          "rank": 9,
+          "base_rank": 4,
+          "rank_delta": -5,
+          "base_pct": 11.7,
+          "pct_delta": 0.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "treasury management system",
+          "jobs": 125,
+          "pct": 11.7,
+          "rank": 10,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "mathematical economics",
+          "jobs": 118,
+          "pct": 11.0,
+          "rank": 11,
+          "base_rank": 18,
+          "rank_delta": 7,
+          "base_pct": 7.3,
+          "pct_delta": 3.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage financial and material resources",
+          "jobs": 112,
+          "pct": 10.5,
+          "rank": 12,
+          "base_rank": 14,
+          "rank_delta": 2,
+          "base_pct": 8.5,
+          "pct_delta": 2.0,
+          "new_in_top": false
+        },
+        {
+          "skill": "continuous improvement philosophies",
+          "jobs": 111,
+          "pct": 10.4,
+          "rank": 13,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "asset management",
+          "jobs": 106,
+          "pct": 9.9,
+          "rank": 14,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "good governance",
+          "jobs": 106,
+          "pct": 9.9,
+          "rank": 15,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "communication",
+          "jobs": 103,
+          "pct": 9.6,
+          "rank": 16,
+          "base_rank": 15,
+          "rank_delta": -1,
+          "base_pct": 8.4,
+          "pct_delta": 1.2,
+          "new_in_top": false
+        },
+        {
+          "skill": "risk management",
+          "jobs": 103,
+          "pct": 9.6,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 101,
+          "pct": 9.5,
+          "rank": 18,
+          "base_rank": 11,
+          "rank_delta": -7,
+          "base_pct": 8.7,
+          "pct_delta": 0.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "solve problems",
+          "jobs": 100,
+          "pct": 9.4,
+          "rank": 19,
+          "base_rank": 12,
+          "rank_delta": -7,
+          "base_pct": 8.6,
+          "pct_delta": 0.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "perform project management",
+          "jobs": 99,
+          "pct": 9.3,
+          "rank": 20,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        }
+      ],
+      "top_sample100": [
+        {
+          "skill": "accounting",
+          "jobs": 29,
+          "pct": 29.0,
+          "rank": 1,
+          "base_rank": 1,
+          "rank_delta": 0,
+          "base_pct": 30.3,
+          "pct_delta": -1.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "finish project within budget",
+          "jobs": 18,
+          "pct": 18.0,
+          "rank": 2,
+          "base_rank": 4,
+          "rank_delta": 2,
+          "base_pct": 11.7,
+          "pct_delta": 6.3,
+          "new_in_top": false
+        },
+        {
+          "skill": "consult with business clients",
+          "jobs": 17,
+          "pct": 17.0,
+          "rank": 3,
+          "base_rank": 3,
+          "rank_delta": 0,
+          "base_pct": 15.4,
+          "pct_delta": 1.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "develop audit plan",
+          "jobs": 13,
+          "pct": 13.0,
+          "rank": 4,
+          "base_rank": 19,
+          "rank_delta": 15,
+          "base_pct": 7.2,
+          "pct_delta": 5.8,
+          "new_in_top": false
+        },
+        {
+          "skill": "lead others",
+          "jobs": 12,
+          "pct": 12.0,
+          "rank": 5,
+          "base_rank": 5,
+          "rank_delta": 0,
+          "base_pct": 11.1,
+          "pct_delta": 0.9,
+          "new_in_top": false
+        },
+        {
+          "skill": "ensure compliance with policies",
+          "jobs": 11,
+          "pct": 11.0,
+          "rank": 6,
+          "base_rank": 2,
+          "rank_delta": -4,
+          "base_pct": 15.6,
+          "pct_delta": -4.6,
+          "new_in_top": false
+        },
+        {
+          "skill": "communicate with customers",
+          "jobs": 11,
+          "pct": 11.0,
+          "rank": 7,
+          "base_rank": 17,
+          "rank_delta": 10,
+          "base_pct": 7.5,
+          "pct_delta": 3.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "manage relationships with stakeholders",
+          "jobs": 10,
+          "pct": 10.0,
+          "rank": 8,
+          "base_rank": 9,
+          "rank_delta": 1,
+          "base_pct": 9.5,
+          "pct_delta": 0.5,
+          "new_in_top": false
+        },
+        {
+          "skill": "solve problems",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 9,
+          "base_rank": 12,
+          "rank_delta": 3,
+          "base_pct": 8.6,
+          "pct_delta": 0.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "handle financial transactions",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 10,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "treasury management system",
+          "jobs": 9,
+          "pct": 9.0,
+          "rank": 11,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "maintain relationship with customers",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 12,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "mathematical economics",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 13,
+          "base_rank": 18,
+          "rank_delta": 5,
+          "base_pct": 7.3,
+          "pct_delta": 0.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "web analytics",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 14,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "innovation processes",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 15,
+          "base_rank": 11,
+          "rank_delta": -4,
+          "base_pct": 8.7,
+          "pct_delta": -0.7,
+          "new_in_top": false
+        },
+        {
+          "skill": "SAP Data Services",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 16,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "coaching techniques",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 17,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "communication",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 18,
+          "base_rank": 15,
+          "rank_delta": -3,
+          "base_pct": 8.4,
+          "pct_delta": -0.4,
+          "new_in_top": false
+        },
+        {
+          "skill": "provide user documentation",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 19,
+          "base_rank": null,
+          "rank_delta": null,
+          "base_pct": null,
+          "pct_delta": null,
+          "new_in_top": true
+        },
+        {
+          "skill": "internal risk management policy",
+          "jobs": 8,
+          "pct": 8.0,
+          "rank": 20,
+          "base_rank": 7,
+          "rank_delta": -13,
+          "base_pct": 9.8,
+          "pct_delta": -1.8,
+          "new_in_top": false
+        }
+      ],
+      "dropped_from_high_vs_all": [
+        "conduct financial audits",
+        "financial statements",
+        "ensure compliance with accounting conventions",
+        "communicate with customers",
+        "develop audit plan",
+        "company policies"
+      ],
+      "dropped_from_sample_vs_all": [
+        "improve business processes",
+        "communicate with stakeholders",
+        "conduct financial audits",
+        "financial statements",
+        "manage financial and material resources",
+        "ensure compliance with accounting conventions",
+        "company policies"
+      ]
+    }
+  }
+}
