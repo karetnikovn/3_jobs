@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Skill Matrix Dashboard â€” 2023 vs 2026</title>
+<title>Skill Matrix Dashboard — 2023 vs 2026</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f1117;color:#e0e0e0;padding:1.5rem 2.5rem}
 h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .subtitle{color:#888;font-size:0.82rem;margin-bottom:1.2rem}
 
-/* â”€â”€ Tabs â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Tabs ─────────────────────────────────────────────── */
 .tabs{display:flex;gap:0;margin-bottom:0.55rem;border-bottom:2px solid #222;flex-wrap:wrap}
 .global-filters{display:flex;flex-wrap:wrap;gap:0.85rem;align-items:center;margin:0 0 1.1rem;padding:0.45rem 0.15rem 0.15rem;font-size:0.78rem;color:#9aa4b2}
 .global-filters label{display:inline-flex;align-items:center;gap:0.4rem;cursor:pointer;user-select:none}
@@ -27,24 +27,24 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .tab-panel{display:none}
 .tab-panel.active{display:block}
 
-/* â”€â”€ Occ buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Occ buttons ──────────────────────────────────────── */
 .controls{display:flex;gap:0.4rem;margin-bottom:1rem;flex-wrap:wrap}
 .controls button{padding:0.35rem 0.85rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#ccc;cursor:pointer;font-size:0.78rem;transition:all .15s}
 .controls button:hover{border-color:#555}
 .controls button.active{background:#2563eb;border-color:#2563eb;color:#fff}
 .job-counts{font-size:0.75rem;color:#666;margin-bottom:0.8rem}
 
-/* â”€â”€ Legend â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Legend ────────────────────────────────────────────── */
 .legend{display:flex;gap:1rem;margin-bottom:1.2rem;font-size:0.75rem;color:#888;flex-wrap:wrap}
 .legend span{display:flex;align-items:center;gap:0.25rem}
 .swatch{width:11px;height:11px;border-radius:2px;display:inline-block}
 
-/* â”€â”€ Two-col layout â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Two-col layout ───────────────────────────────────── */
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem;border-bottom:1px solid #1e2028;padding-bottom:0.4rem;margin-bottom:0.25rem}
 .col-side{padding:0 0.4rem}
 .side-label{font-size:0.6rem;color:#555;text-transform:uppercase;letter-spacing:.04em;padding:0.15rem 0}
 
-/* â”€â”€ Matrix rows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Matrix rows ──────────────────────────────────────── */
 .group-parent-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.25rem 0}
 .child-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.15rem 0 0.15rem 1rem;border-bottom:1px solid #16181f;font-size:0.78rem}
 .child-row:hover,.group-parent-row:hover{background:#1a1d27}
@@ -54,13 +54,13 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .change.down{color:#f87171}
 .change.stable{color:#555}
 
-/* â”€â”€ Bars â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Bars ─────────────────────────────────────────────── */
 .bar-wrap{position:relative;height:14px;background:#16181f;border-radius:3px;overflow:hidden}
 .bar{position:absolute;top:0;height:100%;border-radius:3px}
 .bar-2023{background:#475569;z-index:1}
 .bar-2026{opacity:.8;z-index:2}
 
-/* â”€â”€ Rankings â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Rankings ─────────────────────────────────────────── */
 .rank-col-title{font-size:0.82rem;font-weight:700;padding:0.4rem 0 0.3rem;border-bottom:1px solid #333}
 .rank-col-title.hard{color:#60a5fa}
 .rank-col-title.soft{color:#f9a8d4}
@@ -79,7 +79,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .sortable.active{color:#fff}
 .sort-arrow{font-size:0.65rem}
 
-/* â”€â”€ Bump chart â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Bump chart ───────────────────────────────────────── */
 .bump-wrap{display:flex;gap:0;align-items:flex-start;overflow-x:auto;margin:0.5rem 0}
 .bump-side{flex:0 0 320px;display:flex;flex-direction:column}
 .bump-svg-col{flex:0 0 200px;display:flex;align-items:flex-start}
@@ -105,7 +105,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .bump-line.muted{opacity:.1}
 .bump-meta{font-size:0.72rem;color:#666;margin-bottom:0.3rem}
 
-/* â”€â”€ Top skills â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Top skills ───────────────────────────────────────── */
 .top-skills-block{margin-bottom:1.5rem}
 .top-skills-occ-title{font-size:0.85rem;font-weight:700;color:#fff;margin-bottom:0.3rem}
 .top-skills-header{display:grid;grid-template-columns:30px 1fr 70px 50px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
@@ -115,7 +115,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .top-skills-node{display:inline-block;font-size:0.68rem;color:#a78bfa;background:#1e1540;padding:0 0.35rem;border-radius:3px;margin-left:0.4rem}
 .top-skills-unmapped{display:inline-block;font-size:0.68rem;color:#555;font-style:italic;margin-left:0.4rem}
 
-/* â”€â”€ Dictionary â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Dictionary ───────────────────────────────────────── */
 .dict-search{width:100%;max-width:500px;padding:0.45rem 0.7rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#e0e0e0;font-size:0.82rem;margin-bottom:0.8rem;outline:none}
 .dict-search:focus{border-color:#2563eb}
 .dict-search::placeholder{color:#555}
@@ -155,7 +155,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .dict-empty{color:#444;font-style:italic;font-size:0.76rem}
 .dict-no-results{color:#555;font-style:italic;padding:2rem 0}
 
-/* â”€â”€ Titles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Titles ───────────────────────────────────────────── */
 .titles-onet{font-size:0.82rem;margin-bottom:0.3rem}
 .titles-onet code{background:#1a1d27;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.78rem;color:#a78bfa}
 .titles-stats{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
@@ -169,7 +169,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .titles-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .titles-footnote{font-size:0.72rem;color:#555;margin-top:0.3rem}
 
-/* â”€â”€ O*NET data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── O*NET data ───────────────────────────────────────── */
 .onet-meta{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
 .onet-header{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
 .onet-row{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.25rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
@@ -179,7 +179,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .onet-name{color:#ccc}
 .onet-flag{display:inline-block;font-size:0.62rem;color:#2563eb;background:#111525;padding:0 0.3rem;border-radius:3px;margin-left:0.4rem;border:1px solid #2563eb}
 
-/* â”€â”€ Coverage â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Coverage ─────────────────────────────────────────── */
 .coverage-meta{font-size:0.75rem;color:#666;margin-bottom:0.5rem}
 .coverage-stats{display:flex;gap:0.8rem;margin-bottom:0.8rem}
 .coverage-stat{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.35rem 0.7rem;font-size:0.78rem}
@@ -203,7 +203,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .coverage-node-count{text-align:right;color:#888}
 .coverage-node-pct{text-align:right;color:#888}
 
-/* â”€â”€ Methodology â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Methodology ──────────────────────────────────────── */
 .method{max-width:900px;line-height:1.7}
 .method h2{font-size:1.1rem;color:#fff;margin:1.5rem 0 0.5rem;border-bottom:1px solid #222;padding-bottom:0.25rem}
 .method h2:first-child{margin-top:0}
@@ -215,7 +215,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .method .stat-box .val{font-size:1rem;font-weight:700;color:#fff}
 .method .stat-box .lbl{color:#888;font-size:0.7rem;display:block}
 
-/* â”€â”€ AI Mechanisms â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── AI Mechanisms ─────────────────────────────────────── */
 .mech-intro{max-width:900px;line-height:1.6;color:#bbb;font-size:0.82rem;margin-bottom:0.8rem}
 .mech-intro strong{color:#e0e0e0}
 .mech-controls-row{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;margin-bottom:0.6rem}
@@ -262,7 +262,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .mech-legend-sub{color:#666}
 .mech-legend-note{color:#555;font-style:italic}
 
-/* â”€â”€ Teaching Design â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Teaching Design ───────────────────────────────────── */
 .teach-modes{display:flex;flex-direction:column;gap:0.9rem;max-width:1040px}
 .teach-card{border:1px solid #282b36;border-left:4px solid #444;border-radius:8px;background:#141720;overflow:hidden}
 .teach-card-head{padding:0.65rem 0.9rem 0.55rem}
@@ -277,7 +277,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .teach-chip .chg.down{color:#f87171}
 .teach-empty{color:#555;font-style:italic;font-size:0.74rem;padding:0.2rem 0 0.4rem}
 
-/* â”€â”€ Student Focus / What to learn â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Student Focus / What to learn ─────────────────────── */
 .student-hero{font-size:1.05rem;font-weight:700;color:#fff;margin:0.2rem 0 0.35rem}
 .student-domains{margin:0.6rem 0 1rem;max-width:1040px}
 .student-domains-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:0.4rem}
@@ -309,7 +309,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
   .student-row-meta{justify-content:flex-start}
 }
 
-/* â”€â”€ ESCO Groups â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── ESCO Groups ───────────────────────────────────────── */
 .esco-header{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.68rem;color:#888;text-transform:uppercase}
 .esco-row{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
 .esco-row:hover{background:#1a1d27}
@@ -322,7 +322,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .escotop-row{display:grid;grid-template-columns:34px 1fr 118px 46px 70px 56px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
 .escotop-row:hover{background:#1a1d27}
 
-/* â”€â”€ High-Pay Proxy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── High-Pay Proxy ────────────────────────────────────── */
 .pay-bls{display:flex;gap:0.7rem;flex-wrap:wrap;margin:0.5rem 0 0.8rem}
 .pay-bls-box{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.4rem 0.75rem;font-size:0.75rem;color:#aaa}
 .pay-bls-box .val{display:block;font-size:1.05rem;font-weight:700;color:#fff}
@@ -343,7 +343,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .pay-delta.new{color:#a78bfa}
 @media (max-width:980px){.pay-cols{grid-template-columns:1fr}}
 
-/* â”€â”€ Skill Deltas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Skill Deltas ──────────────────────────────────────── */
 .delta-cols{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
 .delta-col-title{font-size:0.9rem;font-weight:700;margin-bottom:0.35rem}
 .delta-col-title.up{color:#4ade80}
@@ -360,7 +360,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .delta-bar.down{background:#f87171;right:0}
 @media (max-width:980px){.delta-cols{grid-template-columns:1fr}}
 
-/* â”€â”€ Skill Portfolio (WEF-style report) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Skill Portfolio (WEF-style report) ─────────────────── */
 .port-report{background:#f7f5f2;color:#1a1a1a;border-radius:12px;padding:1.25rem 1.4rem 1.5rem;margin:0 -0.5rem;max-width:1120px;box-shadow:0 1px 0 rgba(0,0,0,.04)}
 .port-report .coverage-meta{color:#666}
 .port-report-title{font-size:1.35rem;font-weight:700;color:#111;letter-spacing:-0.02em;margin:0 0 0.25rem}
@@ -453,7 +453,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <span class="gf-note">Shared filter across plots (uses 2026 posting share)</span>
 </div>
 
-<!-- â•â•â• Dashboard â•â•â• -->
+<!-- === Dashboard === -->
 <div id="tab-dashboard" class="tab-panel active">
   <div class="controls" id="controls"></div>
   <div class="job-counts" id="job-counts"></div>
@@ -465,7 +465,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="content"></div>
 </div>
 
-<!-- â•â•â• Rankings â•â•â• -->
+<!-- === Rankings === -->
 <div id="tab-rankings" class="tab-panel">
   <div class="controls" id="rank-controls"></div>
   <div class="job-counts" id="rank-job-counts"></div>
@@ -474,7 +474,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="rank-content"></div>
 </div>
 
-<!-- â•â•â• Top Skills â•â•â• -->
+<!-- === Top Skills === -->
 <div id="tab-topskills" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="bump-controls" style="margin-bottom:0"></div>
@@ -485,7 +485,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="topskills-content"></div>
 </div>
 
-<!-- â•â•â• Skill Dictionary â•â•â• -->
+<!-- === Skill Dictionary === -->
 <div id="tab-dictionary" class="tab-panel">
   <input type="text" class="dict-search" id="dict-search" placeholder="Search nodes or skills...">
   <div class="dict-stats" style="margin-bottom:0.4rem">
@@ -498,7 +498,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="dict-content"></div>
 </div>
 
-<!-- â•â•â• Job Titles â•â•â• -->
+<!-- === Job Titles === -->
 <div id="tab-titles" class="tab-panel">
   <div class="controls" id="titles-controls"></div>
   <div class="titles-onet" id="titles-onet"></div>
@@ -511,13 +511,13 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div class="titles-footnote" id="titles-footnote"></div>
 </div>
 
-<!-- â•â•â• O*NET Data â•â•â• -->
+<!-- === O*NET Data === -->
 <div id="tab-onetdata" class="tab-panel">
   <div class="onet-meta" id="onet-meta"></div>
   <div id="onet-table"></div>
 </div>
 
-<!-- â•â•â• Coverage â•â•â• -->
+<!-- === Coverage === -->
 <div id="tab-coverage" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="coverage-occ-controls" style="margin-bottom:0"></div>
@@ -537,7 +537,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   </div>
 </div>
 
-<!-- â•â•â• AI Mechanisms â•â•â• -->
+<!-- === AI Mechanisms === -->
 <div id="tab-mechanisms" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="mech-controls" style="margin-bottom:0"></div>
@@ -623,8 +623,8 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
 </div>
 
 
-<!-- â•â•â• ESCO Pillars â•â•â• -->
-<!-- â•â•â• Skill Deltas â•â•â• -->
+<!-- === ESCO Pillars === -->
+<!-- === Skill Deltas === -->
 <div id="tab-deltas" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="delta-controls" style="margin-bottom:0"></div>
@@ -651,7 +651,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   </div>
 </div>
 
-<!-- â•â•â• Methodology â•â•â• -->
+<!-- === Methodology === -->
 <div id="tab-methodology" class="tab-panel">
   <div class="method">
     <h2>Overview</h2>
