@@ -1,0 +1,26 @@
+{
+ "n_skills": 1170,
+ "n_mapped": 1021,
+ "n_null": 149,
+ "high_pass": {
+  "n": 460,
+  "mapped": 430
+ },
+ "confidence_distribution": {
+  "1": 410,
+  "2": 487,
+  "3": 124
+ },
+ "exposure_agreement": {
+  "pearson_all": 0.614,
+  "spearman_all": 0.621,
+  "pearson_kw_informative": 0.797,
+  "share_within_0.15": 0.592,
+  "n_kw_informative": 511
+ },
+ "mapping_vs_embedding": {
+  "previously_mapped": 830,
+  "same_node": 317,
+  "agreement_share": 0.382
+ }
+}

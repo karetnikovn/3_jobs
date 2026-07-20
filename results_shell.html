@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Skill Matrix Dashboard — 2023 vs 2026</title>
+<title>Skill Matrix Dashboard â€” 2023 vs 2026</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f1117;color:#e0e0e0;padding:1.5rem 2.5rem}
 h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .subtitle{color:#888;font-size:0.82rem;margin-bottom:1.2rem}
 
-/* ── Tabs ─────────────────────────────────────────────── */
+/* â”€â”€ Tabs â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .tabs{display:flex;gap:0;margin-bottom:0.55rem;border-bottom:2px solid #222;flex-wrap:wrap}
 .global-filters{display:flex;flex-wrap:wrap;gap:0.85rem;align-items:center;margin:0 0 1.1rem;padding:0.45rem 0.15rem 0.15rem;font-size:0.78rem;color:#9aa4b2}
 .global-filters label{display:inline-flex;align-items:center;gap:0.4rem;cursor:pointer;user-select:none}
@@ -27,24 +27,24 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .tab-panel{display:none}
 .tab-panel.active{display:block}
 
-/* ── Occ buttons ──────────────────────────────────────── */
+/* â”€â”€ Occ buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .controls{display:flex;gap:0.4rem;margin-bottom:1rem;flex-wrap:wrap}
 .controls button{padding:0.35rem 0.85rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#ccc;cursor:pointer;font-size:0.78rem;transition:all .15s}
 .controls button:hover{border-color:#555}
 .controls button.active{background:#2563eb;border-color:#2563eb;color:#fff}
 .job-counts{font-size:0.75rem;color:#666;margin-bottom:0.8rem}
 
-/* ── Legend ────────────────────────────────────────────── */
+/* â”€â”€ Legend â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .legend{display:flex;gap:1rem;margin-bottom:1.2rem;font-size:0.75rem;color:#888;flex-wrap:wrap}
 .legend span{display:flex;align-items:center;gap:0.25rem}
 .swatch{width:11px;height:11px;border-radius:2px;display:inline-block}
 
-/* ── Two-col layout ───────────────────────────────────── */
+/* â”€â”€ Two-col layout â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem;border-bottom:1px solid #1e2028;padding-bottom:0.4rem;margin-bottom:0.25rem}
 .col-side{padding:0 0.4rem}
 .side-label{font-size:0.6rem;color:#555;text-transform:uppercase;letter-spacing:.04em;padding:0.15rem 0}
 
-/* ── Matrix rows ──────────────────────────────────────── */
+/* â”€â”€ Matrix rows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .group-parent-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.25rem 0}
 .child-row{display:grid;grid-template-columns:1fr 50px 50px 120px 55px;align-items:center;gap:0.2rem;padding:0.15rem 0 0.15rem 1rem;border-bottom:1px solid #16181f;font-size:0.78rem}
 .child-row:hover,.group-parent-row:hover{background:#1a1d27}
@@ -54,13 +54,13 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .change.down{color:#f87171}
 .change.stable{color:#555}
 
-/* ── Bars ─────────────────────────────────────────────── */
+/* â”€â”€ Bars â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .bar-wrap{position:relative;height:14px;background:#16181f;border-radius:3px;overflow:hidden}
 .bar{position:absolute;top:0;height:100%;border-radius:3px}
 .bar-2023{background:#475569;z-index:1}
 .bar-2026{opacity:.8;z-index:2}
 
-/* ── Rankings ─────────────────────────────────────────── */
+/* â”€â”€ Rankings â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .rank-col-title{font-size:0.82rem;font-weight:700;padding:0.4rem 0 0.3rem;border-bottom:1px solid #333}
 .rank-col-title.hard{color:#60a5fa}
 .rank-col-title.soft{color:#f9a8d4}
@@ -79,7 +79,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .sortable.active{color:#fff}
 .sort-arrow{font-size:0.65rem}
 
-/* ── Bump chart ───────────────────────────────────────── */
+/* â”€â”€ Bump chart â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .bump-wrap{display:flex;gap:0;align-items:flex-start;overflow-x:auto;margin:0.5rem 0}
 .bump-side{flex:0 0 320px;display:flex;flex-direction:column}
 .bump-svg-col{flex:0 0 200px;display:flex;align-items:flex-start}
@@ -105,7 +105,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .bump-line.muted{opacity:.1}
 .bump-meta{font-size:0.72rem;color:#666;margin-bottom:0.3rem}
 
-/* ── Top skills ───────────────────────────────────────── */
+/* â”€â”€ Top skills â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .top-skills-block{margin-bottom:1.5rem}
 .top-skills-occ-title{font-size:0.85rem;font-weight:700;color:#fff;margin-bottom:0.3rem}
 .top-skills-header{display:grid;grid-template-columns:30px 1fr 70px 50px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
@@ -115,7 +115,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .top-skills-node{display:inline-block;font-size:0.68rem;color:#a78bfa;background:#1e1540;padding:0 0.35rem;border-radius:3px;margin-left:0.4rem}
 .top-skills-unmapped{display:inline-block;font-size:0.68rem;color:#555;font-style:italic;margin-left:0.4rem}
 
-/* ── Dictionary ───────────────────────────────────────── */
+/* â”€â”€ Dictionary â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .dict-search{width:100%;max-width:500px;padding:0.45rem 0.7rem;border:1px solid #333;border-radius:6px;background:#1a1d27;color:#e0e0e0;font-size:0.82rem;margin-bottom:0.8rem;outline:none}
 .dict-search:focus{border-color:#2563eb}
 .dict-search::placeholder{color:#555}
@@ -134,10 +134,28 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .dict-skills{line-height:1.6}
 .skill-tag{display:inline-block;background:#1a1d27;border:1px solid #282b36;border-radius:4px;padding:0.05rem 0.4rem;margin:0.1rem 0.15rem 0.1rem 0;font-size:0.74rem;color:#bbb}
 .skill-exp{font-size:0.66rem;font-weight:700;font-variant-numeric:tabular-nums}
+.skill-conf{font-size:0.6rem;font-weight:700;margin-left:0.25rem;opacity:.85;cursor:help}
+.mcheck-badge{font-size:0.66rem;font-weight:700;padding:0.08rem 0.42rem;border-radius:4px;border:1px solid;display:inline-block}
+.mcheck-badge.match{color:#4ade80;border-color:#4ade8055}
+.mcheck-badge.partial{color:#facc15;border-color:#facc1555}
+.mcheck-badge.diverge{color:#f87171;border-color:#f8717155}
+.mcheck-badge.thin{color:#777;border-color:#555}
+.mcheck-cat{margin:1.1rem 0 0.45rem;font-size:0.95rem;font-weight:700;color:#fff}
+.mcheck-cat .sub{color:#888;font-weight:400;font-size:0.78rem;margin-left:0.5rem}
+.mcheck-header,.mcheck-row{display:grid;grid-template-columns:minmax(220px,2.4fr) 3.2rem 3.4rem 3.6rem 3.6rem 4rem 8.2rem 5.2rem 3.2rem;gap:0.5rem;align-items:center;padding:0.32rem 0.5rem}
+.mcheck-header{font-size:0.68rem;text-transform:uppercase;letter-spacing:.04em;color:#777;border-bottom:1px solid #2a2d38}
+.mcheck-row{border-bottom:1px solid #1e212b;font-size:0.8rem}
+.mcheck-row:hover{background:#181b25}
+.mcheck-row .name{color:#ddd}
+.mcheck-row.thin-row .name{color:#777}
+.mcheck-summary-wrap{display:flex;gap:0.6rem;flex-wrap:wrap;margin:0.6rem 0 0.9rem}
+.mcheck-stat{background:#1a1d27;border:1px solid #282b36;border-radius:8px;padding:0.5rem 0.9rem;min-width:6.5rem}
+.mcheck-stat .val{display:block;font-size:1.25rem;font-weight:700}
+.mcheck-stat .lbl{display:block;font-size:0.68rem;color:#888;margin-top:0.1rem}
 .dict-empty{color:#444;font-style:italic;font-size:0.76rem}
 .dict-no-results{color:#555;font-style:italic;padding:2rem 0}
 
-/* ── Titles ───────────────────────────────────────────── */
+/* â”€â”€ Titles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .titles-onet{font-size:0.82rem;margin-bottom:0.3rem}
 .titles-onet code{background:#1a1d27;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.78rem;color:#a78bfa}
 .titles-stats{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
@@ -151,7 +169,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .titles-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .titles-footnote{font-size:0.72rem;color:#555;margin-top:0.3rem}
 
-/* ── O*NET data ───────────────────────────────────────── */
+/* â”€â”€ O*NET data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .onet-meta{font-size:0.75rem;color:#666;margin-bottom:0.6rem}
 .onet-header{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.7rem;color:#888;text-transform:uppercase}
 .onet-row{display:grid;grid-template-columns:30px 95px 1fr 80px 80px 80px 20px;gap:0.2rem;padding:0.25rem 0;border-bottom:1px solid #16181f;font-size:0.78rem}
@@ -161,7 +179,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .onet-name{color:#ccc}
 .onet-flag{display:inline-block;font-size:0.62rem;color:#2563eb;background:#111525;padding:0 0.3rem;border-radius:3px;margin-left:0.4rem;border:1px solid #2563eb}
 
-/* ── Coverage ─────────────────────────────────────────── */
+/* â”€â”€ Coverage â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .coverage-meta{font-size:0.75rem;color:#666;margin-bottom:0.5rem}
 .coverage-stats{display:flex;gap:0.8rem;margin-bottom:0.8rem}
 .coverage-stat{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.35rem 0.7rem;font-size:0.78rem}
@@ -185,7 +203,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .coverage-node-count{text-align:right;color:#888}
 .coverage-node-pct{text-align:right;color:#888}
 
-/* ── Methodology ──────────────────────────────────────── */
+/* â”€â”€ Methodology â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .method{max-width:900px;line-height:1.7}
 .method h2{font-size:1.1rem;color:#fff;margin:1.5rem 0 0.5rem;border-bottom:1px solid #222;padding-bottom:0.25rem}
 .method h2:first-child{margin-top:0}
@@ -197,7 +215,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .method .stat-box .val{font-size:1rem;font-weight:700;color:#fff}
 .method .stat-box .lbl{color:#888;font-size:0.7rem;display:block}
 
-/* ── AI Mechanisms ─────────────────────────────────────── */
+/* â”€â”€ AI Mechanisms â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .mech-intro{max-width:900px;line-height:1.6;color:#bbb;font-size:0.82rem;margin-bottom:0.8rem}
 .mech-intro strong{color:#e0e0e0}
 .mech-controls-row{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;margin-bottom:0.6rem}
@@ -244,7 +262,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .mech-legend-sub{color:#666}
 .mech-legend-note{color:#555;font-style:italic}
 
-/* ── Teaching Design ───────────────────────────────────── */
+/* â”€â”€ Teaching Design â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .teach-modes{display:flex;flex-direction:column;gap:0.9rem;max-width:1040px}
 .teach-card{border:1px solid #282b36;border-left:4px solid #444;border-radius:8px;background:#141720;overflow:hidden}
 .teach-card-head{padding:0.65rem 0.9rem 0.55rem}
@@ -259,7 +277,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .teach-chip .chg.down{color:#f87171}
 .teach-empty{color:#555;font-style:italic;font-size:0.74rem;padding:0.2rem 0 0.4rem}
 
-/* ── Student Focus / What to learn ─────────────────────── */
+/* â”€â”€ Student Focus / What to learn â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .student-hero{font-size:1.05rem;font-weight:700;color:#fff;margin:0.2rem 0 0.35rem}
 .student-domains{margin:0.6rem 0 1rem;max-width:1040px}
 .student-domains-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:.05em;color:#888;margin-bottom:0.4rem}
@@ -291,7 +309,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
   .student-row-meta{justify-content:flex-start}
 }
 
-/* ── ESCO Groups ───────────────────────────────────────── */
+/* â”€â”€ ESCO Groups â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .esco-header{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.3rem 0;border-bottom:1px solid #222;font-size:0.68rem;color:#888;text-transform:uppercase}
 .esco-row{display:grid;grid-template-columns:34px 1fr 118px 46px 56px 56px 62px 46px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
 .esco-row:hover{background:#1a1d27}
@@ -304,7 +322,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .escotop-row{display:grid;grid-template-columns:34px 1fr 118px 46px 70px 56px;gap:0.2rem;padding:0.2rem 0;border-bottom:1px solid #16181f;font-size:0.77rem;align-items:center}
 .escotop-row:hover{background:#1a1d27}
 
-/* ── High-Pay Proxy ────────────────────────────────────── */
+/* â”€â”€ High-Pay Proxy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .pay-bls{display:flex;gap:0.7rem;flex-wrap:wrap;margin:0.5rem 0 0.8rem}
 .pay-bls-box{background:#1a1d27;border:1px solid #282b36;border-radius:6px;padding:0.4rem 0.75rem;font-size:0.75rem;color:#aaa}
 .pay-bls-box .val{display:block;font-size:1.05rem;font-weight:700;color:#fff}
@@ -325,7 +343,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .pay-delta.new{color:#a78bfa}
 @media (max-width:980px){.pay-cols{grid-template-columns:1fr}}
 
-/* ── Skill Deltas ──────────────────────────────────────── */
+/* â”€â”€ Skill Deltas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .delta-cols{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
 .delta-col-title{font-size:0.9rem;font-weight:700;margin-bottom:0.35rem}
 .delta-col-title.up{color:#4ade80}
@@ -342,7 +360,7 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .delta-bar.down{background:#f87171;right:0}
 @media (max-width:980px){.delta-cols{grid-template-columns:1fr}}
 
-/* ── Skill Portfolio (WEF-style report) ─────────────────── */
+/* â”€â”€ Skill Portfolio (WEF-style report) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .port-report{background:#f7f5f2;color:#1a1a1a;border-radius:12px;padding:1.25rem 1.4rem 1.5rem;margin:0 -0.5rem;max-width:1120px;box-shadow:0 1px 0 rgba(0,0,0,.04)}
 .port-report .coverage-meta{color:#666}
 .port-report-title{font-size:1.35rem;font-weight:700;color:#111;letter-spacing:-0.02em;margin:0 0 0.25rem}
@@ -424,23 +442,18 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <button class="tab-btn" onclick="switchTab('onetdata')">O*NET Data</button>
   <button class="tab-btn tab-btn-matrix" onclick="switchTab('coverage')" title="AI Skill Matrix view (curriculum subset)">Coverage<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('mechanisms')">AI Mechanisms</button>
-  <button class="tab-btn tab-btn-matrix" onclick="switchTab('teaching')" title="AI Skill Matrix view (curriculum subset)">Teaching Design<span class="matrix-badge">Matrix</span></button>
-  <button class="tab-btn tab-btn-matrix" onclick="switchTab('student')" title="AI Skill Matrix view (curriculum subset)">What to learn<span class="matrix-badge">Matrix</span></button>
-  <button class="tab-btn" onclick="switchTab('esco')">ESCO Domains</button>
-  <button class="tab-btn" onclick="switchTab('escotop')">Top ESCO Groups</button>
-  <button class="tab-btn" onclick="switchTab('payproxy')">High-Pay Proxy</button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('matrixcheck')" title="Matrix theory vs empirical AI-mechanisms evidence">Matrix vs Evidence<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('deltas')">Skill Deltas</button>
-  <button class="tab-btn" onclick="switchTab('portfolio')">Skill Portfolio</button>
   <button class="tab-btn" onclick="switchTab('methodology')">Methodology</button>
 </div>
 <div class="global-filters">
-  <label title="Applies to Mechanisms, Teaching, What to learn, ESCO, Deltas, Portfolio, Rankings, and related plots">
+  <label title="Applies to Mechanisms, ESCO, Deltas, Rankings, and related plots">
     <input type="checkbox" id="min-pen-filter"> Hide items under <strong>5%</strong> 2026 penetration
   </label>
   <span class="gf-note">Shared filter across plots (uses 2026 posting share)</span>
 </div>
 
-<!-- ═══ Dashboard ═══ -->
+<!-- â•â•â• Dashboard â•â•â• -->
 <div id="tab-dashboard" class="tab-panel active">
   <div class="controls" id="controls"></div>
   <div class="job-counts" id="job-counts"></div>
@@ -452,7 +465,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="content"></div>
 </div>
 
-<!-- ═══ Rankings ═══ -->
+<!-- â•â•â• Rankings â•â•â• -->
 <div id="tab-rankings" class="tab-panel">
   <div class="controls" id="rank-controls"></div>
   <div class="job-counts" id="rank-job-counts"></div>
@@ -461,7 +474,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="rank-content"></div>
 </div>
 
-<!-- ═══ Top Skills ═══ -->
+<!-- â•â•â• Top Skills â•â•â• -->
 <div id="tab-topskills" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="bump-controls" style="margin-bottom:0"></div>
@@ -472,14 +485,20 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="topskills-content"></div>
 </div>
 
-<!-- ═══ Skill Dictionary ═══ -->
+<!-- â•â•â• Skill Dictionary â•â•â• -->
 <div id="tab-dictionary" class="tab-panel">
   <input type="text" class="dict-search" id="dict-search" placeholder="Search nodes or skills...">
+  <div class="dict-stats" style="margin-bottom:0.4rem">
+    LLM-adjudicated mapping: each Lightcast skill is assigned to its best-fitting <strong>leaf node</strong> or left unmapped
+    (no force-fitting). Badges: number = AI-exposure score, <span style="color:#4ade80;font-weight:700">c3</span> clear /
+    <span style="color:#facc15;font-weight:700">c2</span> reasonable / <span style="color:#f87171;font-weight:700">c1</span> borderline
+    mapping confidence. Protocol: <code>llm_review/PROTOCOL.md</code>.
+  </div>
   <div class="dict-stats" id="dict-stats"></div>
   <div id="dict-content"></div>
 </div>
 
-<!-- ═══ Job Titles ═══ -->
+<!-- â•â•â• Job Titles â•â•â• -->
 <div id="tab-titles" class="tab-panel">
   <div class="controls" id="titles-controls"></div>
   <div class="titles-onet" id="titles-onet"></div>
@@ -492,13 +511,13 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div class="titles-footnote" id="titles-footnote"></div>
 </div>
 
-<!-- ═══ O*NET Data ═══ -->
+<!-- â•â•â• O*NET Data â•â•â• -->
 <div id="tab-onetdata" class="tab-panel">
   <div class="onet-meta" id="onet-meta"></div>
   <div id="onet-table"></div>
 </div>
 
-<!-- ═══ Coverage ═══ -->
+<!-- â•â•â• Coverage â•â•â• -->
 <div id="tab-coverage" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="coverage-occ-controls" style="margin-bottom:0"></div>
@@ -518,7 +537,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   </div>
 </div>
 
-<!-- ═══ AI Mechanisms ═══ -->
+<!-- â•â•â• AI Mechanisms â•â•â• -->
 <div id="tab-mechanisms" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="mech-controls" style="margin-bottom:0"></div>
@@ -574,104 +593,38 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
     Use &ge;5% either year for skills, matrix nodes, and ESCO aggregates.
     Matrix leaves / parents = AI Skill Matrix curriculum nodes (parents = union of children).
     ESCO levels = OR-penetration aggregates with mean member exposure (group/pillar/domain build filters).
-    Tune exposure threshold here; it also drives Portfolio / Teaching / What to learn.
+    Exposure scores and skill&rarr;node mapping are LLM-adjudicated (see Methodology).
   </div>
 </div>
 <div class="mech-tooltip" id="mech-tooltip"></div>
 
-<!-- ═══ Teaching Design ═══ -->
-<div id="tab-teaching" class="tab-panel">
-  <div class="controls" id="teach-controls"></div>
+<!-- === Matrix vs Evidence === -->
+<div id="tab-matrixcheck" class="tab-panel">
+  <div class="controls" id="mcheck-controls"></div>
   <div class="mech-intro">
-    <strong>From market signal to curriculum.</strong> Each rising or falling skill implies a different teaching decision,
-    depending on how automatable it is. Pick an occupation and the skills below are sorted into the pedagogy that fits their
-    <strong>demand trend &times; AI-exposure</strong> &mdash; growing human-only skills to teach as craft, growing AI-adjacent
-    skills to teach <em>with</em> the tools, and declining automatable skills to retire.
+    <strong>Does the AI Skill Matrix survive contact with the data?</strong> The matrix assigns every node a
+    trajectory by construction &mdash; <em>Declining</em> nodes should lose demand, <em>Enduring</em> nodes should hold or grow,
+    <em>Emerging</em> nodes should grow. This tab confronts each of the 40 leaf nodes with the empirical AI-mechanisms
+    evidence: observed 2023&rarr;2026 posting penetration and LLM-adjudicated AI-exposure.
   </div>
-  <div class="job-counts" id="teach-job-counts" style="margin-bottom:0.9rem"></div>
-  <div class="teach-modes" id="teach-modes"></div>
+  <div class="coverage-meta" id="mcheck-meta"></div>
+  <div id="mcheck-summary"></div>
+  <div id="mcheck-content"></div>
   <div class="mech-caption">
-    Groups use the same classification as the AI Mechanisms tab and follow the shared AI-exposure threshold (change it there to re-sort these).
-    Each chip shows the 2023&rarr;2026 change in posting penetration; hover for the node's exposure score. Correlational (two time points),
-    management occupations only &mdash; read as decision support, not proof.
+    <b>Verdicts</b> (demand direction vs category prediction, threshold &plusmn;1pp):
+    <span class="mcheck-badge match">match</span> observed change confirms the predicted direction;
+    <span class="mcheck-badge partial">partial</span> flat (&plusmn;1pp) &mdash; inconclusive for Declining / Emerging;
+    <span class="mcheck-badge diverge">diverge</span> observed change contradicts the prediction;
+    <span class="mcheck-badge thin">thin</span> &lt;1% penetration both years &mdash; too sparse to adjudicate.
+    <b>Exposure prior</b>: Declining nodes are theorized automatable (mean member exposure &ge; 0.50);
+    Enduring-soft nodes theorized human-centred (&lt; 0.50); &#10003;/&#10007; marks whether the LLM-adjudicated exposure agrees.
+    Same data as the AI Mechanisms tab; correlational (two time points, three management occupations).
   </div>
 </div>
 
-<!-- ═══ What to learn (Student Focus) ═══ -->
-<div id="tab-student" class="tab-panel">
-  <div class="controls" id="student-controls"></div>
-  <div class="student-hero">If you want this role, focus here first.</div>
-  <div class="mech-intro">
-    A short shortlist of matrix skills to prioritize for hiring into Marketing, HR, or Finance management roles
-    &mdash; ranked from 2026 demand, growth, and AI mechanism. Broad ESCO domains sit above as context, not the study list.
-  </div>
-  <div class="job-counts" id="student-job-counts" style="margin-bottom:0.55rem"></div>
-  <div class="student-domains" id="student-domains"></div>
-  <div class="student-lists" id="student-lists"></div>
-  <div class="mech-caption">
-    Uses the same nodes and AI-exposure threshold as Mechanisms / Teaching Design. Respects the shared &ge;5% 2026 penetration filter when enabled.
-    Caps: Must master 8, Recommended 8, Maintain 6, Skip 6. Correlational decision support for management occupations only.
-  </div>
-</div>
 
-<!-- ═══ ESCO Pillars ═══ -->
-<div id="tab-esco" class="tab-panel">
-  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
-    <div class="controls" id="esco-controls" style="margin-bottom:0"></div>
-    <div class="controls" id="esco-level" style="margin-bottom:0"></div>
-  </div>
-  <div class="mech-intro">
-    <strong>ESCO domains by default</strong> (one level above pillars / two above groups). Plot is
-    <strong>AI exposure</strong> &times; <strong>2026 compared to 2023</strong> (fold &times;, log scale).
-    Toggle pillars or groups for finer grain.
-  </div>
-  <div class="coverage-meta" id="esco-meta"></div>
-  <div class="mech-scatter-wrap" id="esco-scatter"></div>
-  <div class="mech-legend" id="esco-legend-placeholder" style="display:none"></div>
-  <div id="esco-table"></div>
-  <div class="mech-caption">
-    Bubble size &prop; 2026 penetration. Y = fold (2026% / 2023%), log-scaled; 1&times; = unchanged.
-    Domains from <code>esco_fetch_domains.py</code> + <code>build_domain_analysis.py</code>.
-  </div>
-</div>
-<div class="mech-tooltip" id="esco-tooltip"></div>
-
-<!-- ═══ Top ESCO Groups ═══ -->
-<div id="tab-escotop" class="tab-panel">
-  <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
-    <div class="controls" id="esco-top-controls" style="margin-bottom:0"></div>
-    <div class="controls" id="esco-top-year" style="margin-bottom:0"></div>
-  </div>
-  <div class="bump-meta" id="esco-top-meta"></div>
-  <div class="bump-wrap" id="esco-top-bump"></div>
-  <div id="esco-top-content"></div>
-  <div class="mech-caption">
-    Most-demanded ESCO hierarchy groups by posting penetration, with 2023&rarr;2026 rank movement. The list uses the selected
-    year; the bump chart compares both. Mechanism pill and AI-exposure carry over from the ESCO Groups analysis.
-  </div>
-</div>
-
-<!-- ═══ High-Pay Proxy ═══ -->
-<div id="tab-payproxy" class="tab-panel">
-  <div class="controls" id="pay-controls"></div>
-  <div class="mech-intro">
-    <strong>Approximation, not observed wages.</strong> Postings have no salary field, so the &ldquo;top 5%&rdquo; group is the top 5% of 2026
-    titles by a <em>seniority score</em> (VP / Director / Senior / Head of / &hellip;) within each occupation &mdash; a proxy for the
-    upper pay tail, cross-checked against public BLS OES wages. Compared to <strong>all</strong> postings and a
-    <strong>random 100</strong> sample.
-  </div>
-  <div class="coverage-meta" id="pay-meta"></div>
-  <div class="pay-bls" id="pay-bls"></div>
-  <div class="pay-examples" id="pay-examples"></div>
-  <div class="pay-cols" id="pay-cols"></div>
-  <div class="mech-caption">
-    Rebuild with <code>build_salary_proxy_skills.py</code>. Same noise-skill filter as Top Skills. Rank &Delta; vs the &ldquo;All&rdquo; column:
-    positive = higher in the high-pay (or sample) list than in all postings. Treat as directional evidence until posting-level
-    salary can be joined from Lightcast.
-  </div>
-</div>
-
-<!-- ═══ Skill Deltas ═══ -->
+<!-- â•â•â• ESCO Pillars â•â•â• -->
+<!-- â•â•â• Skill Deltas â•â•â• -->
 <div id="tab-deltas" class="tab-panel">
   <div style="display:flex;gap:1rem;align-items:center;margin-bottom:0.8rem;flex-wrap:wrap">
     <div class="controls" id="delta-controls" style="margin-bottom:0"></div>
@@ -698,38 +651,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   </div>
 </div>
 
-<!-- ═══ Skill Portfolio ═══ -->
-<div id="tab-portfolio" class="tab-panel">
-  <div class="port-report">
-    <h2 class="port-report-title">Skill mechanism portfolio</h2>
-    <p class="port-report-sub">
-      Same logic as the paper draft: <strong>AI exposure</strong> &times; <strong>demand change</strong> (vs 2023).
-      Default view = <strong>Lightcast skills</strong> (&ge;5% either year). Rising + low exposure = <strong>Human premium</strong>;
-      rising + high exposure = <strong>AI-transformed</strong>; falling + high = <strong>Displacement</strong>;
-      falling + low = <strong>Non-AI shift</strong>. Toggle ESCO groups/pillars/domains for taxonomy aggregates.
-    </p>
-    <div class="port-controls-bar">
-      <div class="controls" id="port-controls" style="margin-bottom:0"></div>
-      <div class="controls" id="port-level" style="margin-bottom:0"></div>
-      <div class="controls" id="port-metric" style="margin-bottom:0"></div>
-      <label class="mech-slider-wrap" style="cursor:pointer;margin-bottom:0"><input type="checkbox" id="port-labels" checked> Labels</label>
-    </div>
-    <div class="coverage-meta" id="port-meta"></div>
-    <div id="port-mech-legend"></div>
-    <div class="port-scatter-frame">
-      <div id="port-scatter"></div>
-    </div>
-    <div class="port-matrix" id="port-cards"></div>
-    <p class="port-caption">
-      Vertical cut = AI-exposure threshold (shared with AI Mechanisms). Horizontal cut = zero change (rising vs falling).
-      Growth metric = &Delta;pp or &Delta;rank vs 2023. Items without an exposure score are omitted.
-      Meta line reports the share of rising demand mass in the premium channel.
-    </p>
-  </div>
-</div>
-<div class="mech-tooltip" id="port-tooltip"></div>
-
-<!-- ═══ Methodology ═══ -->
+<!-- â•â•â• Methodology â•â•â• -->
 <div id="tab-methodology" class="tab-panel">
   <div class="method">
     <h2>Overview</h2>
@@ -746,13 +668,39 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
       <span class="stat-box"><span class="val">3</span><span class="lbl">Occupations</span></span>
     </div>
 
-    <h2>Step 1: Building the Skill-to-Node Dictionary</h2>
-    <p>Each of the 55 matrix node names and all 9,201 unique standardized skills (pooled from both 2023 and 2026 data) are encoded into dense vector embeddings using the <code>all-MiniLM-L6-v2</code> sentence-transformer model.</p>
-    <p>For each standardized skill, cosine similarity is computed against all 55 node embeddings. The skill is assigned to its highest-scoring node, provided the similarity exceeds a threshold of <code>0.45</code>. Skills below the threshold are left unmapped.</p>
+    <h2>Step 1: Building the Skill-to-Node Dictionary (LLM-adjudicated)</h2>
+    <p>The mapping is built in two stages. A candidate-generation stage embeds node names and skills
+    (<code>all-MiniLM-L6-v2</code>, cosine &ge; 0.45, winner-take-all) to define the review universe:
+    every skill it mapped, plus every skill passing the &ge;5%-either-year analysis filter
+    (N&nbsp;=&nbsp;1,170). An <strong>adjudication stage</strong> then reviews each of those skills
+    individually with a frontier LLM (Claude, Anthropic) under a written protocol
+    (<code>llm_review/PROTOCOL.md</code>): each skill is assigned to the single best-fitting
+    <strong>leaf node</strong> (parents are aggregates and never receive direct assignments), or left
+    unmapped when no node covers its primary meaning &mdash; skills are not force-fitted. Each mapping
+    carries a confidence grade (3 = clear construct containment, 2 = reasonable fit, 1 = borderline).</p>
+    <p>The adjudication corrected substantial embedding-stage errors: only 38% of the original
+    embedding assignments survived review unchanged, and generic business skills that had leaked into
+    AI-specific nodes were re-assigned to Enduring nodes.</p>
     <div>
-      <span class="stat-box"><span class="val">all-MiniLM-L6-v2</span><span class="lbl">Embedding model</span></span>
-      <span class="stat-box"><span class="val">0.45</span><span class="lbl">Cosine similarity threshold</span></span>
-      <span class="stat-box"><span class="val">830</span><span class="lbl">Skills mapped (9.0%)</span></span>
+      <span class="stat-box"><span class="val">1,170</span><span class="lbl">Skills reviewed</span></span>
+      <span class="stat-box"><span class="val">1,021</span><span class="lbl">Skills mapped to leaves</span></span>
+      <span class="stat-box"><span class="val">149</span><span class="lbl">Left unmapped (no fit)</span></span>
+      <span class="stat-box"><span class="val">430/460</span><span class="lbl">&ge;5% skills mapped</span></span>
+    </div>
+
+    <h2>Step 1b: AI-Exposure Scores</h2>
+    <p>Each skill also receives an <strong>AI-exposure score</strong> (0.05&ndash;0.95): the degree to
+    which current generative AI can perform the task implied by the label, scored against anchored
+    rubric levels (0.9 = AI performs end-to-end; 0.7 = AI does most, human validates; 0.5 = mixed;
+    0.3 = mostly human; 0.1 = human bottleneck), following the task-level exposure logic of
+    Eloundou et&nbsp;al. (2023) and Felten et&nbsp;al. (AIOE). Scoring is
+    <strong>matrix-independent</strong>: it never conditions on the node a skill maps to. The legacy
+    keyword rubric (neutral 0.5 base &plusmn; keyword hits) is retained as an independent robustness
+    measure: Pearson r&nbsp;=&nbsp;0.61 across all 1,170 skills, r&nbsp;=&nbsp;0.80 on the 511 skills
+    where the keyword rubric is informative (moves off its 0.5 default).</p>
+    <div>
+      <span class="stat-box"><span class="val">r = 0.61 / 0.80</span><span class="lbl">LLM vs keyword (all / informative)</span></span>
+      <span class="stat-box"><span class="val">3 / 2 / 1</span><span class="lbl">Confidence grades: 124 / 487 / 410</span></span>
     </div>
 
     <h2>Step 2: Computing Node Penetration</h2>
@@ -775,10 +723,12 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
 
     <h2>Limitations</h2>
     <ul>
-      <li>Only 9.0% of unique standardized skills exceed the similarity threshold and are mapped to nodes. The remaining skills are not represented in the penetration metric.</li>
-      <li>Each skill maps to exactly one node (the best match). Some skills could reasonably map to multiple nodes.</li>
-      <li>The embedding model captures semantic similarity, not expert-validated skill taxonomies. Some mappings may be imprecise.</li>
+      <li>The adjudicated universe covers skills that are either embedding-mapped or above the &ge;5% frequency floor. Rare skills outside it are not represented in the penetration metric; their contribution is bounded by their rarity.</li>
+      <li>Each skill maps to exactly one leaf node (the best construct fit). Some skills could reasonably map to multiple nodes; single assignment avoids double counting at the cost of granularity.</li>
+      <li>Mapping and exposure are single-rater LLM adjudications under a written protocol, cross-checked against the embedding and keyword layers &mdash; not expert-panel or firm-validated task measurements. All adjudications are stored in reviewable batch files (<code>llm_review/batches/</code>).</li>
+      <li>Exposure is scored on skill labels, not on observed task content within firms.</li>
       <li>Job volume grew significantly between 2023 and 2026 across all three occupations, which may reflect market trends or data collection changes rather than skill shifts alone.</li>
+      <li>Two time points, three management occupations: correlational evidence, not causal identification.</li>
     </ul>
   </div>
 </div>
@@ -811,12 +761,12 @@ const TOP_SKILLS = %TOP_SKILLS%;
 const ONET_JOB_COUNTS = %ONET_JOB_COUNTS%;
 const OCC_TITLES = %OCC_TITLES%;
 </script>
-<script src="skill_exposure.js?v=nomatrix1"></script>
+<script src="skill_exposure.js?v=llm1"></script>
+<script src="node_exposure.js?v=llm1"></script>
 <script src="esco_groups.js"></script>
 <script src="esco_pillars.js"></script>
 <script src="esco_domains.js"></script>
-<script src="salary_proxy_skills.js"></script>
 <script src="skill_deltas.js"></script>
-<script src="dashboard_app.js?v=mechyfold1"></script>
+<script src="dashboard_app.js?v=llm1"></script>
 </body>
 </html>

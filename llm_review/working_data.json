@@ -1,0 +1,7301 @@
+{
+ "nodes": [
+  {
+   "node": "Declarative and retrieval-based knowledge",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "Individual knowledge",
+   "category": "Declining",
+   "type": "soft"
+  },
+  {
+   "node": "Locate and retrieve information",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "language-specific knowledge",
+   "category": "Declining",
+   "type": "soft"
+  },
+  {
+   "node": "Digital information analysis and synthesis",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "business knowledge as stored facts",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "Standardized routine execution",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "Routine tasks",
+   "category": "Declining",
+   "type": "hard"
+  },
+  {
+   "node": "Foundations",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Creativity",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Business and management foundations",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Quantitative, data, and analytical foundations",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Creative Thinking and Curiosity",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "A structured approach to work",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Criticism",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Analytical and Structured Problem-Solving",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Analytical and critical thinking",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Data- and Evidence-Based Decision-Making",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Critical thinking",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Methodical Process and Technology Management",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Ethical decision-making",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Communications",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Collaboration",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Business & Professional communication",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Teamwork and cooperation",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Data communication and storytelling",
+   "category": "Enduring",
+   "type": "hard"
+  },
+  {
+   "node": "Leadership and social influence",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Emotional and interpersonal intelligence",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Learning",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Learning orientation",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "Self-reflection",
+   "category": "Enduring",
+   "type": "soft"
+  },
+  {
+   "node": "AI Interaction (How do humans use, communicate with, and evaluate AI?)",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "Digital and AI literacy",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Adaptive Mindset and Resilience",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "Prompting skills",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI-Driven Change and Opportunity Management",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI Use-Case Identification and Professional Application",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI self-efficacy",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI monitoring; output evaluation and verification",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI-ideation",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI System Design (How are AI-supported tools, workflows, and processes designed?)",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context)",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI Development and Implementation",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Human-AI collaboration",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI Data and Process Management",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Socio-Technical Systems Thinking",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI infrastructure and Deployment Readiness",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI transformation and organizational redesign",
+   "category": "Emerging",
+   "type": "soft"
+  },
+  {
+   "node": "AI Governance (How do we ensure AI is used responsibly, safely, legally, and accountably?)",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Governance and Accountability Structures",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Responsible and Ethical AI Evaluation",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "AI Risk, Privacy, and Security Management",
+   "category": "Emerging",
+   "type": "hard"
+  },
+  {
+   "node": "Societal and Environmental AI Impact",
+   "category": "Emerging",
+   "type": "hard"
+  }
+ ],
+ "skills": [
+  {
+   "skill": "Adobe Photoshop",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Agile development",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Cisco",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "Computer Assisted Language Learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "German",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ICT communications protocols",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT environmental policies",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT infrastructure",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT network security risks",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "ICT problem management techniques",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT process quality models",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "ICT project management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT project management methodologies",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT sales methodologies",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT system integration",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ICT system programming",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "ML (computer programming)",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "Microsoft Visio",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Oracle Relational Database",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "Process-based management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Prototyping development",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Python (computer programming)",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "SAP Data Services",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "SAS language",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "SQL",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "Solidity",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "Spanish",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "abide by business ethical code of conducts",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "abide by regulations on banned materials",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "accept criticism and guidance",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "accept own accountability",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "accounting",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "accounting department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "accounting techniques",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "achieve sales targets",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "adapt communication style according to recipient",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adapt existing designs to changed circumstances",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adapt leadership styles in healthcare",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.15,
+   "hp": 0
+  },
+  {
+   "skill": "adapt production levels",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adapt to artists' creative demands",
+   "cur_node": "Creativity",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "adapt to change",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "adapt to change in marketing",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adapt to changes in technological development plans",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "adapt to changing situations",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "address identified risks",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "adhere to Standard Operating Procedures",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "adhere to organisational code of ethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adhere to organisational guidelines",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "adjust ICT system capacity",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "adjust the work during the creative process",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "adjust to physical demands",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "administer ICT system",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "administrative tasks in a medical environment",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "adobe creative suite",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "adopt ways to reduce pollution",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "advertising techniques",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "advice on security risk management",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "advise customers on financing options for vehicles",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "advise on communication strategies",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "advise on learning methods",
+   "cur_node": "Learning",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "advise on legal decisions",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "advise on public relations",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "advise others",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "aerospace engineering",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "aesthetics",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "agricultural business management",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "align efforts towards business development",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "analyse ICT technical proposals",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse business processes",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse data for policy decisions in trade",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "analyse external factors of companies",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "analyse information processes",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "analyse information systems",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "analyse legal evidence",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse market financial trends",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "analyse potential threats against national security",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse production processes for improvement",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse route possibilities in pipeline projects",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "analyse supply chain strategies",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "analyse the context of an organisation",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse the credit history of potential customers",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "analyse the need for technical resources",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "analyse transmitted communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "application process",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "apply ICT systems theory",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply advanced manufacturing",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply case management",
+   "cur_node": "AI Use-Case Identification and Professional Application",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply change management",
+   "cur_node": "AI-Driven Change and Opportunity Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "apply credit risk policy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "apply customer engagement strategy",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "apply digital mapping",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "apply digital security measures",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "apply knowledge of human behaviour",
+   "cur_node": "Individual knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply knowledge of philosophy",
+   "cur_node": "Individual knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply organisational techniques",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply research ethics and scientific integrity principles in research activities",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "apply risk management processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "apply strategic thinking",
+   "cur_node": "Analytical and critical thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "apply systemic design thinking",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "apply technical communication skills",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "appreciate diverse cultural and artistic expression",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "arrange bookings",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "articulate artistic proposal",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "artificial neural networks",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "assemble an artistic team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "assertiveness",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assess ICT knowledge",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assess each stage of the creative process",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "assess employees' capability levels",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assess environmental impact",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assess others feelings",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assess prior learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "assess reliability of data",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "assess telecommunication infrastructure issues",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assess the feasibility of implementing developments",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assessment of risks and threats",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assessment processes",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "asset management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assign homework",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assist children in developing personal skills",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "assist customers",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "assist in developing practices for well being of employees",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assist in fund management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assist in loan applications",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "assist in the production of laboratory documentation",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "assist in will writing",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "assist students in their learning",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "assume responsibility",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "assume responsibility for the management of a business",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "attend meetings",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "attend to ICT systems quality",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "attend to detail in preparation for audits",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "audit techniques",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "authoring software",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "automation technology",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "banking activities",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "bioethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "blueprints",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "body language",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "book reviews",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "brainstorm ideas",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "bring out performers’ artistic potential",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "broadcast equipment",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "broadcast using Internet Protocol",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "budgetary principles",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "build business relationships",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "build community relations",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "build scaffolding",
+   "cur_node": "Foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "build team spirit",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "build trust",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "building construction principles",
+   "cur_node": "Foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "business ICT systems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "business analysis",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "business analytics",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "business communication",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "business intelligence",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "business knowledge",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "business law",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "business loans",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "business management principles",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "business process modelling",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "business processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "business requirements techniques",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "business strategy concepts",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "calibrate electronic instruments",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "carry out project activities",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "carry out ship-to-shore operations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "channel marketing",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "check methods",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "classical languages",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "climate change impact",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "clinical decision-making at advanced practice",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "cloud technologies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "coach employees",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "coaching techniques",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "cognitive psychology",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "collaborate in company's daily operations",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate in the development of marketing strategies",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "collaborate on international energy projects",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate through digital technologies",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with a technical staff in artistic productions",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with animal related professionals",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with coaching team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.15,
+   "hp": 1
+  },
+  {
+   "skill": "collaborate with designers",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "collaborate with engineers",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with music librarians",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with stakeholders in leading community arts",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.15,
+   "hp": 0
+  },
+  {
+   "skill": "collaborate with technical experts on artworks",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "collect ICT data",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "collect customer feedback on applications",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "collect financial data",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "collect real-time geolocation information",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "combine multiple fields of knowledge",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate analytical insights",
+   "cur_node": "Analytical and critical thinking",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "communicate by telephone",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "communicate by use of interpretation services",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate clearly with passengers",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "communicate commercial and technical issues in foreign languages",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate during show",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate in air traffic services",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate in an outdoor setting",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate in healthcare",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "communicate in specialised nursing care",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "communicate mathematical information",
+   "cur_node": "Communications",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "communicate on the environmental impact of mining",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate production plan",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate professionally with colleagues in other fields",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "communicate regulations",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate technicalities with clients",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "communicate using non-verbal language",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "communicate verbal instructions",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communicate with banking professionals",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "communicate with construction crews",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "communicate with customers",
+   "cur_node": "Communications",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "communicate with media",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "communicate with stakeholders",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "communication",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "communication disorders",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communication principles",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "communication related to hearing impairment",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communication sciences",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communication studies",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "communications sector policies",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "company policies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "comply with regulations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "comply with schedule",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "compose digital game story",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "computational linguistics",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "computer engineering",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "computer history",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "computer science",
+   "cur_node": "Learning",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "computer technology",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "concepts of telecommunications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "concretise artistic concept",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "conduct financial audits",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "conduct inter-shift communication",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "conduct military music services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "conduct online competitive analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "conduct participatory research",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "conduct quantitative research",
+   "cur_node": "Quantitative, data, and analytical foundations",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "conduct research interview",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "conduct threat intelligence",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "conduct training on monitoring and evaluation frameworks",
+   "cur_node": "AI monitoring; output evaluation and verification",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "confer with library colleagues",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "conflict management",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "consider economic criteria in decision making",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "construct individual learning plans",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "construction methods",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "consult students on learning content",
+   "cur_node": "Learning",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "consult team on creative project",
+   "cur_node": "Creativity",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "consult with business clients",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "consultation",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "consumer goods industry",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "content development processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "content marketing strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "contextualise artistic work",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "continuous improvement philosophies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "contribute to an artistic approach",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "contribute to the programmer's reflection process",
+   "cur_node": "Self-reflection",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "control objectives for information and related technology",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "control production",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "cooperate at inter-professional level",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "cooperate with colleagues",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "cooperate with education professionals",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "cooperate with professionals",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate communication within a team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate engineering teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "coordinate environmental efforts",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate government activities in foreign institutions",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate operational activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate security",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "coordinate technical teams in artistic productions",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate technological activities",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "coordinate the running of a performance",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "corporate social responsibility",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "corporate sustainability",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "cost management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "counsel clients",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "counsel on communication disorders",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "crafting",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create a work atmosphere of continuous improvement",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create an artistic performance",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create business process models",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "create concept of digital game",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "create cooperation modalities",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "create digital content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "create digital files",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "create model",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "create new concepts",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "create project specifications",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "create semantic trees",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create sketches",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create social alliances",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "create solutions to problems",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create technical plans",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "create training materials",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "creatively use digital technologies",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "credit control processes",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "critically reflect on artistic production processes",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "critique other writers",
+   "cur_node": "Criticism",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "cultural projects",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "customer insight",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "customer relationship management",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "customer segmentation",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "cyber security",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "data analytics",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "data engineering",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "data ethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "data extraction",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "data mining",
+   "cur_node": "Learning",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "data protection",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "data quality assessment",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "data science",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "data security principles",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "data visualisation software",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "data warehouse",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "deal with challenging work conditions",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "decision support systems",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "deep learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "defence standard procedures",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "define artistic vision",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "define risk policies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "define security policies",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "define technology strategy",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "delegate responsibilities",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "deliberate prior learning assessment results",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "deliver visual presentation of data",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "demonstrate awareness of health risks",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "demonstrate curiosity",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "demonstrate disciplinary expertise",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "demonstrate leadership in social service cases",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "demonstrate professional attitude to clients",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "demonstrate technical skills during neurological surgery",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "demonstrate when teaching",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "demonstrate willingness to learn",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "deploy ICT systems",
+   "cur_node": "AI infrastructure and Deployment Readiness",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "design customer experiences",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "design digital call to action",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "design enterprise architecture",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "design for organisational complexity",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "design graphics",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "design information system",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "design management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "design materials for multimedia campaigns",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "design piers",
+   "cur_node": "Foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "design process",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "design thinking",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "detect financial crime",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "determine context to present the work",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop ICT workflow",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop a collaborative therapeutic relationship",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "develop account strategy",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "develop an artistic approach to your interpretation",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop an artistic network",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop artistic coaching programme",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop artistic educational activities",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop audit plan",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "develop business case",
+   "cur_node": "AI Use-Case Identification and Professional Application",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop business plans",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop communication networks with shipping sites",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop communications strategies",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop company strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop creative ideas",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "develop data processing applications",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "develop design ideas cooperatively",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop digital content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "develop digital educational materials",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "develop documentation in accordance with legal requirements",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "develop employee retention programs",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "develop environmental policy",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop environmental remediation strategies",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop inclusive communication material",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop international cooperation strategies",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop interregional collaboration strategies",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop learning curriculum",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop management plans",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop media strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop musical ideas",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop new products",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop organisational information goals",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "develop organisational policies",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop original melodies",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop personal skills",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop professional identity in social work",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop professional network",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop professional network with researchers and scientists",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop program ideas",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "develop public relations strategies",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop software prototype",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "develop staff",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop standard operating procedures in the food chain",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop strategy to solve problems",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "develop terminology databases",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "develop the physical language",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "develop training programmes",
+   "cur_node": "Learning",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "develop waste management processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "develop working procedures",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "devise military tactics",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "devise special promotions",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "digital arts",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "digital communication and collaboration",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "digital compositing",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "digital content creation",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "digital data processing",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "digital game genres",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "digital journalism",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "digital marketing techniques",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "digital media",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "digital systems",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "digitization",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "direct an artistic team",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "discern written communication",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "disseminate internal communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "disseminate messages to people",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "document evidence",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "draw design sketches",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "draw up artistic production",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "draw up artistic programming policy",
+   "cur_node": "Creativity",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "draw up artistic project proposals",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "draw up professional texts",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "e-commerce systems",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "e-learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "e-procurement",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ecosystem management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "electronic and telecommunication equipment",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "electronic business",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "electronic communication",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "electronic signals intelligence",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "emergent technologies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "employment law",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "empower individuals",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "encourage teambuilding",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "enforce financial policies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "engage artistic staff",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "engage with stakeholders",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "engineering processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "ensure client orientation",
+   "cur_node": "Learning orientation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "ensure compliance with accounting conventions",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "ensure compliance with company regulations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ensure compliance with legal requirements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ensure compliance with policies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ensure cross-department cooperation",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "ensure finished product meet requirements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ensure information privacy",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "ensure information security",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "ensure price competitiveness",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ensure quality of legislation",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "enterprise risk management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "entertain people",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "entertainment industry",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "entrepreneurship",
+   "cur_node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "environmental design",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "environmental economics",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "environmental engineering",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "environmental legislation",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "environmental policy",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "environmental threats",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "establish collaborative relations",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "establish communication with foreign cultures",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "establish data processes",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "establish relationship with the media",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "estimate profitability",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "ethical code of conduct of journalists",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "ethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "ethics and religion",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "evaluate benefit plans",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "evaluate environmental impact of personal behaviour",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "evaluate implementation of safety procedures",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "evaluate performance of organisational collaborators",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "evaluate pharmaceutical manufacturing process",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "evaluate supporting team in community arts program",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "evaluate training",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "evaluation theory",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "evidence-based approach in general practice",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "evidence-based nursing care",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "execute analytical mathematical calculations",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.85,
+   "hp": 1
+  },
+  {
+   "skill": "execute marketing plan",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "execute necessary procedures prior to take off",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "exercise self-reflection",
+   "cur_node": "Self-reflection",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "express yourself creatively",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "facilitate access to information",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "facilitate motor skill activities",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "facilitate teamwork between students",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "facilities management in the organisation",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "financial capability",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial jurisdiction",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial management",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial markets",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial products",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "financial statements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "finish project within budget",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "focus on service",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "follow code of ethics for biomedical practices",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "follow ethical code of conduct in assessment situations",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "follow ethical code of conduct in tourism",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "follow ethical code of conduct in transport services",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "follow ethical code of conduct of gambling",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "follow strict level crossing operating procedures",
+   "cur_node": "Standardized routine execution",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "follow the statutory obligations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "follow up accounts receivables",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "follow verbal instructions",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "follow work schedule",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "food ethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "formulate findings",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "gather data",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "gather data for forensic purposes",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "gather technical information",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "genetics",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "give constructive feedback",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "give feedback on changing circumstances",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "give interviews to media",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "give live presentation",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "give out grants",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "good governance",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "good manufacturing practices",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "government representation",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "guidance",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "guide learners in using assistive technologies",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "handle case evidence",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "handle cash flow",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "handle communications in the food processing industry",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "handle customer complaints",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "handle financial transactions",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "handle tasks independently",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "hardware architectures",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "hardware components suppliers",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "have computer literacy",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "have emotional intelligence",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "hire human resources",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "human psychological development",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "human resource management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "human resources department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "human-computer interaction",
+   "cur_node": "Human-AI collaboration",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "human-robot collaboration",
+   "cur_node": "Human-AI collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "id Tech",
+   "cur_node": "AI Use-Case Identification and Professional Application",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify ICT security risks",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify ICT user needs",
+   "cur_node": "AI Use-Case Identification and Professional Application",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify artistic niche",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify clients' needs",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "identify customer objectives",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "identify customer requirements",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "identify customer's needs",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "identify digital competence gaps",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "identify legal requirements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "identify new business opportunities",
+   "cur_node": "AI-Driven Change and Opportunity Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify potential markets for companies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "identify processes for re-engineering",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify security threats",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify skills gaps",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify talent",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify technological needs",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "identify training needs",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "identify with the company's goals",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "image recognition",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "impart business plans to collaborators",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "implement ICT risk management",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "implement a management system",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "implement corporate governance",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "implement data quality processes",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "implement data warehousing techniques",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "implement environmental action plans",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "implement operational business plans",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "implement relevant technical skills to perform at the highest level in sport",
+   "cur_node": "Systemic Skills (ability to understand AI implementation within a wider organizational and socio-technical context)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "implement sales strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "implement scientific decision making in healthcare",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "implement strategic management",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "imprint visionary aspirations into the business management",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "improve business processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "improvise",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "increase the impact of science on policy and society",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "incremental development",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "industrial design",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "industrial software",
+   "cur_node": "AI System Design (How are AI-supported tools, workflows, and processes designed?)",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "influence public policies",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "influence voting behaviour",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "information and digital content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "information architecture",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "information categorisation",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "information confidentiality",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "information extraction",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "information governance compliance",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "information security strategy",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "information structure",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "innovate in ICT",
+   "cur_node": "Adaptability (capacity to respond constructively to technological and organizational change)",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "innovation processes",
+   "cur_node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "inspect data",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "instruct library users in digital literacy",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "instruct others",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "instructional strategies",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "integrate and re-elaborate digital content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "integrate community outreach",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "integrate marketing strategies with the global strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "integrate principles of training",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "integrate strategic foundation in daily performance",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "intellectual property regime of digital content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "inter-professional communication in the psychosocial field",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interact professionally in research and professional environments",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "interact through digital technologies",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "interact verbally in Chinese",
+   "cur_node": "AI Interaction (How do humans use, communicate with, and evaluate AI?)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interact verbally in German",
+   "cur_node": "AI Interaction (How do humans use, communicate with, and evaluate AI?)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interact with an audience",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "interact with users to gather requirements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "interactive media",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "interfacing techniques",
+   "cur_node": "AI Interaction (How do humans use, communicate with, and evaluate AI?)",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interfere with enemy communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "internal auditing",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "internal risk management policy",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "internet governance",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interpret artistic intentions",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interpret business information",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "interpret languages in conferences",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interpret mathematical information",
+   "cur_node": null,
+   "kw_exp": 0.85,
+   "hp": 1
+  },
+  {
+   "skill": "interpret performance concepts in the creative process",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "interpret technical texts",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "interview people",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "introduce new employees",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "investigate manufacturing facilities",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "investment analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "involve volunteers",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "issue sales invoices",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "iterative development",
+   "cur_node": "AI Development and Implementation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "joint ventures",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "journalism",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "keep task records",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "keep track of expenses",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "keep up to date on product knowledge",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "keep up with digital transformation of industrial processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "knowledge base",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "knowledge management",
+   "cur_node": "Individual knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "laboratory methods in biomedical sciences",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "lactation",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "language teaching methods",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "lay out digital written content",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "lead a team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "lead a team in hospitality service",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.15,
+   "hp": 0
+  },
+  {
+   "skill": "lead a team in water management",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "lead managers of company departments",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "lead others",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "lead process optimisation",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "lead technology development of an organisation",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "leadership in nursing",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "leadership principles",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "learning difficulties",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "learning management systems",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "learning technologies",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "legal studies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "liaise with colleagues",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "liaise with cultural partners",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "liaise with government officials",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "liaise with industrial professionals",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "liaise with industry experts",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "liaise with managers",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "liaise with politicians",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "liaise with shareholders",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "liaise with union officials",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "life sciences",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "liquidity management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "literary criticism",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "logistics",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "machine learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "maintain ICT system",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain a non-emotional involvement",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "maintain contractual information",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "maintain credit history of clients",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "maintain customer records",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain data entry requirements",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "maintain internal communication systems",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain logistics databases",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "maintain operational communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain plan for continuity of operations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "maintain privacy",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "maintain professional administration",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain professional boundaries in social work",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain records of mining operations",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "maintain relationship with customers",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "maintain relationship with suppliers",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "maintain the security of machinery",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "maintain updated professional knowledge",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "make artistic food creations",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "make clinical decisions",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "make data-driven decisions",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "make decisions",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "make diplomatic decisions",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "make investment decisions",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "make legal decisions",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "make strategic business decisions",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "make time-critical decisions",
+   "cur_node": "Critical thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage ICT data architecture",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage ICT project",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage a multidisciplinary team involved in patient care",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.15,
+   "hp": 0
+  },
+  {
+   "skill": "manage a small-to-medium business",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage a team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "manage accounts",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "manage all process engineering activities",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage artistic career",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "manage backlogs",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage business knowledge",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage cash desk",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage challenging work conditions during food processing operations",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage changes in ICT system",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage chemical processes inspection",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage claims process",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage cleaning activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage commercial risks",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage communications with food industry governmental bodies",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage content development projects",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage corporate training programmes",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "manage creative department",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "manage data",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage data for legal matters",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage difficult clients",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "manage engineering project",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage environmental impact",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage environmental impact of operations",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage ethical dilemmas in genetic testing",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage ethical issues within social services",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "manage ethics issues in the food industry",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "manage factory operations",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage feedback",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage financial and material resources",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage financial aspects of a company",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage financial risk",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage findable accessible interoperable and reusable data",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage fitness goals",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage health and safety",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "manage human resources",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage information sources",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "manage lost and found articles",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage maintenance operations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage manufacturing documentation",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "manage manufacturing facilities",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage online communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage online content",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage payroll",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "manage personal professional development",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage personal progression",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage processes",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage production systems",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage profitability",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage prompt book",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage quality",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage quantitative data",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "manage relationships with stakeholders",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "manage resources",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage restaurant service",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage revenue",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage routine waste",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage sales teams",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "manage schedule of tasks",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "manage service contracts in the drilling industry",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage several projects",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage staff",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "manage standard enterprise resource planning system",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "manage teamwork",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "manage technical aspects of vineyard production",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage technical security systems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage the general ledger",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "manage time",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage visual communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manage workflow processes",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "management consulting",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "management department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "management systems standards",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "manufacturing processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "market analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "market entry planning",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "market entry strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "market participants",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "market research",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "marketing analytics",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "marketing department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "marketing management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "marketing principles",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "mathematical economics",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "mathematics",
+   "cur_node": "Learning",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "maximise sales revenues",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "media and information literacy",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "media planning",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "meet commitments",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "meet commitments in hospitality",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "meet deadlines",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "meet productivity targets",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "memorise large amounts of information",
+   "cur_node": "Learning",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "mentor individuals",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "mergers and acquisitions",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "metrology",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "mobile marketing",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "mobility as a service",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "modern languages",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "monitor assessment",
+   "cur_node": "AI monitoring; output evaluation and verification",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor communication channels' performance",
+   "cur_node": "Communications",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor daily work",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor developments in field of expertise",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "monitor machine operations",
+   "cur_node": "AI monitoring; output evaluation and verification",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor processing conditions",
+   "cur_node": "AI monitoring; output evaluation and verification",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor processing environment conditions",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "monitor technology trends",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "morality",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "motivate others",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "multi-professional cooperation in health care",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "national generally accepted accounting principles",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate compromises",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate employment agreements",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate price",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate sales contracts",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate settlements",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "negotiate with stakeholders",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "network engineering",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "network marketing",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "network standards",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "network within the writing industry",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "newsletter analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "obtain financial information",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "occupational health",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "offer financial services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "office software",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "online analytical processing",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "online job platforms",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "operate an emergency communication system",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "operate automated process control",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "operate broadcast equipment",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "operate digital hardware",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "operate marine communication systems",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "operate railway communication systems",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "operational research",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "operations department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "operations management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "optics",
+   "cur_node": "Self-reflection",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "organisational learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "organisational policies",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "organisational resilience",
+   "cur_node": "Adaptive Mindset and Resilience",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "organisational structure",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "organise compositions",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "organise creative performance",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "organise facilities for office personnel",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "organise information",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "organise information on availability of the team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "organise project meetings",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "organise training",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "outsourcing strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "oversee development of software",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "own management skills",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "packaging functions",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "packaging processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "participate as a performer in the creative process",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "participate in artistic mediation activities",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "participate in technical aspects of the production",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "participatory decision-making",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "people and the environment",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform asset recognition",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform business analysis",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "perform business research",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "perform cost accounting activities",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "perform data analysis",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "perform data mining",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "perform dunning activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform escalation procedure",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform financial market business",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform follow-up on pipeline route services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform ideation activities",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform manual work autonomously",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "perform market research",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "perform multiple tasks at the same time",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform office routine activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "perform process control in the wearing apparel industry",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform procurement processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform product planning",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform project management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform public relations",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform resource planning",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "perform technically demanding tasks",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "perform warehousing operations",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "personal development",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "personal reflection techniques based on feedback",
+   "cur_node": "Self-reflection",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "personnel management",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "persuade clients with alternatives",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "plan artistic production activities",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan choreographic improvisation",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan digital marketing",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "plan maintenance activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan manufacturing processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan marketing campaigns",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "plan marketing strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "plan medium to long term objectives",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "plan presence at professional events",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan product management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "plan scaffolding",
+   "cur_node": "Foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "plan workshop activity",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "policy analysis",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "pose questions referring to documents",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "prepare broadcasts",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "prepare financial statements",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "prepare personal work environment",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "prepare the assessment of prior learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "prescribe exercises",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "present artistic design proposals",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "present during live broadcasts",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "present evidence",
+   "cur_node": "Data- and Evidence-Based Decision-Making",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "present reports",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "pricing strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "principles of artificial intelligence",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "problem-solving with digital tools",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "process applications",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "process collected survey data",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "process data",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "process data from railway control rooms",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "process payments",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "process qualitative information",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "procurement lifecycle",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "produce materials for decision making",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "product data management",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "product life-cycle",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "production engineering",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "production processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "products",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "program artistic productions",
+   "cur_node": "Creativity",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "program management",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "project configuration management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "project management principles",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "promote communication between parties",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "promote environmental awareness",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "promote ethical eating",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "promote event",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "promote financial products",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "promote health and safety",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "promote ideas",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "promote inclusion",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "promote organisational communication",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "promote social change",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "promote social security programmes",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "promote the transfer of knowledge",
+   "cur_node": "Individual knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "propose ICT solutions to business problems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "propose improvements to artistic production",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "propose projects to artist",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "prospect new customers",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "protect personal data and privacy",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "protect the environment from the impact of the digital technologies",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "provide assistive technology",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "provide charity services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "provide customer guidance on product selection",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "provide financial product information",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "provide high quality customer service",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "provide input to collaborators to guide their work",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "provide learning support",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "provide learning support in healthcare",
+   "cur_node": "Learning",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "provide lesson materials",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "provide operational efficiency training to employees",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "provide support in financial calculation",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "provide technical expertise",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "provide technical training",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "provide training on e-learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "provide training on technological business developments",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "provide user documentation",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "provide visitor information",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "psychosociology",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "public administration",
+   "cur_node": "Governance and Accountability Structures",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "public relations",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "publishing strategy",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "quantitative analysis",
+   "cur_node": "Quantitative, data, and analytical foundations",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "quantitative risk analysis techniques",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "read books",
+   "cur_node": "Learning",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "real estate market",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "recruit employees",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "recruit personnel",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "relate empathetically",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "relationship marketing",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "relay messages through radio and telephone systems",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "renew artistic practice",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "report accounts of the professional activity",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "report on environmental issues",
+   "cur_node": "Societal and Environmental AI Impact",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "report on overall management of a business",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "report to the team leader",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "represent artistic production",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "reputation management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "resolve conflicts",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "respect confidentiality obligations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "respect the diversity of cultural values and norms",
+   "cur_node": null,
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "results-based management",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "reverse engineering",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "rhetoric",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "risk identification",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "risk management",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "risk modelling",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "sales activities",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "sales department processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "sales strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "satisfy aesthetic requirements",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "satisfy customers",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "satisfy technical requirements",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "schedule artistic activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "schedule regular machine maintenance",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "scientific computing",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "search and filter data",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "search databases",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "search engine optimisation",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "securities",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "security regulations",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "security threats",
+   "cur_node": "AI Risk, Privacy, and Security Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "seek innovation in current practices",
+   "cur_node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "self-promote",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "sell art",
+   "cur_node": "Creativity",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "sell products",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "sell services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "sell telecommunication products",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "semantics",
+   "cur_node": "Declarative and retrieval-based knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "services",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "services marketing",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "set sales goals",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "set up effective working relationships with other sports players",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "shape corporate culture",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "shape organisational teams based on competencies",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "share through digital technologies",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "show entrepreneurial spirit",
+   "cur_node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "show impartiality in an assessment situation",
+   "cur_node": "Responsible and Ethical AI Evaluation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "show initiative",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "show professional responsibility",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "simplify communication in maritime management",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "social alliances",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "social development",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "social entrepreneurship",
+   "cur_node": "Entrepreneurial and Innovation-Oriented Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "social entreprise",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "social innovation",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "social media management",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "social media marketing techniques",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "social mediation",
+   "cur_node": "Leadership and social influence",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "software design methodologies",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "solution deployment",
+   "cur_node": "AI infrastructure and Deployment Readiness",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "solve ICT system problems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "solve problems",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "solve problems in healthcare",
+   "cur_node": "Analytical and Structured Problem-Solving",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "solve technical problems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "source criticism",
+   "cur_node": "Criticism",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "speak about your work in public",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "speak different languages",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "sports ethics",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "state estimation",
+   "cur_node": "AI monitoring; output evaluation and verification",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "statistical process control",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "stimulate creative processes",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "stimulate creativity in the team",
+   "cur_node": "Creativity",
+   "kw_exp": 0.24,
+   "hp": 1
+  },
+  {
+   "skill": "stimulate performers' imagination",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "stock market",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "store digital data and systems",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "store products",
+   "cur_node": "business knowledge as stored facts",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "strategic planning",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "strive for company growth",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "study a collection",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "study acquisition of language",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "study cultures",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "study the relationships between quantities",
+   "cur_node": "Quantitative, data, and analytical foundations",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "summarise stories",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "supervise accounting operations",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "supervise daily information operations",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "supervise data entry",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "supervise speech and language team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "supervise spoken language learning",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "supervise work",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "supervise work on design planning",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "supervision of persons",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "supplier management",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "supply chain principles",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "support ICT system users",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "support managers",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "support service users in developing skills",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "support witnesses",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "synthesise financial information",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "synthesise information",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "system backup best practice",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "systems development life-cycle",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "systems theory",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "systems thinking",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "take artistic vision into account",
+   "cur_node": "Creativity",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "talent management strategies",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "task algorithmisation",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "tax legislation",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "teach business principles",
+   "cur_node": "Business and management foundations",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "teach communication methods",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "teach communication to clients",
+   "cur_node": "Communications",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "teach digital literacy",
+   "cur_node": "Digital and AI literacy",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "teach languages",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "teach writing",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "team building",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "teamwork principles",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "technical terminology",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "technology and engineering",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "technology education",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "telecom regulations",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "telecommunication industry",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "telecommunication trunking",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "telecommunications engineering",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "theoretical lexicography",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "think abstractly",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "think analytically",
+   "cur_node": "Analytical and critical thinking",
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "think creatively",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "think creatively about food and beverages",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "think creatively about jewellery",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "think critically",
+   "cur_node": "Critical thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "think innovatively",
+   "cur_node": "Creative Thinking and Curiosity",
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "think proactively",
+   "cur_node": "Critical thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "think quickly",
+   "cur_node": "Critical thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "track shipments",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "train staff in quality procedures",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "training subject expertise",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "translate language concepts",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "translate strategy into operation",
+   "cur_node": "AI transformation and organizational redesign",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "transmission technology",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "treasury management system",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "treat animals ethically",
+   "cur_node": "Ethical decision-making",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "trendwatching",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "types of metal manufacturing processes",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "understand the emotional dimension of a performance",
+   "cur_node": "Emotional and interpersonal intelligence",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "undertake clinical audit",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "undertake continuous professional development in social work",
+   "cur_node": "Business & Professional communication",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "unstructured data",
+   "cur_node": "Locate and retrieve information",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "update language skills",
+   "cur_node": "language-specific knowledge",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "urban sustainability",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "use ICT systems",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use IT systems for commercial purposes",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use aeronautical mobile service communications",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use automatic programming",
+   "cur_node": "AI-ideation",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "use communication and collaboration software",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use communication devices",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use communication equipment",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use communication techniques",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use data processing techniques",
+   "cur_node": "AI Data and Process Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "use different communication channels",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use learning strategies",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "use methodologies for user-centered design",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use microsoft office",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "use of special equipment for daily activities",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use online tools to collaborate",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "use pedagogic strategies for creativity",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "use presentation software",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "use production planning software",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "use questioning techniques",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use questioning techniques for assessment",
+   "cur_node": "Prompting skills",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "use spreadsheets software",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "use therapeutic communication techniques",
+   "cur_node": "Communications",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "utilise machine learning",
+   "cur_node": "Learning",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "value properties",
+   "cur_node": null,
+   "kw_exp": 0.5,
+   "hp": 1
+  },
+  {
+   "skill": "vehicle manufacturing process",
+   "cur_node": "Methodical Process and Technology Management",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "verify formal ICT specifications",
+   "cur_node": "Digital information analysis and synthesis",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "web analytics",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "web based collaborative platforms",
+   "cur_node": "Collaboration",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work as a team in a hazardous environment",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work efficiently",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work ergonomically",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work for public inclusion",
+   "cur_node": null,
+   "kw_exp": 0.37,
+   "hp": 1
+  },
+  {
+   "skill": "work in a construction team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in a hospitality team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.24,
+   "hp": 0
+  },
+  {
+   "skill": "work in a land-based team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in an organised manner",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work in assembly line teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in crises areas",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work in fitness teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in inclement conditions",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work in metal manufacture teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in multidisciplinary health teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work in teams",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work with a dance team",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work with an artistic team",
+   "cur_node": "Creativity",
+   "kw_exp": 0.37,
+   "hp": 0
+  },
+  {
+   "skill": "work with supporting team in community arts programme",
+   "cur_node": "Teamwork and cooperation",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "work within communities",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  },
+  {
+   "skill": "write English",
+   "cur_node": null,
+   "kw_exp": 0.63,
+   "hp": 1
+  },
+  {
+   "skill": "write job descriptions",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "write research proposals",
+   "cur_node": null,
+   "kw_exp": 0.76,
+   "hp": 1
+  },
+  {
+   "skill": "write routine reports",
+   "cur_node": "Routine tasks",
+   "kw_exp": 0.85,
+   "hp": 0
+  },
+  {
+   "skill": "write storylines",
+   "cur_node": "Data communication and storytelling",
+   "kw_exp": 0.63,
+   "hp": 0
+  },
+  {
+   "skill": "write technical reports",
+   "cur_node": "Socio-Technical Systems Thinking",
+   "kw_exp": 0.76,
+   "hp": 0
+  },
+  {
+   "skill": "youth work principles",
+   "cur_node": "A structured approach to work",
+   "kw_exp": 0.5,
+   "hp": 0
+  }
+ ]
+}

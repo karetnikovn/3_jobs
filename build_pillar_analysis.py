@@ -1,4 +1,4 @@
-"""Aggregate analysis one more ESCO level up: GROUPS -> PILLARS (broaderConcept).
+﻿"""Aggregate analysis one more ESCO level up: GROUPS -> PILLARS (broaderConcept).
 
 Uses:
   esco_skill_groups.json   skill -> group_uri
@@ -35,11 +35,8 @@ MIN_PCT_2026 = 2.0
 
 
 def skill_exposure_neutral(label):
-    text = " " + label.lower().strip() + " "
-    high = len({kw for kw in bse.HIGH_KEYWORDS if kw in text})
-    low = len({kw for kw in bse.LOW_KEYWORDS if kw in text})
-    adj = max(-0.35, min(0.35, 0.13 * high - 0.13 * low))
-    return max(0.05, min(0.95, 0.5 + adj))
+    """LLM-adjudicated exposure when available; keyword fallback (see PROTOCOL.md)."""
+    return bse.exposure_lookup(label)
 
 
 def build():

@@ -1,7 +1,7 @@
 import pandas as pd
 import json, os
 
-OUT_DIR = r"C:\Users\karet\3_jobs"
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 FOCUS = {
     "11-2021.00": "Marketing Managers",

@@ -5,7 +5,7 @@ import os
 
 import pandas as pd
 
-OUT_DIR = r"C:\Users\karet\3_jobs"
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def load_json(name):

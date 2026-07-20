@@ -1,4 +1,4 @@
-"""Move the analysis one ESCO level up: aggregate to ESCO hierarchy GROUPS.
+﻿"""Move the analysis one ESCO level up: aggregate to ESCO hierarchy GROUPS.
 
 Uses esco_skill_groups.json (skill -> parent ESCO group, from esco_fetch.py) to
 recompute, at the group level:
@@ -31,12 +31,8 @@ MIN_PCT_2026 = 1.0    # ignore groups seen in <1% of 2026 postings (any occ)
 
 
 def skill_exposure_neutral(label):
-    """Matrix-independent exposure: neutral base 0.5 + keyword evidence."""
-    text = " " + label.lower().strip() + " "
-    high = len({kw for kw in bse.HIGH_KEYWORDS if kw in text})
-    low = len({kw for kw in bse.LOW_KEYWORDS if kw in text})
-    adj = max(-0.35, min(0.35, 0.13 * high - 0.13 * low))
-    return max(0.05, min(0.95, 0.5 + adj))
+    """LLM-adjudicated exposure when available; keyword fallback (see PROTOCOL.md)."""
+    return bse.exposure_lookup(label)
 
 
 def build():

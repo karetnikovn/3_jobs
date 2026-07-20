@@ -82,6 +82,28 @@ def score_skill_neutral(label):
     return score_skill(label, NEUTRAL_BASE)
 
 
+_LLM_CACHE = None
+
+
+def exposure_lookup(label):
+    """Preferred exposure for aggregate builders: LLM-adjudicated score when
+    available (skill_ai_exposure.json, source == "llm"), keyword fallback for
+    labels outside the adjudicated universe. See llm_review/PROTOCOL.md."""
+    global _LLM_CACHE
+    if _LLM_CACHE is None:
+        path = os.path.join(HERE, "skill_ai_exposure.json")
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+            _LLM_CACHE = {k: v["exposure"] for k, v in data.items()
+                          if isinstance(v, dict) and v.get("source") == "llm"}
+        except (OSError, ValueError):
+            _LLM_CACHE = {}
+    if label in _LLM_CACHE:
+        return _LLM_CACHE[label]
+    return score_skill(label)["exposure"]
+
+
 def load_delta_skills():
     """Unique skill labels from rebuilt skill_deltas (universe floor)."""
     path = DELTAS_JSON if os.path.exists(DELTAS_JSON) else DELTAS_JS
