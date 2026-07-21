@@ -58,6 +58,7 @@ function penetrationFilterNote() {
 
 function refreshPenetrationDependentViews() {
   if (typeof renderMechanisms === "function") renderMechanisms();
+  if (typeof renderMatrixCheck === "function") renderMatrixCheck();
   if (typeof renderSkillDeltas === "function") renderSkillDeltas();
   if (typeof renderRankings === "function") renderRankings();
   if (typeof renderRankBumpCharts === "function") renderRankBumpCharts();
@@ -1742,14 +1743,6 @@ function mcheckVerdict(category, change) {
   return "diverge";
 }
 
-/** Exposure prior: Declining theorized automatable (>=0.5); Enduring-soft theorized human (<0.5). */
-function mcheckExpPrior(category, type, exp) {
-  if (exp == null) return null;
-  if (category === "Declining") return exp >= 0.5;
-  if (category === "Enduring" && type === "soft") return exp < 0.5;
-  return null;
-}
-
 function mcheckBadge(verdict) {
   var labels = { match: "match", partial: "partial", diverge: "diverge", thin: "thin" };
   return "<span class='mcheck-badge " + verdict + "'>" + labels[verdict] + "</span>";
@@ -1766,7 +1759,8 @@ function getMcheckEntries(occ) {
       });
     });
   });
-  return out;
+  // Global "hide <5% 2026" filter applies here like on the other analysis tabs.
+  return filterByPenetration(out);
 }
 
 function renderMatrixCheck() {
@@ -1780,7 +1774,6 @@ function renderMatrixCheck() {
   entries.forEach(function(e) {
     e.thin = Math.max(e.p23, e.p26) < MCHECK_THIN;
     e.verdict = mcheckVerdict(e.category, e.change);
-    e.expOk = mcheckExpPrior(e.category, e.type, e.exposure);
   });
 
   var solid = entries.filter(function(e) { return !e.thin; });
@@ -1788,13 +1781,12 @@ function renderMatrixCheck() {
   solid.forEach(function(e) { counts[e.verdict]++; });
   var decided = counts.match + counts.diverge;
   var matchRate = decided ? Math.round(counts.match / decided * 100) : 0;
-  var expChecked = solid.filter(function(e) { return e.expOk != null; });
-  var expOkN = expChecked.filter(function(e) { return e.expOk; }).length;
 
+  var filterNote = minPenetrationPct ? " | hiding nodes <" + minPenetrationPct + "% 2026" : "";
   document.getElementById("mcheck-meta").textContent =
     currentMcheckOcc + " — " + entries.length + " leaf nodes (" + solid.length +
     " with ≥1% penetration) | 2023: " + jobs.jobs23.toLocaleString() +
-    " | 2026: " + jobs.jobs26.toLocaleString() + " jobs";
+    " | 2026: " + jobs.jobs26.toLocaleString() + " jobs" + filterNote;
 
   document.getElementById("mcheck-summary").innerHTML =
     "<div class='mcheck-summary-wrap'>" +
@@ -1802,7 +1794,6 @@ function renderMatrixCheck() {
     "<div class='mcheck-stat'><span class='val' style='color:#facc15'>" + counts.partial + "</span><span class='lbl'>partial / flat</span></div>" +
     "<div class='mcheck-stat'><span class='val' style='color:#f87171'>" + counts.diverge + "</span><span class='lbl'>diverge</span></div>" +
     "<div class='mcheck-stat'><span class='val'>" + matchRate + "%</span><span class='lbl'>match rate (decided, non-thin)</span></div>" +
-    "<div class='mcheck-stat'><span class='val'>" + expOkN + "/" + expChecked.length + "</span><span class='lbl'>exposure priors confirmed</span></div>" +
     "<div class='mcheck-stat'><span class='val' style='color:#777'>" + (entries.length - solid.length) + "</span><span class='lbl'>thin (&lt;1%)</span></div>" +
     "</div>";
 
@@ -1824,7 +1815,7 @@ function renderMatrixCheck() {
     header.className = "mcheck-header";
     header.innerHTML = "<span>Node</span><span>Type</span><span class='num'>Exp</span>" +
       "<span class='num'>2023%</span><span class='num'>2026%</span><span class='num'>Δpp</span>" +
-      "<span>Empirical mechanism</span><span>Verdict</span><span>Exp&nbsp;prior</span>";
+      "<span>Empirical mechanism</span><span>Verdict</span>";
     content.appendChild(header);
     list.forEach(function(e) {
       var row = document.createElement("div");
@@ -1833,9 +1824,6 @@ function renderMatrixCheck() {
       var expHtml = e.exposure != null ?
         "<span class='num' style='color:" + expColor(e.exposure) + ";font-weight:600'>" + e.exposure.toFixed(2) + "</span>" :
         "<span class='num' style='color:#555'>—</span>";
-      var prior = e.expOk == null ? "<span style='color:#555'>—</span>" :
-        (e.expOk ? "<span style='color:#4ade80;font-weight:700'>✓</span>"
-                 : "<span style='color:#f87171;font-weight:700'>✗</span>");
       row.innerHTML =
         "<span class='name'>" + escapeHtml(e.node) + "</span>" +
         "<span style='color:#888'>" + e.type + "</span>" +
@@ -1844,8 +1832,7 @@ function renderMatrixCheck() {
         "<span class='num'>" + e.p26.toFixed(1) + "</span>" +
         "<span class='num change " + cls + "'>" + fmtChg(e.change) + "</span>" +
         "<span>" + (e.exposure != null ? mechTagHtml(e.node, e.change) : "") + "</span>" +
-        "<span>" + mcheckBadge(e.thin ? "thin" : e.verdict) + "</span>" +
-        "<span>" + prior + "</span>";
+        "<span>" + mcheckBadge(e.thin ? "thin" : e.verdict) + "</span>";
       content.appendChild(row);
     });
   });
