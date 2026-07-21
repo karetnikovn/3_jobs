@@ -25,6 +25,25 @@ let minPenetrationPct = 0;
 const EITHER_YEAR_CUT = 5;
 let eitherYearFloorPct = EITHER_YEAR_CUT;
 
+/** Matrix mapping-confidence variant: 1 = all (c1+c2+c3), 2 = c2+c3, 3 = c3 only.
+    Node penetration (DATA) and node exposure are precomputed per variant;
+    skill-level node labels are gated via effNode(). */
+let matrixConfMin = 1;
+
+function skillMapConf(skill, node) {
+  if (!node || typeof DICT === "undefined" || !DICT[node] || !DICT[node].conf) return null;
+  var c = DICT[node].conf[skill];
+  return c == null ? null : c;
+}
+
+/** Effective node for a skill under the current confidence variant (null = treat as unmapped). */
+function effNode(skill, node) {
+  if (!node) return null;
+  if (matrixConfMin <= 1) return node;
+  var c = skillMapConf(skill, node);
+  return (c == null || c >= matrixConfMin) ? node : null;
+}
+
 function rowPenetration2026(r) {
   if (!r) return 0;
   if (typeof r.p26 === "number") return r.p26;
@@ -552,10 +571,11 @@ function renderTopSkills() {
     topList.forEach(function(it, i) {
       var row = document.createElement("div");
       row.className = "top-skills-row";
+      var node = effNode(it[0], it[3]);
       row.innerHTML =
         "<span class='rank-num'>" + (i + 1) + "</span>" +
         "<span class='top-skills-name'>" + escapeHtml(it[0]) +
-        (it[3] ? "<span class='top-skills-node'>" + escapeHtml(it[3]) + "</span>" : "<span class='top-skills-unmapped'>unmapped</span>") +
+        (node ? "<span class='top-skills-node'>" + escapeHtml(node) + "</span>" : "<span class='top-skills-unmapped'>unmapped</span>") +
         "</span><span class='num'>" + it[1].toLocaleString() + "</span><span class='num'>" + it[2].toFixed(1) + "%</span>";
       block.appendChild(row);
     });
@@ -566,7 +586,7 @@ function renderTopSkills() {
 function getDisplaySkills(nodeName, query) {
   var info = DICT[nodeName];
   if (!info) return [];
-  var skills = info.skills || [];
+  var skills = (info.skills || []).filter(function(s) { return effNode(s, nodeName); });
   if (!query) return skills;
   if (nodeName.toLowerCase().indexOf(query) !== -1) return skills;
   return skills.filter(function(s) { return s.toLowerCase().indexOf(query) !== -1; });
@@ -680,7 +700,10 @@ function renderDict() {
   var content = document.getElementById("dict-content");
   var statsEl = document.getElementById("dict-stats");
   var counts = { nodes: 0, skills: 0 };
-  var totalSkills = Object.values(DICT).reduce(function(n, d) { return n + (d.skills ? d.skills.length : 0); }, 0);
+  var totalSkills = Object.keys(DICT).reduce(function(n, nodeName) {
+    var d = DICT[nodeName];
+    return n + (d.skills || []).filter(function(s) { return effNode(s, nodeName); }).length;
+  }, 0);
   var totalNodes = Object.keys(DICT).length;
   var hasResults = false;
   content.innerHTML = "";
@@ -818,7 +841,7 @@ function renderCoverage() {
   var skills = getRankedList(info, coverageYear).slice(0, COVERAGE_TOP_N);
   var filter = getCoverageFilter();
   var mappedCount = 0;
-  skills.forEach(function(it) { if (it[3]) mappedCount++; });
+  skills.forEach(function(it) { if (effNode(it[0], it[3])) mappedCount++; });
   metaEl.textContent =
     (info.name || currentCoverageOcc) + " | " + (info["total_jobs_" + coverageYear] || 0).toLocaleString() +
     " postings (" + coverageYear + ")";
@@ -831,7 +854,7 @@ function renderCoverage() {
   var displayIdx = 0;
   skills.forEach(function(it) {
     var skill = it[0];
-    var node = it[3];
+    var node = effNode(it[0], it[3]);
     var isMapped = !!node;
     if (filter === "mapped" && !isMapped) return;
     if (filter === "unmapped" && isMapped) return;
@@ -1085,11 +1108,12 @@ function getMechEntries(occ) {
     return r.exposure != null;
   }).map(function(r) {
     var name = r.skill;
+    var mNode = currentMechLevel === "skills" ? effNode(name, r.node || null) : null;
     return {
       node: name,
       skill: name,
-      matrixNode: currentMechLevel === "skills" ? (r.node || null) : null,
-      category: currentMechLevel === "skills" ? (r.node ? "mapped" : "unmapped") : currentMechLevel,
+      matrixNode: mNode,
+      category: currentMechLevel === "skills" ? (mNode ? "mapped" : "unmapped") : currentMechLevel,
       type: currentMechLevel,
       p23: r.pct_2023,
       p26: r.pct_2026,
@@ -1708,6 +1732,30 @@ if (minPenFilterEl) {
   minPenFilterEl.addEventListener("change", function() {
     minPenetrationPct = this.checked ? MIN_PENETRATION_CUT : 0;
     refreshPenetrationDependentViews();
+  });
+}
+
+const confFilterEl = document.getElementById("conf-filter");
+if (confFilterEl) {
+  confFilterEl.value = String(matrixConfMin);
+  confFilterEl.addEventListener("change", function() {
+    matrixConfMin = parseInt(this.value, 10) || 1;
+    // Swap the precomputed variant: node penetration + node exposure.
+    if (typeof DATA_ALL !== "undefined") {
+      DATA = DATA_ALL.filter(function(d) { return (d.conf_min || 1) === matrixConfMin; });
+    }
+    if (typeof NODE_AI_EXPOSURE_BY_CONF !== "undefined") {
+      NODE_AI_EXPOSURE = NODE_AI_EXPOSURE_BY_CONF[String(matrixConfMin)] || NODE_AI_EXPOSURE;
+    }
+    render();
+    renderDict();
+    renderRankBumpCharts();
+    renderRankings();
+    renderBumpChart();
+    renderTopSkills();
+    renderCoverage();
+    renderMechanisms();
+    if (typeof renderMatrixCheck === "function") renderMatrixCheck();
   });
 }
 

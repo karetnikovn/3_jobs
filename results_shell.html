@@ -450,7 +450,15 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <label title="Applies to Mechanisms, ESCO, Deltas, Rankings, and related plots">
     <input type="checkbox" id="min-pen-filter"> Hide items under <strong>5%</strong> 2026 penetration
   </label>
-  <span class="gf-note">Shared filter across plots (uses 2026 posting share)</span>
+  <label title="Robustness toggle for every AI Skill Matrix view: which skill-to-node mappings count, by LLM-adjudication confidence. Node penetration is recomputed job-level per variant.">
+    <strong>Matrix mapping confidence:</strong>
+    <select id="conf-filter" class="mech-sort-select">
+      <option value="1" selected>All (c1+c2+c3)</option>
+      <option value="2">Confident (c2+c3)</option>
+      <option value="3">Strict (c3 only)</option>
+    </select>
+  </label>
+  <span class="gf-note">Shared filters across plots</span>
 </div>
 
 <!-- === Dashboard === -->
@@ -677,7 +685,11 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
     (<code>llm_review/PROTOCOL.md</code>): each skill is assigned to the single best-fitting
     <strong>leaf node</strong> (parents are aggregates and never receive direct assignments), or left
     unmapped when no node covers its primary meaning &mdash; skills are not force-fitted. Each mapping
-    carries a confidence grade (3 = clear construct containment, 2 = reasonable fit, 1 = borderline).</p>
+    carries a confidence grade (3 = clear construct containment, 2 = reasonable fit, 1 = borderline).
+    The <strong>Matrix mapping confidence</strong> selector (top of the page) recomputes every matrix view
+    under three variants &mdash; all mappings (c1+c2+c3), confident only (c2+c3), strict (c3) &mdash;
+    with node penetration re-derived job-level per variant, so matrix results can be checked for
+    sensitivity to borderline mappings.</p>
     <p>The adjudication corrected substantial embedding-stage errors: only 38% of the original
     embedding assignments survived review unchanged, and generic business skills that had leaked into
     AI-specific nodes were re-assigned to Enduring nodes.</p>
@@ -755,7 +767,8 @@ const HIERARCHY = [
     soft: null },
 ];
 
-const DATA = %DATA%;
+const DATA_ALL = %DATA%;
+let DATA = DATA_ALL.filter(function(d) { return (d.conf_min || 1) === 1; });
 const DICT = %DICT%;
 const TOP_SKILLS = %TOP_SKILLS%;
 const ONET_JOB_COUNTS = %ONET_JOB_COUNTS%;

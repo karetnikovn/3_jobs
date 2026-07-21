@@ -19,12 +19,15 @@ def load_json(name):
 
 def build_data_json():
     stats = pd.read_csv(os.path.join(OUT_DIR, "node_presence_2023_2026.csv"))
-    cols = ["occupation", "year", "node", "category", "type", "n_jobs", "total_jobs", "pct"]
+    if "conf_min" not in stats.columns:
+        stats["conf_min"] = 1
+    cols = ["occupation", "year", "node", "category", "type", "n_jobs", "total_jobs", "pct", "conf_min"]
     records = stats[cols].to_dict(orient="records")
     for r in records:
         r["year"] = int(r["year"])
         r["n_jobs"] = int(r["n_jobs"])
         r["total_jobs"] = int(r["total_jobs"])
+        r["conf_min"] = int(r["conf_min"])
     return json.dumps(records, separators=(",", ":"))
 
 
