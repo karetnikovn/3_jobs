@@ -1755,6 +1755,7 @@ function getMcheckEntries(occ) {
       out.push({
         node: e.node, category: e.category, type: t,
         p23: e.p23, p26: e.p26, change: e.p26 - e.p23,
+        fold: escoFold(e.p23, e.p26),
         exposure: NODE_AI_EXPOSURE[e.node] != null ? NODE_AI_EXPOSURE[e.node] : null
       });
     });
@@ -1815,6 +1816,7 @@ function renderMatrixCheck() {
     header.className = "mcheck-header";
     header.innerHTML = "<span>Node</span><span>Type</span><span class='num'>Exp</span>" +
       "<span class='num'>2023%</span><span class='num'>2026%</span><span class='num'>Δpp</span>" +
+      "<span class='num' title='Relative growth, 2026 penetration ÷ 2023 penetration'>2026÷2023</span>" +
       "<span>Empirical mechanism</span><span>Verdict</span>";
     content.appendChild(header);
     list.forEach(function(e) {
@@ -1831,6 +1833,7 @@ function renderMatrixCheck() {
         "<span class='num'>" + e.p23.toFixed(1) + "</span>" +
         "<span class='num'>" + e.p26.toFixed(1) + "</span>" +
         "<span class='num change " + cls + "'>" + fmtChg(e.change) + "</span>" +
+        "<span class='num change " + (e.fold >= 1 ? "up" : "down") + "'>" + fmtFold(e.fold) + "</span>" +
         "<span>" + (e.exposure != null ? mechTagHtml(e.node, e.change) : "") + "</span>" +
         "<span>" + mcheckBadge(e.thin ? "thin" : e.verdict) + "</span>";
       content.appendChild(row);
