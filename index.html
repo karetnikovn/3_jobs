@@ -156,16 +156,32 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .occcmp-leg.mkt{color:#60a5fa}
 .occcmp-leg.hr{color:#f472b6}
 .occcmp-leg.fin{color:#fbbf24}
-.occcmp-header,.occcmp-row{display:grid;grid-template-columns:minmax(230px,1.8fr) repeat(3,minmax(150px,1fr)) 4.6rem;gap:0.6rem;align-items:center;padding:0.34rem 0.5rem}
-.occcmp-header{font-size:0.68rem;text-transform:uppercase;letter-spacing:.04em;color:#777;border-bottom:1px solid #2a2d38}
+.occcmp-header,.occcmp-row{display:grid;grid-template-columns:minmax(210px,1.5fr) minmax(280px,2.2fr) repeat(3,4.6rem) 4.6rem;gap:0.75rem;align-items:center;padding:0.42rem 0.55rem}
+.occcmp-header{font-size:0.68rem;text-transform:uppercase;letter-spacing:.04em;color:#8b93a5;border-bottom:1px solid #2a2d38;align-items:end;padding-bottom:0.3rem}
 .occcmp-header .mkt{color:#60a5fa}.occcmp-header .hr{color:#f472b6}.occcmp-header .fin{color:#fbbf24}
-.occcmp-row{border-bottom:1px solid #1e212b;font-size:0.8rem}
-.occcmp-row:hover{background:#181b25}
-.occcmp-row .name{color:#ddd}
-.occcmp-cell{position:relative;height:1.15rem;background:#151823;border-radius:3px;overflow:hidden;cursor:default}
-.occcmp-cell .axis{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#3a3f4e}
-.occcmp-cell .bar{position:absolute;top:2px;bottom:2px;border-radius:2px;opacity:.85}
-.occcmp-cell .val{position:absolute;top:0;font-size:0.66rem;font-weight:700;line-height:1.15rem;font-variant-numeric:tabular-nums}
+.occcmp-row{border-bottom:1px solid #1e212b;font-size:0.81rem;border-left:3px solid transparent;border-radius:2px}
+.occcmp-row:hover{background:#1a1e2a}
+.occcmp-row.cns-allup{border-left-color:#4ade8066}
+.occcmp-row.cns-alldown{border-left-color:#f8717166}
+.occcmp-row.cns-mixed{border-left-color:#facc1550}
+.occcmp-row .name{color:#e4e8ef;font-weight:600;line-height:1.3}
+.occcmp-row .name .kind{color:#6b7280;font-size:0.68rem;font-weight:500;margin-left:0.3rem}
+.occcmp-plot{position:relative;height:2.7rem;background:linear-gradient(90deg,rgba(248,113,113,.10) 0 50%,rgba(74,222,128,.10) 50% 100%);border-radius:4px;border:1px solid #232734}
+.occcmp-plot .zero{position:absolute;left:50%;top:0;bottom:0;width:1.5px;background:#5b6377}
+.occcmp-plot .grid{position:absolute;top:0;bottom:0;width:1px;background:#2a2f3d}
+.occcmp-plot .range{position:absolute;top:50%;height:2px;margin-top:-1px;background:#4a5062;border-radius:1px}
+.occcmp-plot .dot{position:absolute;width:17px;height:17px;margin:-8.5px 0 0 -8.5px;border-radius:50%;border:2px solid #0f1117;box-shadow:0 0 0 1px rgba(255,255,255,.22),0 1px 3px rgba(0,0,0,.5);cursor:default;text-align:center;font-size:9px;font-weight:800;line-height:13px;color:#10131c}
+.occcmp-axis{position:relative;height:2rem}
+.occcmp-axis .tick{position:absolute;bottom:0;transform:translateX(-50%);font-size:0.64rem;color:#8b93a5;font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
+.occcmp-axis .tick.zero{color:#cdd4e0;font-weight:700}
+.occcmp-axis .hint{position:absolute;top:0;font-size:0.62rem;font-weight:700;letter-spacing:.03em}
+.occcmp-axis .hint.decl{left:2%;color:#f87171}
+.occcmp-axis .hint.rise{right:2%;color:#4ade80}
+.occcmp-num{font-size:0.8rem;font-weight:700;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.occcmp-num.up{color:#4ade80}
+.occcmp-num.down{color:#f87171}
+.occcmp-num.zeroish{color:#78818f}
+.occcmp-cat-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:0.45rem;vertical-align:baseline}
 .occcmp-tag{font-size:0.64rem;font-weight:700;padding:0.06rem 0.4rem;border-radius:4px;border:1px solid;white-space:nowrap}
 .occcmp-tag.allup{color:#4ade80;border-color:#4ade8055}
 .occcmp-tag.alldown{color:#f87171;border-color:#f8717155}
@@ -656,8 +672,10 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div class="mech-intro">
     <strong>Which matrix skills move together across the three occupations &mdash; and which split?</strong>
     Every AI Skill Matrix leaf node, with its 2023&rarr;2026 change in posting penetration shown side by side for
-    <span class="occcmp-leg mkt">Marketing</span>, <span class="occcmp-leg hr">HR</span>, and
-    <span class="occcmp-leg fin">Financial</span> Managers. Bars diverge from zero: right = rising, left = falling.
+    <span class="occcmp-leg mkt">&#9679; Marketing</span>, <span class="occcmp-leg hr">&#9679; HR</span>, and
+    <span class="occcmp-leg fin">&#9679; Financial</span> Managers &mdash; three dots on one shared axis per row.
+    Dots right of the zero line (green zone) = <strong style="color:#4ade80">rising</strong>; left (red zone) =
+    <strong style="color:#f87171">declining</strong>; the &Delta; columns repeat the exact values with &#9650;/&#9660; arrows.
     The consensus column flags where all three occupations agree on direction versus where the story is occupation-specific.
   </div>
   <div class="mech-controls-row">
@@ -676,7 +694,10 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <div id="occcmp-content"></div>
   <div class="mech-caption">
     &Delta;pp = change in the share of postings containing the node, 2023&rarr;2026, per occupation.
-    Bars scaled to the largest absolute change in view; hover a bar for 2023/2026 levels.
+    All rows share one axis: dots left of the zero line (red zone) = <b>decline</b>, right (green zone) = <b>rise</b>;
+    the grey connector shows the spread across occupations. Hover a dot for 2023/2026 levels.
+    The &Delta; columns repeat the values with <span style="color:#4ade80;font-weight:700">&#9650; green = rise</span> /
+    <span style="color:#f87171;font-weight:700">&#9660; red = decline</span>.
     Consensus: <span class="occcmp-tag allup">all &uarr;</span> every occupation up &ge;0.5pp;
     <span class="occcmp-tag alldown">all &darr;</span> every occupation down &ge;0.5pp;
     <span class="occcmp-tag mixed">mixed</span> directions disagree;

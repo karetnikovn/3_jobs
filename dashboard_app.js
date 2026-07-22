@@ -1900,9 +1900,9 @@ addOccButtons(mcheckControls, function(occ) { currentMcheckOcc = occ; renderMatr
    for the three focal occupations.
    ═══════════════════════════════════════════════════════════════ */
 var OCCCMP_OCCS = [
-  { name: "Marketing Managers", abbr: "MKT", color: "#60a5fa" },
-  { name: "Human Resources Managers", abbr: "HR", color: "#f472b6" },
-  { name: "Financial Managers", abbr: "FIN", color: "#fbbf24" }
+  { name: "Marketing Managers", abbr: "MKT", letter: "M", lane: 22, color: "#60a5fa" },
+  { name: "Human Resources Managers", abbr: "HR", letter: "H", lane: 50, color: "#f472b6" },
+  { name: "Financial Managers", abbr: "FIN", letter: "F", lane: 78, color: "#fbbf24" }
 ];
 let occcmpSort = "avgdesc";
 
@@ -1946,20 +1946,37 @@ function occcmpSortFn(a, b) {
   return b.avg - a.avg; // avgdesc
 }
 
-function occcmpCellHtml(cell, color) {
-  var maxAbs = occcmpCellHtml._maxAbs || 1;
-  var halfPct = Math.min(48, Math.abs(cell.change) / maxAbs * 48);
-  var up = cell.change >= 0;
-  var barStyle = up
-    ? "left:50%;width:" + halfPct + "%;background:" + color
-    : "right:50%;width:" + halfPct + "%;background:" + color;
-  var valStyle = up ? "left:calc(50% + 4px);color:#9fb3c8" : "right:calc(50% + 4px);color:#9fb3c8";
-  var tip = "2023: " + cell.p23.toFixed(1) + "% → 2026: " + cell.p26.toFixed(1) + "%";
-  return "<div class='occcmp-cell' title='" + tip + "'>" +
-    "<div class='axis'></div>" +
-    "<div class='bar' style='" + barStyle + "'></div>" +
-    "<span class='val' style='" + valStyle + "'>" + fmtChg(cell.change) + "</span>" +
-    "</div>";
+/** Map a Δpp value to a 2%..98% x-position on the shared symmetric axis. */
+function occcmpX(change, maxAbs) {
+  return 50 + Math.max(-48, Math.min(48, change / maxAbs * 48));
+}
+
+/** One shared-axis dot plot per node: zero line, min→max range, 3 occupation dots. */
+function occcmpPlotHtml(e, maxAbs) {
+  var cells = OCCCMP_OCCS.map(function(o) { return e.occ[o.name] || { p23: 0, p26: 0, change: 0 }; });
+  var xs = cells.map(function(c) { return occcmpX(c.change, maxAbs); });
+  var lo = Math.min.apply(null, xs), hi = Math.max.apply(null, xs);
+  var html = "<div class='occcmp-plot'>" +
+    "<div class='grid' style='left:26%'></div>" +
+    "<div class='grid' style='left:74%'></div>" +
+    "<div class='zero'></div>" +
+    "<div class='range' style='left:" + lo + "%;width:" + (hi - lo) + "%'></div>";
+  OCCCMP_OCCS.forEach(function(o, i) {
+    var c = cells[i];
+    // Fixed lane per occupation (M top, H middle, F bottom) + letter + color
+    html += "<div class='dot' style='left:" + xs[i] + "%;top:" + o.lane + "%;background:" + o.color + "' title='" +
+      o.name + ": " + c.p23.toFixed(1) + "% → " + c.p26.toFixed(1) + "% (" + fmtChg(c.change) + ")'>" + o.letter + "</div>";
+  });
+  return html + "</div>";
+}
+
+/** Δpp value with explicit direction: ▲ green rise / ▼ red decline. */
+function occcmpNumHtml(cell) {
+  var c = cell.change;
+  if (Math.abs(c) < 0.05) return "<span class='occcmp-num zeroish'>0.0</span>";
+  var up = c > 0;
+  return "<span class='occcmp-num " + (up ? "up" : "down") + "'>" +
+    (up ? "▲" : "▼") + Math.abs(c).toFixed(1) + "</span>";
 }
 
 var OCCCMP_TAGS = { allup: "all ↑", alldown: "all ↓", mixed: "mixed", flat: "flat" };
@@ -1975,7 +1992,7 @@ function renderOccCompare() {
       if (c) maxAbs = Math.max(maxAbs, Math.abs(c.change));
     });
   });
-  occcmpCellHtml._maxAbs = maxAbs;
+  maxAbs = Math.ceil(maxAbs);
 
   var consensusCounts = { allup: 0, alldown: 0, mixed: 0, flat: 0 };
   entries.forEach(function(e) { consensusCounts[e.consensus]++; });
@@ -1991,23 +2008,40 @@ function renderOccCompare() {
   ["Declining", "Enduring", "Emerging"].forEach(function(cat) {
     var list = entries.filter(function(e) { return e.category === cat; }).sort(occcmpSortFn);
     if (!list.length) return;
+    var CAT_COLORS = { "Declining": "#f87171", "Enduring": "#4ade80", "Emerging": "#a78bfa" };
     var head = document.createElement("div");
     head.className = "mcheck-cat";
-    head.innerHTML = escapeHtml(cat) + "<span class='sub'>" + list.length + " nodes</span>";
+    head.innerHTML = "<span class='occcmp-cat-dot' style='background:" + CAT_COLORS[cat] + "'></span>" +
+      escapeHtml(cat) + "<span class='sub'>" + list.length + " nodes · " +
+      "<span style='color:#60a5fa'>M</span> Marketing · <span style='color:#f472b6'>H</span> HR · " +
+      "<span style='color:#fbbf24'>F</span> Financial</span>";
     content.appendChild(head);
     var header = document.createElement("div");
     header.className = "occcmp-header";
-    header.innerHTML = "<span>Node</span><span class='mkt'>Marketing Δpp</span>" +
-      "<span class='hr'>HR Δpp</span><span class='fin'>Financial Δpp</span><span>Consensus</span>";
+    // Labeled axis over the plot column: ticks aligned to the shared scale
+    var half = (maxAbs / 2) % 1 === 0 ? (maxAbs / 2).toFixed(0) : (maxAbs / 2).toFixed(1);
+    var axis = "<span class='occcmp-axis'>" +
+      "<span class='hint decl'>&larr; decline</span><span class='hint rise'>rise &rarr;</span>" +
+      "<span class='tick' style='left:2%'>&minus;" + maxAbs + "</span>" +
+      "<span class='tick' style='left:26%'>&minus;" + half + "</span>" +
+      "<span class='tick zero' style='left:50%'>0</span>" +
+      "<span class='tick' style='left:74%'>+" + half + "</span>" +
+      "<span class='tick' style='left:98%'>+" + maxAbs + "</span>" +
+      "</span>";
+    header.innerHTML = "<span>Node</span>" + axis +
+      "<span class='mkt' style='text-align:right'>M Δpp</span>" +
+      "<span class='hr' style='text-align:right'>H Δpp</span>" +
+      "<span class='fin' style='text-align:right'>F Δpp</span><span>Consensus</span>";
     content.appendChild(header);
     list.forEach(function(e) {
       var row = document.createElement("div");
-      row.className = "occcmp-row";
+      row.className = "occcmp-row cns-" + e.consensus;
       row.innerHTML =
         "<span class='name'>" + escapeHtml(e.node) +
-        " <span style='color:#666;font-size:0.7rem'>" + e.type + "</span></span>" +
+        "<span class='kind'>" + e.type + "</span></span>" +
+        occcmpPlotHtml(e, maxAbs) +
         OCCCMP_OCCS.map(function(o) {
-          return occcmpCellHtml(e.occ[o.name] || { p23: 0, p26: 0, change: 0 }, o.color);
+          return occcmpNumHtml(e.occ[o.name] || { p23: 0, p26: 0, change: 0 });
         }).join("") +
         "<span><span class='occcmp-tag " + e.consensus + "'>" + OCCCMP_TAGS[e.consensus] + "</span></span>";
       content.appendChild(row);
