@@ -152,6 +152,25 @@ h1{font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:0.2rem}
 .mcheck-stat{background:#1a1d27;border:1px solid #282b36;border-radius:8px;padding:0.5rem 0.9rem;min-width:6.5rem}
 .mcheck-stat .val{display:block;font-size:1.25rem;font-weight:700}
 .mcheck-stat .lbl{display:block;font-size:0.68rem;color:#888;margin-top:0.1rem}
+.occcmp-leg{font-weight:700;padding:0 0.15rem}
+.occcmp-leg.mkt{color:#60a5fa}
+.occcmp-leg.hr{color:#f472b6}
+.occcmp-leg.fin{color:#fbbf24}
+.occcmp-header,.occcmp-row{display:grid;grid-template-columns:minmax(230px,1.8fr) repeat(3,minmax(150px,1fr)) 4.6rem;gap:0.6rem;align-items:center;padding:0.34rem 0.5rem}
+.occcmp-header{font-size:0.68rem;text-transform:uppercase;letter-spacing:.04em;color:#777;border-bottom:1px solid #2a2d38}
+.occcmp-header .mkt{color:#60a5fa}.occcmp-header .hr{color:#f472b6}.occcmp-header .fin{color:#fbbf24}
+.occcmp-row{border-bottom:1px solid #1e212b;font-size:0.8rem}
+.occcmp-row:hover{background:#181b25}
+.occcmp-row .name{color:#ddd}
+.occcmp-cell{position:relative;height:1.15rem;background:#151823;border-radius:3px;overflow:hidden;cursor:default}
+.occcmp-cell .axis{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#3a3f4e}
+.occcmp-cell .bar{position:absolute;top:2px;bottom:2px;border-radius:2px;opacity:.85}
+.occcmp-cell .val{position:absolute;top:0;font-size:0.66rem;font-weight:700;line-height:1.15rem;font-variant-numeric:tabular-nums}
+.occcmp-tag{font-size:0.64rem;font-weight:700;padding:0.06rem 0.4rem;border-radius:4px;border:1px solid;white-space:nowrap}
+.occcmp-tag.allup{color:#4ade80;border-color:#4ade8055}
+.occcmp-tag.alldown{color:#f87171;border-color:#f8717155}
+.occcmp-tag.mixed{color:#facc15;border-color:#facc1555}
+.occcmp-tag.flat{color:#777;border-color:#555}
 .dict-empty{color:#444;font-style:italic;font-size:0.76rem}
 .dict-no-results{color:#555;font-style:italic;padding:2rem 0}
 
@@ -443,6 +462,7 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   <button class="tab-btn tab-btn-matrix" onclick="switchTab('coverage')" title="AI Skill Matrix view (curriculum subset)">Coverage<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('mechanisms')">AI Mechanisms</button>
   <button class="tab-btn tab-btn-matrix" onclick="switchTab('matrixcheck')" title="Matrix theory vs empirical AI-mechanisms evidence">Matrix vs Evidence<span class="matrix-badge">Matrix</span></button>
+  <button class="tab-btn tab-btn-matrix" onclick="switchTab('occcompare')" title="Matrix leaf increases/declines compared across the three occupations">Occupation Compare<span class="matrix-badge">Matrix</span></button>
   <button class="tab-btn" onclick="switchTab('deltas')">Skill Deltas</button>
   <button class="tab-btn" onclick="switchTab('methodology')">Methodology</button>
 </div>
@@ -630,6 +650,41 @@ document.getElementById("auth-pw").addEventListener("keydown",function(e){if(e.k
   </div>
 </div>
 
+
+<!-- === Occupation Compare === -->
+<div id="tab-occcompare" class="tab-panel">
+  <div class="mech-intro">
+    <strong>Which matrix skills move together across the three occupations &mdash; and which split?</strong>
+    Every AI Skill Matrix leaf node, with its 2023&rarr;2026 change in posting penetration shown side by side for
+    <span class="occcmp-leg mkt">Marketing</span>, <span class="occcmp-leg hr">HR</span>, and
+    <span class="occcmp-leg fin">Financial</span> Managers. Bars diverge from zero: right = rising, left = falling.
+    The consensus column flags where all three occupations agree on direction versus where the story is occupation-specific.
+  </div>
+  <div class="mech-controls-row">
+    <label class="mech-slider-wrap" style="gap:0.4rem">
+      <span>Sort within category</span>
+      <select id="occcmp-sort" class="mech-sort-select">
+        <option value="avgdesc" selected>Avg &Delta;pp (rising first)</option>
+        <option value="avgasc">Avg &Delta;pp (falling first)</option>
+        <option value="spread">Divergence across occupations</option>
+        <option value="p26">2026 penetration</option>
+        <option value="name">Name A&ndash;Z</option>
+      </select>
+    </label>
+    <div class="coverage-meta" id="occcmp-meta" style="margin-bottom:0"></div>
+  </div>
+  <div id="occcmp-content"></div>
+  <div class="mech-caption">
+    &Delta;pp = change in the share of postings containing the node, 2023&rarr;2026, per occupation.
+    Bars scaled to the largest absolute change in view; hover a bar for 2023/2026 levels.
+    Consensus: <span class="occcmp-tag allup">all &uarr;</span> every occupation up &ge;0.5pp;
+    <span class="occcmp-tag alldown">all &darr;</span> every occupation down &ge;0.5pp;
+    <span class="occcmp-tag mixed">mixed</span> directions disagree;
+    <span class="occcmp-tag flat">flat</span> all within &plusmn;0.5pp.
+    Respects the global mapping-confidence and &lt;5% filters (the latter hides nodes under 5% 2026 penetration in
+    <em>all three</em> occupations). Nodes with zero presence everywhere are omitted.
+  </div>
+</div>
 
 <!-- === ESCO Pillars === -->
 <!-- === Skill Deltas === -->

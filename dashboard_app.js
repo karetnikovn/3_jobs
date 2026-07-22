@@ -10,6 +10,7 @@ function switchTab(name) {
   if (name === "coverage") renderCoverage();
   if (name === "mechanisms") renderMechanisms();
   if (name === "matrixcheck") renderMatrixCheck();
+  if (name === "occcompare") renderOccCompare();
   if (name === "deltas") renderSkillDeltas();
 }
 
@@ -78,6 +79,7 @@ function penetrationFilterNote() {
 function refreshPenetrationDependentViews() {
   if (typeof renderMechanisms === "function") renderMechanisms();
   if (typeof renderMatrixCheck === "function") renderMatrixCheck();
+  if (typeof renderOccCompare === "function") renderOccCompare();
   if (typeof renderSkillDeltas === "function") renderSkillDeltas();
   if (typeof renderRankings === "function") renderRankings();
   if (typeof renderRankBumpCharts === "function") renderRankBumpCharts();
@@ -1756,6 +1758,7 @@ if (confFilterEl) {
     renderCoverage();
     renderMechanisms();
     if (typeof renderMatrixCheck === "function") renderMatrixCheck();
+    if (typeof renderOccCompare === "function") renderOccCompare();
   });
 }
 
@@ -1892,6 +1895,134 @@ function renderMatrixCheck() {
 const mcheckControls = document.getElementById("mcheck-controls");
 addOccButtons(mcheckControls, function(occ) { currentMcheckOcc = occ; renderMatrixCheck(); });
 
+/* ═══════════════════════════════════════════════════════════════
+   Occupation Compare — matrix-leaf increases/declines side by side
+   for the three focal occupations.
+   ═══════════════════════════════════════════════════════════════ */
+var OCCCMP_OCCS = [
+  { name: "Marketing Managers", abbr: "MKT", color: "#60a5fa" },
+  { name: "Human Resources Managers", abbr: "HR", color: "#f472b6" },
+  { name: "Financial Managers", abbr: "FIN", color: "#fbbf24" }
+];
+let occcmpSort = "avgdesc";
+
+function getOccCompareEntries() {
+  var byNode = {};
+  OCCCMP_OCCS.forEach(function(o) {
+    ["hard", "soft"].forEach(function(t) {
+      getRankingEntries(o.name, t).forEach(function(e) {
+        if (!byNode[e.node]) byNode[e.node] = { node: e.node, category: e.category, type: t, occ: {} };
+        byNode[e.node].occ[o.name] = { p23: e.p23, p26: e.p26, change: e.p26 - e.p23 };
+      });
+    });
+  });
+  var out = [];
+  Object.keys(byNode).forEach(function(n) {
+    var e = byNode[n];
+    var cells = OCCCMP_OCCS.map(function(o) { return e.occ[o.name] || { p23: 0, p26: 0, change: 0 }; });
+    // Omit nodes with zero presence in every occupation and year
+    if (cells.every(function(c) { return c.p23 === 0 && c.p26 === 0; })) return;
+    // Global "hide <5% 2026" filter: hide only if under the cut in ALL occupations
+    if (minPenetrationPct && cells.every(function(c) { return c.p26 < minPenetrationPct; })) return;
+    var changes = cells.map(function(c) { return c.change; });
+    e.avg = changes.reduce(function(a, b) { return a + b; }, 0) / changes.length;
+    e.spread = Math.max.apply(null, changes) - Math.min.apply(null, changes);
+    e.maxP26 = Math.max.apply(null, cells.map(function(c) { return c.p26; }));
+    var up = changes.filter(function(c) { return c >= 0.5; }).length;
+    var down = changes.filter(function(c) { return c <= -0.5; }).length;
+    e.consensus = up === changes.length ? "allup"
+      : (down === changes.length ? "alldown"
+        : (up === 0 && down === 0 ? "flat" : "mixed"));
+    out.push(e);
+  });
+  return out;
+}
+
+function occcmpSortFn(a, b) {
+  if (occcmpSort === "avgasc") return a.avg - b.avg;
+  if (occcmpSort === "spread") return b.spread - a.spread;
+  if (occcmpSort === "p26") return b.maxP26 - a.maxP26;
+  if (occcmpSort === "name") return a.node.localeCompare(b.node);
+  return b.avg - a.avg; // avgdesc
+}
+
+function occcmpCellHtml(cell, color) {
+  var maxAbs = occcmpCellHtml._maxAbs || 1;
+  var halfPct = Math.min(48, Math.abs(cell.change) / maxAbs * 48);
+  var up = cell.change >= 0;
+  var barStyle = up
+    ? "left:50%;width:" + halfPct + "%;background:" + color
+    : "right:50%;width:" + halfPct + "%;background:" + color;
+  var valStyle = up ? "left:calc(50% + 4px);color:#9fb3c8" : "right:calc(50% + 4px);color:#9fb3c8";
+  var tip = "2023: " + cell.p23.toFixed(1) + "% → 2026: " + cell.p26.toFixed(1) + "%";
+  return "<div class='occcmp-cell' title='" + tip + "'>" +
+    "<div class='axis'></div>" +
+    "<div class='bar' style='" + barStyle + "'></div>" +
+    "<span class='val' style='" + valStyle + "'>" + fmtChg(cell.change) + "</span>" +
+    "</div>";
+}
+
+var OCCCMP_TAGS = { allup: "all ↑", alldown: "all ↓", mixed: "mixed", flat: "flat" };
+
+function renderOccCompare() {
+  var sortEl = document.getElementById("occcmp-sort");
+  if (sortEl) sortEl.value = occcmpSort;
+  var entries = getOccCompareEntries();
+  var maxAbs = 1;
+  entries.forEach(function(e) {
+    OCCCMP_OCCS.forEach(function(o) {
+      var c = e.occ[o.name];
+      if (c) maxAbs = Math.max(maxAbs, Math.abs(c.change));
+    });
+  });
+  occcmpCellHtml._maxAbs = maxAbs;
+
+  var consensusCounts = { allup: 0, alldown: 0, mixed: 0, flat: 0 };
+  entries.forEach(function(e) { consensusCounts[e.consensus]++; });
+  document.getElementById("occcmp-meta").textContent =
+    entries.length + " leaf nodes | all ↑: " + consensusCounts.allup +
+    " | all ↓: " + consensusCounts.alldown +
+    " | mixed: " + consensusCounts.mixed +
+    " | flat: " + consensusCounts.flat +
+    (minPenetrationPct ? " | hiding nodes <" + minPenetrationPct + "% 2026 in all occupations" : "");
+
+  var content = document.getElementById("occcmp-content");
+  content.innerHTML = "";
+  ["Declining", "Enduring", "Emerging"].forEach(function(cat) {
+    var list = entries.filter(function(e) { return e.category === cat; }).sort(occcmpSortFn);
+    if (!list.length) return;
+    var head = document.createElement("div");
+    head.className = "mcheck-cat";
+    head.innerHTML = escapeHtml(cat) + "<span class='sub'>" + list.length + " nodes</span>";
+    content.appendChild(head);
+    var header = document.createElement("div");
+    header.className = "occcmp-header";
+    header.innerHTML = "<span>Node</span><span class='mkt'>Marketing Δpp</span>" +
+      "<span class='hr'>HR Δpp</span><span class='fin'>Financial Δpp</span><span>Consensus</span>";
+    content.appendChild(header);
+    list.forEach(function(e) {
+      var row = document.createElement("div");
+      row.className = "occcmp-row";
+      row.innerHTML =
+        "<span class='name'>" + escapeHtml(e.node) +
+        " <span style='color:#666;font-size:0.7rem'>" + e.type + "</span></span>" +
+        OCCCMP_OCCS.map(function(o) {
+          return occcmpCellHtml(e.occ[o.name] || { p23: 0, p26: 0, change: 0 }, o.color);
+        }).join("") +
+        "<span><span class='occcmp-tag " + e.consensus + "'>" + OCCCMP_TAGS[e.consensus] + "</span></span>";
+      content.appendChild(row);
+    });
+  });
+}
+
+var occcmpSortEl = document.getElementById("occcmp-sort");
+if (occcmpSortEl) {
+  occcmpSortEl.addEventListener("change", function() {
+    occcmpSort = this.value || "avgdesc";
+    renderOccCompare();
+  });
+}
+
 /* ── Initial render (after all definitions, incl. mechanism data) ── */
 render();
 renderDict();
@@ -1904,4 +2035,5 @@ renderCoverage();
 renderTitles();
 renderMechanisms();
 renderMatrixCheck();
+renderOccCompare();
 renderSkillDeltas();
